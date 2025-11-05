@@ -1,0 +1,45 @@
+version: '3'
+
+vars:
+  MANAGE_PY: python ./cctv_api/manage.py
+tasks:
+
+  startdevserver:
+    desc: Start Django test server
+    cmds:
+      - uv run {{.MANAGE_PY}} runserver
+
+  migrate:
+    desc: Run Django migrations
+    cmds:
+      - uv run {{.MANAGE_PY}} migrate
+
+  makemigrations:
+    desc: Create Django migrations
+    cmds:
+      - uv run {{.MANAGE_PY}} makemigrations
+
+  add-csv:*:
+    vars:
+      CSV_FILE: "{{index .MATCH 0}}"
+    desc: Process CSV data file. task process-csv-data:<path-to-csv-file>
+    cmds:
+      - uv run {{.MANAGE_PY}} add_csv_file {{.CSV_FILE}}
+
+  collectstatic:
+    desc: Collect static files
+    cmds:
+      - uv run {{.MANAGE_PY}} collectstatic --noinput
+
+  fmt:
+    desc: Format code
+    cmds:
+      - uv format --preview-features format
+  
+  startserver:
+    desc: Start production server
+    dir: ./cctv_api
+    pre:
+      - task: collectstatic
+    cmds:
+      - uv run uvicorn cctv_core.asgi:application --host 0.0.0.0 --port 8000

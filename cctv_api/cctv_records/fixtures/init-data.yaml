@@ -1,0 +1,3880 @@
+# camera groups
+- model: cctv_records.cameragroups
+  pk: 1
+  fields:
+    slug: "default"
+    name: "Default Camera Group"
+    description: "Default Camera group which contains unassigned cameras"
+- model: cctv_records.cameragroups
+  pk: 2
+  fields:
+    slug: "city-centre"
+    name: "City Centre"
+    description: ""
+- model: cctv_records.cameragroups
+  pk: 3
+  fields:
+    slug: "west-end"
+    name: "West End"
+    description: "West End Cameras"
+- model: cctv_records.cameragroups
+  pk: 4
+  fields:
+    slug: "east-end"
+    name: "East End"
+    description: "East End Cameras"
+- model: cctv_records.cameragroups
+  pk: 5
+  fields:
+    slug: "glasgow-north"
+    name: "Glasgow North"
+    description: "Glasgow North Cameras"
+- model: cctv_records.cameragroups
+  pk: 6
+  fields:
+    slug: "south-side"
+    name: "Southside"
+    description: "South Side Cameras"
+- model: cctv_records.cameras
+  pk: 1
+  fields:
+    camera_id: a1
+    label: Kelso Street @ Canal Bank
+    longitude: -4.369443
+    latitude: 55.89938
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 2
+  fields:
+    camera_id: a2
+    label: Dumbarton Road @ Lady-Anne Street
+    longitude: -4.374404
+    latitude: 55.886303
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 3
+  fields:
+    camera_id: a3
+    label: Anniesland Road @ Kingsway Shops
+    longitude: -4.360267
+    latitude: 55.885662
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 4
+  fields:
+    camera_id: a5
+    label: Dumbarton Road @ Balmoral Street
+    longitude: -4.351676
+    latitude: 55.879272
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 5
+  fields:
+    camera_id: a6
+    label: Dumbarton Road @ Smith Street
+    longitude: -4.332124
+    latitude: 55.872948
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 6
+  fields:
+    camera_id: a7
+    label: Alderman Road Shops Front
+    longitude: -4.358788
+    latitude: 55.890743
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 7
+  fields:
+    camera_id: a8
+    label: Alderman Road Shops Rear
+    longitude: -4.358088
+    latitude: 55.890388
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 8
+  fields:
+    camera_id: a9
+    label: Dumbarton Rd @ Meadow Road
+    longitude: -4.316488
+    latitude: 55.870602
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 9
+  fields:
+    camera_id: a10
+    label: Castlebank St Opp Castlebank Crescent
+    longitude: -4.314795
+    latitude: 55.86861
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 10
+  fields:
+    camera_id: a11
+    label: Meadowside Quay @ Meadowside Quay Sq
+    longitude: -4.317097
+    latitude: 55.868031
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 11
+  fields:
+    camera_id: a12
+    label: Great Western Road @ Blairdardie Road
+    longitude: -4.350078
+    latitude: 55.900539
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 12
+  fields:
+    camera_id: a13
+    label: Byres Rd @ Dowanside Street (North)
+    longitude: -4.294624
+    latitude: 55.874577
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 13
+  fields:
+    camera_id: a13p2
+    label: Byres Rd @ Dowanside Street (South)
+    longitude: -4.294624
+    latitude: 55.874577
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 14
+  fields:
+    camera_id: a21
+    label: Ingram Street @ Candlerigs
+    longitude: -4.245293
+    latitude: 55.859432
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 15
+  fields:
+    camera_id: a22
+    label: Ingram Street @ High Street
+    longitude: -4.241149
+    latitude: 55.859039
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 16
+  fields:
+    camera_id: a23
+    label: Bell Street @ Albion Street
+    longitude: -4.244346
+    latitude: 55.858021
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 17
+  fields:
+    camera_id: a24
+    label: Trongate @ Candlerigs
+    longitude: -4.246326
+    latitude: 55.857185
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 18
+  fields:
+    camera_id: a25
+    label: Saltmarket @ Parnie Street
+    longitude: -4.244318
+    latitude: 55.856014
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 19
+  fields:
+    camera_id: a26
+    label: Broomielaw @ Washington St
+    longitude: -4.268509
+    latitude: 55.856659
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 20
+  fields:
+    camera_id: a27
+    label: Clyde walkway @ McAlpine St
+    longitude: -4.267323
+    latitude: 55.856487
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 21
+  fields:
+    camera_id: a28
+    label: Broomielaw @ James Watt St
+    longitude: -4.26433
+    latitude: 55.856842
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 22
+  fields:
+    camera_id: a29
+    label: Clyde Walkway @ James watt st
+    longitude: -4.264515
+    latitude: 55.856628
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 23
+  fields:
+    camera_id: a30
+    label: clyde Walkway Rear of gala Casino
+    longitude: -4.261141
+    latitude: 55.856316
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 24
+  fields:
+    camera_id: a31
+    label: Clydewalkway @ Dixon Street
+    longitude: -4.256511
+    latitude: 55.855846
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 25
+  fields:
+    camera_id: a32
+    label: Clydewalkway Jamaica St & Oswald St
+    longitude: -4.258092
+    latitude: 55.856163
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 26
+  fields:
+    camera_id: a33
+    label: Clydewalkway @ Stockwell St
+    longitude: -4.250828
+    latitude: 55.854343
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 27
+  fields:
+    camera_id: a34
+    label: Clyde Street @ Albert Bridge
+    longitude: -4.247078
+    latitude: 55.85323
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 28
+  fields:
+    camera_id: a36
+    label: Glasgow Cross
+    longitude: -4.24344
+    latitude: 55.856518
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 29
+  fields:
+    camera_id: a37
+    label: Stockwell Street @ Howard Street
+    longitude: -4.249499
+    latitude: 55.855511
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 30
+  fields:
+    camera_id: a38
+    label: Argyle Street @ Glassford St
+    longitude: -4.249443
+    latitude: 55.857471
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 31
+  fields:
+    camera_id: a39
+    label: Wilson St @ Hutcheson St
+    longitude: -4.247935
+    latitude: 55.858562
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 32
+  fields:
+    camera_id: a41
+    label: Ingram St@ Glassford Street
+    longitude: -4.248587
+    latitude: 55.859863
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 33
+  fields:
+    camera_id: a42
+    label: Argyle St @ Queen Street
+    longitude: -4.252536
+    latitude: 55.857811
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 34
+  fields:
+    camera_id: a43
+    label: Clyde Street @ Dixon Street
+    longitude: -4.256069
+    latitude: 55.85611
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 35
+  fields:
+    camera_id: a44
+    label: Howard Street @ Dixon Street
+    longitude: -4.255642
+    latitude: 55.856785
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 36
+  fields:
+    camera_id: a45
+    label: Argyle St @ Buchanan Street
+    longitude: -4.255004
+    latitude: 55.858261
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 37
+  fields:
+    camera_id: a46
+    label: Argyle Street @ Jamaica Street
+    longitude: -4.257035
+    latitude: 55.858273
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 38
+  fields:
+    camera_id: a47
+    label: Argyle Street @ Oswald Street
+    longitude: -4.259151
+    latitude: 55.858456
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 39
+  fields:
+    camera_id: a48
+    label: Cadogan St @ Blythswood St
+    longitude: -4.263837
+    latitude: 55.859894
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 40
+  fields:
+    camera_id: a50
+    label: Bothwell Street @ Wellington St
+    longitude: -4.260263
+    latitude: 55.861256
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 41
+  fields:
+    camera_id: a51
+    label: Hope St @ Gordon Street
+    longitude: -4.258577
+    latitude: 55.860691
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 42
+  fields:
+    camera_id: a52
+    label: Renfield Street @ Gordon Street
+    longitude: -4.256851
+    latitude: 55.860622
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 43
+  fields:
+    camera_id: a53
+    label: West Nile St @ Gordon St
+    longitude: -4.255389
+    latitude: 55.8605
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 44
+  fields:
+    camera_id: a54
+    label: Queen St @ Royal Exchange Square
+    longitude: -4.251859
+    latitude: 55.859856
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 45
+  fields:
+    camera_id: a55
+    label: Royal Exchange Square
+    longitude: -4.252921
+    latitude: 55.860432
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 46
+  fields:
+    camera_id: a56
+    label: Buchanan St @ St Vincent Place
+    longitude: -4.253719
+    latitude: 55.861187
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 47
+  fields:
+    camera_id: a57
+    label: George St @ North Hanover St
+    longitude: -4.249783
+    latitude: 55.861633
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 48
+  fields:
+    camera_id: a58+a59
+    label: Buchanan St @ Bath St and Buchanan St @ Bath St (Static)
+    longitude: -4.253129
+    latitude: 55.863506
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 49
+  fields:
+    camera_id: a60
+    label: Hope St @ Bath St
+    longitude: -4.257585
+    latitude: 55.864052
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 50
+  fields:
+    camera_id: a61
+    label: Renfield Street @ Bath Street
+    longitude: -4.255734
+    latitude: 55.863674
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 51
+  fields:
+    camera_id: a62
+    label: West George St @ Hope St
+    longitude: -4.25811
+    latitude: 55.862473
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 52
+  fields:
+    camera_id: a63
+    label: Sauchiehall St @ West Nile St
+    longitude: -4.254028
+    latitude: 55.864265
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 53
+  fields:
+    camera_id: a64
+    label: Sauchiehall St @ Hope St
+    longitude: -4.257313
+    latitude: 55.864677
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 54
+  fields:
+    camera_id: a65
+    label: Sauchiehall St @ Cambridge St
+    longitude: -4.26037
+    latitude: 55.864937
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 55
+  fields:
+    camera_id: a66
+    label: Sauchiehall St @ Pitt St
+    longitude: -4.264581
+    latitude: 55.865459
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 56
+  fields:
+    camera_id: a67
+    label: Sauchiehall St @ Elmbank St
+    longitude: -4.268246
+    latitude: 55.865856
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 57
+  fields:
+    camera_id: a68
+    label: West Regent St @ Blythswood Sq
+    longitude: -4.262136
+    latitude: 55.8638
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 58
+  fields:
+    camera_id: a69
+    label: St Vincent St @ West Campbell St
+    longitude: -4.261516
+    latitude: 55.862057
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 59
+  fields:
+    camera_id: a71
+    label: Killermount St @ Bus Station
+    longitude: -4.252746
+    latitude: 55.864895
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 60
+  fields:
+    camera_id: a72
+    label: Cathedral St @ John St
+    longitude: -4.246952
+    latitude: 55.862804
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 61
+  fields:
+    camera_id: a73
+    label: Cathedral St @ Taylor Street
+    longitude: -4.240817
+    latitude: 55.862892
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 62
+  fields:
+    camera_id: a74
+    label: Kennedy Path Rear
+    longitude: -4.243945
+    latitude: 55.86581
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 63
+  fields:
+    camera_id: a76
+    label: Kennedy Path Front
+    longitude: -4.243355
+    latitude: 55.86599
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 64
+  fields:
+    camera_id: a77
+    label: Outside No 10 Glebe Court
+    longitude: -4.241087
+    latitude: 55.866093
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 65
+  fields:
+    camera_id: a78
+    label: Communal Grass Area on St Mungo Avenue
+    longitude: -4.246532
+    latitude: 55.865284
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 66
+  fields:
+    camera_id: a79
+    label: Macleod St @ Collins Street
+    longitude: -4.238263
+    latitude: 55.862171
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 67
+  fields:
+    camera_id: a80
+    label: Castle Street @ Stirling Rd
+    longitude: -4.237356
+    latitude: 55.864166
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 68
+  fields:
+    camera_id: a81
+    label: Lancefield Quay @ Lancefield St
+    longitude: -4.27691
+    latitude: 55.857311
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 69
+  fields:
+    camera_id: a82
+    label: Argyle St @ Brown St
+    longitude: -4.26493
+    latitude: 55.859135
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 70
+  fields:
+    camera_id: a83
+    label: Argyle Street @ North Street
+    longitude: -4.270801
+    latitude: 55.860477
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 71
+  fields:
+    camera_id: a84
+    label: Warroch St @ Cheapside St
+    longitude: -4.272134
+    latitude: 55.859371
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 72
+  fields:
+    camera_id: a85
+    label: Hydepark Street ( north end)
+    longitude: -4.274508
+    latitude: 55.8601
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 73
+  fields:
+    camera_id: a86
+    label: Broomielaw @ Warroch St
+    longitude: -4.27194
+    latitude: 55.856644
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 74
+  fields:
+    camera_id: a87
+    label: Tradeston@ Squiggly Bridge
+    longitude: -4.263705
+    latitude: 55.855408
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 75
+  fields:
+    camera_id: a91
+    label: Hope Street @ Bothwell Street Nite Zone
+    longitude: -4.258685
+    latitude: 55.860794
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 76
+  fields:
+    camera_id: a92
+    label: Hope St Opp Waterloo Street
+    longitude: -4.25884
+    latitude: 55.860046
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 77
+  fields:
+    camera_id: a93
+    label: Union St @ Renfield St.<br><br>Relocate
+    longitude: -4.256781
+    latitude: 55.85965
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 78
+  fields:
+    camera_id: a94
+    label: Sauchiehall St @ Garage Nite Club
+    longitude: -4.269154
+    latitude: 55.86615
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 79
+  fields:
+    camera_id: c1
+    label: Rozelle Ave @ Jedworth Ave
+    longitude: -4.354479
+    latitude: 55.912102
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 80
+  fields:
+    camera_id: c2
+    label: Jedworth Ave @ Jedworth Road
+    longitude: -4.353606
+    latitude: 55.91312
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 81
+  fields:
+    camera_id: c3
+    label: Linkwood MSF No 39
+    longitude: -4.366572
+    latitude: 55.910721
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 82
+  fields:
+    camera_id: c4
+    label: Peel Glen Road @ Ladyloan Ave
+    longitude: -4.364759
+    latitude: 55.917889
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 83
+  fields:
+    camera_id: c5
+    label: Kinfauns Drive @ Hecla Ave
+    longitude: -4.371824
+    latitude: 55.911129
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 84
+  fields:
+    camera_id: c6
+    label: Kinfauns Drive @ Dunkenny Square
+    longitude: -4.371445
+    latitude: 55.910175
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 85
+  fields:
+    camera_id: c7
+    label: Drumkenny Square
+    longitude: -4.37339
+    latitude: 55.909866
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 86
+  fields:
+    camera_id: c8
+    label: Hecla Place @ Hecla Ave
+    longitude: -4.374007
+    latitude: 55.910755
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 87
+  fields:
+    camera_id: c9
+    label: Water Tower at Kells Place
+    longitude: -4.383502
+    latitude: 55.916565
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 88
+  fields:
+    camera_id: c10
+    label: Achamore Road @ Lochgoin Ave
+    longitude: -4.379283
+    latitude: 55.916
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 89
+  fields:
+    camera_id: c11
+    label: Abbotshall Ave
+    longitude: -4.384523
+    latitude: 55.909412
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 90
+  fields:
+    camera_id: c12
+    label: Drumry Road East @Dunkenny Road
+    longitude: -4.375648
+    latitude: 55.908665
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 91
+  fields:
+    camera_id: c13
+    label: Drumry Road Roundabout
+    longitude: -4.386536
+    latitude: 55.908485
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 92
+  fields:
+    camera_id: c14
+    label: Linkwood MSF No15
+    longitude: -4.368825
+    latitude: 55.911312
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 93
+  fields:
+    camera_id: c15
+    label: Heathcot Avenue
+    longitude: -4.384425
+    latitude: 55.907547
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 94
+  fields:
+    camera_id: c16
+    label: Glenkirk Drive @ Bellsyde Ave
+    longitude: -4.359622
+    latitude: 55.90873
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 95
+  fields:
+    camera_id: c17
+    label: Linkwood Drive @ Southdean Road
+    longitude: -4.360715
+    latitude: 55.911125
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 96
+  fields:
+    camera_id: c18
+    label: Westray Circus @ Westray Street
+    longitude: -4.248077
+    latitude: 55.893284
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 97
+  fields:
+    camera_id: c19
+    label: Summerhill Drive @ Bankglen Road
+    longitude: -4.356929
+    latitude: 55.916489
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 98
+  fields:
+    camera_id: c21
+    label: Kilmun Street Opp 163 Kilmun Street
+    longitude: -4.295035
+    latitude: 55.897274
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 99
+  fields:
+    camera_id: c22
+    label: Bilsland Dr @ Parkbrae Ave
+    longitude: -4.265112
+    latitude: 55.888824
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 100
+  fields:
+    camera_id: c23
+    label: Balmore Rd @ Bilsland Drive
+    longitude: -4.257429
+    latitude: 55.886574
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 101
+  fields:
+    camera_id: c24
+    label: Balmore Rd @ Stronend St
+    longitude: -4.256677
+    latitude: 55.885281
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 102
+  fields:
+    camera_id: c26
+    label: Saracen St @ Balmore Rd / Bardowie St
+    longitude: -4.254197
+    latitude: 55.883823
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 103
+  fields:
+    camera_id: c27
+    label: Saracen St @ Allander St
+    longitude: -4.254189
+    latitude: 55.882233
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 104
+  fields:
+    camera_id: c28
+    label: Bardowie St @ Carbeth St
+    longitude: -4.257089
+    latitude: 55.883656
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 105
+  fields:
+    camera_id: c29
+    label: Bardowie St @ Ashfield St
+    longitude: -4.249468
+    latitude: 55.883804
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 106
+  fields:
+    camera_id: c30
+    label: Keppochill Rd @ Carlisle St
+    longitude: -4.242388
+    latitude: 55.87788
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 107
+  fields:
+    camera_id: c31
+    label: Lock 22 @ Maryhill Rd
+    longitude: -4.295976
+    latitude: 55.892628
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 108
+  fields:
+    camera_id: c32
+    label: Ruchill Park Near Leny Street
+    longitude: -4.272252
+    latitude: 55.884331
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 109
+  fields:
+    camera_id: c33
+    label: Egilsay Street @ Ronay Street
+    longitude: -4.246704
+    latitude: 55.898808
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 110
+  fields:
+    camera_id: c34
+    label: Scaraway Street @ SkerrAy Street
+    longitude: -4.251618
+    latitude: 55.900814
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 111
+  fields:
+    camera_id: c35
+    label: Scaraway Street @ Vallay Street
+    longitude: -4.244106
+    latitude: 55.900742
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 112
+  fields:
+    camera_id: c36
+    label: Maryhill Rd @ Kelvindale Rd
+    longitude: -4.288464
+    latitude: 55.889584
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 113
+  fields:
+    camera_id: c37
+    label: Maryhill Rd @ Shakespeare St
+    longitude: -4.284792
+    latitude: 55.886757
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 114
+  fields:
+    camera_id: c38
+    label: Maryhill Rd @ Garscube Rd
+    longitude: -4.272127
+    latitude: 55.880135
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 115
+  fields:
+    camera_id: c39
+    label: Maryhill Rd @ Northwoodside Rd
+    longitude: -4.270961
+    latitude: 55.875053
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 116
+  fields:
+    camera_id: c40
+    label: Gairbraid Ave @ Guthrie Street
+    longitude: -4.294467
+    latitude: 55.890186
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 117
+  fields:
+    camera_id: c41
+    label: Mayfield St @ Ruchill St
+    longitude: -4.273712
+    latitude: 55.88802
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 118
+  fields:
+    camera_id: c42
+    label: Bilsland Drive @ Mayfield St
+    longitude: -4.273552
+    latitude: 55.88744
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 119
+  fields:
+    camera_id: c43
+    label: Brassey St @ Curzon St
+    longitude: -4.274882
+    latitude: 55.889694
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 120
+  fields:
+    camera_id: c61cam
+    label: no-label
+    longitude: -4.2712931
+    latitude: 55.8675055
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 121
+  fields:
+    camera_id: c62cam
+    label: no-label
+    longitude: -4.270928
+    latitude: 55.8630859
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 122
+  fields:
+    camera_id: c63cam
+    label: no-label
+    longitude: -4.250296
+    latitude: 55.8608003
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 123
+  fields:
+    camera_id: c64cam
+    label: no-label
+    longitude: -4.2642516
+    latitude: 55.8623898
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 124
+  fields:
+    camera_id: c65cam
+    label: no-label
+    longitude: -4.2573792
+    latitude: 55.8640371
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 125
+  fields:
+    camera_id: c66cam
+    label: no-label
+    longitude: -4.2586282
+    latitude: 55.8610157
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 126
+  fields:
+    camera_id: c67cam
+    label: Broomielaw @ Oswald St
+    longitude: -4.259575
+    latitude: 55.856453
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 127
+  fields:
+    camera_id: c106
+    label: Kinfauns Drive @ Peel Glen Road
+    longitude: -4.365987
+    latitude: 55.916008
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 128
+  fields:
+    camera_id: c107
+    label: Garscadden Road @ Old Drumchapel Road
+    longitude: -4.363566
+    latitude: 55.906403
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 129
+  fields:
+    camera_id: c112
+    label: Ronaldsay Street Opp No 13
+    longitude: -4.25019
+    latitude: 55.895317
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 130
+  fields:
+    camera_id: c113
+    label: Liddlesdale Road Opp No 185
+    longitude: -4.251117
+    latitude: 55.896969
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 131
+  fields:
+    camera_id: c114
+    label: Torr St @ Carlisle St
+    longitude: -4.243116
+    latitude: 55.884563
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 132
+  fields:
+    camera_id: c115
+    label: Endrick St @ Keppochill Rd
+    longitude: -4.240675
+    latitude: 55.878971
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 133
+  fields:
+    camera_id: c116
+    label: St Kentigerns Cemetery @ Tresta Road
+    longitude: -4.281793
+    latitude: 55.899117
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 134
+  fields:
+    camera_id: e48
+    label: Fire Station Westerhouse Road
+    longitude: -4.124237
+    latitude: 55.867912
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 135
+  fields:
+    camera_id: e112
+    label: Easter Queenslie Road @ Footpath
+    longitude: -4.13845
+    latitude: 55.868237
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 136
+  fields:
+    camera_id: e111
+    label: Rear of Refuse Dump
+    longitude: -4.134633
+    latitude: 55.867386
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 137
+  fields:
+    camera_id: e114
+    label: Penston Road @ Blairtummock Road
+    longitude: -4.143959
+    latitude: 55.866756
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 138
+  fields:
+    camera_id: e115
+    label: Dunivaig Road
+    longitude: -4.14194
+    latitude: 55.864258
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 139
+  fields:
+    camera_id: e130
+    label: Bartiebeith Road @ Easter Queenslie Rd
+    longitude: -4.138093
+    latitude: 55.863678
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 140
+  fields:
+    camera_id: e121
+    label: Bellrock Street @ Ruchazie Place
+    longitude: -4.176431
+    latitude: 55.866989
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 141
+  fields:
+    camera_id: e122
+    label: Bellrock Street @ Startpoint Street
+    longitude: -4.168464
+    latitude: 55.865631
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 142
+  fields:
+    camera_id: e123
+    label: Longstone Road @ Longstone Place
+    longitude: -4.16377
+    latitude: 55.867779
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 143
+  fields:
+    camera_id: e124
+    label: Crowlin Crescent @ Gantock Crescent
+    longitude: -4.16176
+    latitude: 55.862728
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 144
+  fields:
+    camera_id: e125
+    label: Bellrock Street @ Skerryvore Place
+    longitude: -4.162016
+    latitude: 55.865555
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 145
+  fields:
+    camera_id: e126
+    label: Bellrock Street @ Stepps Road
+    longitude: -4.15578
+    latitude: 55.866737
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 146
+  fields:
+    camera_id: e127
+    label: Gartloch Road @ Elibank Street
+    longitude: -4.170746
+    latitude: 55.871796
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 147
+  fields:
+    camera_id: e116
+    label: Easter Queenslie Rd @ Blairtummock Rd
+    longitude: -4.138238
+    latitude: 55.866627
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 148
+  fields:
+    camera_id: e131
+    label: Edinburgh Road @ Inver Road
+    longitude: -4.140867
+    latitude: 55.861515
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 149
+  fields:
+    camera_id: e133
+    label: Wellhouse Crescent @ Dunan Place
+    longitude: -4.13623
+    latitude: 55.861313
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 150
+  fields:
+    camera_id: e134
+    label: Edinburgh Road Opposite Aultmore Road
+    longitude: -4.132997
+    latitude: 55.859306
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 151
+  fields:
+    camera_id: e135
+    label: Edinburgh Rd @Stepford Sports Field
+    longitude: -4.127364
+    latitude: 55.858284
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 152
+  fields:
+    camera_id: e136
+    label: Pendeen Road @ Garlieston Road
+    longitude: -4.130886
+    latitude: 55.855431
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 153
+  fields:
+    camera_id: e138
+    label: Wellhouse Road @ Wardie Road
+    longitude: -4.129583
+    latitude: 55.860943
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 154
+  fields:
+    camera_id: e139
+    label: Wellhouse Road @ Baldovan Crescent
+    longitude: -4.130216
+    latitude: 55.864427
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 155
+  fields:
+    camera_id: e142
+    label: Westerhouse Road @ Aberdalgie Road
+    longitude: -4.115211
+    latitude: 55.868683
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 156
+  fields:
+    camera_id: e143
+    label: Lochend Road Near To Baldragon Road
+    longitude: -4.111497
+    latitude: 55.870567
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 157
+  fields:
+    camera_id: e144
+    label: Lochend Road @ Drumlanrig Avenue
+    longitude: -4.104469
+    latitude: 55.870445
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 158
+  fields:
+    camera_id: e145
+    label: Lochend Road @ Dalilea Drive
+    longitude: -4.101419
+    latitude: 55.871738
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 159
+  fields:
+    camera_id: e147
+    label: Lochend Road @ Dalilea Drive
+    longitude: -4.097297
+    latitude: 55.868622
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 160
+  fields:
+    camera_id: e148
+    label: Lochdochart @ Dalswinton Street
+    longitude: -4.102283
+    latitude: 55.864677
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 161
+  fields:
+    camera_id: e150
+    label: Easterhouse Road @ Lochdochart Road
+    longitude: -4.107092
+    latitude: 55.864792
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 162
+  fields:
+    camera_id: e149
+    label: Dalswinton Street @ Dalswinton Path
+    longitude: -4.103584
+    latitude: 55.865528
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 163
+  fields:
+    camera_id: e151
+    label: Duntarvie Road @ Duntarvie Place
+    longitude: -4.114333
+    latitude: 55.8675
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 164
+  fields:
+    camera_id: e152
+    label: Aberdalgie Road @ Boyndie Street
+    longitude: -4.11354
+    latitude: 55.865719
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 165
+  fields:
+    camera_id: e153
+    label: Easterhouse Road @ Rogerfield Road
+    longitude: -4.108028
+    latitude: 55.862217
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 166
+  fields:
+    camera_id: e113
+    label: Carmaben Road
+    longitude: -4.140765
+    latitude: 55.867424
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 167
+  fields:
+    camera_id: e49
+    label: Garrowhill Park
+    longitude: -4.123805
+    latitude: 55.853264
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 168
+  fields:
+    camera_id: e50
+    label: Westmuir Street @ Beardmore Park
+    longitude: -4.186963
+    latitude: 55.852329
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 169
+  fields:
+    camera_id: e51
+    label: Rattray Street @ Potters Place
+    longitude: -4.183293
+    latitude: 55.842453
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 170
+  fields:
+    camera_id: e56
+    label: Reid Street @ Franklin Street
+    longitude: -4.22465
+    latitude: 55.844082
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 171
+  fields:
+    camera_id: e57
+    label: Reid Street @ Muslin Street
+    longitude: -4.224572
+    latitude: 55.846745
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 172
+  fields:
+    camera_id: e58
+    label: London Rd @ Bridgeton Cross
+    longitude: -4.225922
+    latitude: 55.849126
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 173
+  fields:
+    camera_id: e59
+    label: London Rd @ Bridgeton Cross
+    longitude: -4.226577
+    latitude: 55.848701
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 174
+  fields:
+    camera_id: e61
+    label: Abercromby Street @ Millroad Street
+    longitude: -4.227511
+    latitude: 55.8536
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 175
+  fields:
+    camera_id: e62
+    label: Green Street @  Moncur St
+    longitude: -4.23166
+    latitude: 55.853848
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 176
+  fields:
+    camera_id: e63
+    label: Stevenson Street @ Tobago Street
+    longitude: -4.23043
+    latitude: 55.852692
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 177
+  fields:
+    camera_id: e64
+    label: Stevenson Street @ Claythorn Park
+    longitude: -4.23387
+    latitude: 55.85339
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 178
+  fields:
+    camera_id: e65
+    label: Claythorn St @ Millroad St
+    longitude: -4.232893
+    latitude: 55.85479
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 179
+  fields:
+    camera_id: e66
+    label: Springfield Rd @ Sunnybank St
+    longitude: -4.211621
+    latitude: 55.841866
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 180
+  fields:
+    camera_id: e67
+    label: Gallowgate @ Bain Street
+    longitude: -4.235223
+    latitude: 55.855267
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 181
+  fields:
+    camera_id: e69
+    label: Duke Street @ Bellgrove Street
+    longitude: -4.224466
+    latitude: 55.858154
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 182
+  fields:
+    camera_id: e70
+    label: Duke Street @ Whitehill Street
+    longitude: -4.219268
+    latitude: 55.858452
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 183
+  fields:
+    camera_id: e71
+    label: Duke Street @ Millerston Street
+    longitude: -4.213726
+    latitude: 55.858425
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 184
+  fields:
+    camera_id: e72
+    label: Sword Street @ Reidvale Street
+    longitude: -4.222461
+    latitude: 55.856968
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 185
+  fields:
+    camera_id: e73
+    label: Sword St Opp No 50
+    longitude: -4.222902
+    latitude: 55.856232
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 186
+  fields:
+    camera_id: e74
+    label: Comleypark Street @ Malvern Court
+    longitude: -4.220536
+    latitude: 55.855457
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 187
+  fields:
+    camera_id: e75
+    label: Whitevale MSF South
+    longitude: -4.215993
+    latitude: 55.855804
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 188
+  fields:
+    camera_id: e76
+    label: Whitevale MSF North
+    longitude: -4.216368
+    latitude: 55.855869
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 189
+  fields:
+    camera_id: e77
+    label: Armadale Path @ Armadale Street
+    longitude: -4.215786
+    latitude: 55.864773
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 190
+  fields:
+    camera_id: e78
+    label: Alexandra Parade @ Meadowpark Street
+    longitude: -4.214214
+    latitude: 55.863361
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 191
+  fields:
+    camera_id: e79
+    label: Viewpark Avenue @ M8 Westbound On Ramp
+    longitude: -4.213848
+    latitude: 55.866177
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 192
+  fields:
+    camera_id: e80
+    label: Alexandra Parade @  Train Station
+    longitude: -4.210308
+    latitude: 55.863079
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 193
+  fields:
+    camera_id: e81
+    label: Walter Street @ Appin Road
+    longitude: -4.207845
+    latitude: 55.861626
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 194
+  fields:
+    camera_id: e82
+    label: Walter Street @ Aberfoyle Street
+    longitude: -4.202358
+    latitude: 55.861191
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 195
+  fields:
+    camera_id: e83
+    label: Gallowgate @ Retail Park
+    longitude: -4.210449
+    latitude: 55.853626
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 196
+  fields:
+    camera_id: e84
+    label: Stamford Street @ Law Street
+    longitude: -4.211642
+    latitude: 55.850651
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 197
+  fields:
+    camera_id: e85
+    label: Barrowfield Street @ Frazer Street
+    longitude: -4.213822
+    latitude: 55.849594
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 198
+  fields:
+    camera_id: e86
+    label: Queen Mary St @ Dalmarnock Rd
+    longitude: -4.222549
+    latitude: 55.846733
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 199
+  fields:
+    camera_id: e88
+    label: Heron St @ Baltic Place
+    longitude: -4.221715
+    latitude: 55.848392
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 200
+  fields:
+    camera_id: e89
+    label: Bernard Terrace @ London Rd
+    longitude: -4.221747
+    latitude: 55.849022
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 201
+  fields:
+    camera_id: e90
+    label: Baltic Street Multi Story Flats
+    longitude: -4.220416
+    latitude: 55.846996
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 202
+  fields:
+    camera_id: e91
+    label: Salamanca St @ Parkhead Hospital
+    longitude: -4.195525
+    latitude: 55.852009
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 203
+  fields:
+    camera_id: e92
+    label: Springfield Cross
+    longitude: -4.202173
+    latitude: 55.847706
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 204
+  fields:
+    camera_id: e93
+    label: Helenvale MSF
+    longitude: -4.199455
+    latitude: 55.847591
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 205
+  fields:
+    camera_id: e94
+    label: London Rd @ Canmore Street
+    longitude: -4.196286
+    latitude: 55.84568
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 206
+  fields:
+    camera_id: e96
+    label: Glenisla Street @ Methven Street
+    longitude: -4.19257
+    latitude: 55.844952
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 207
+  fields:
+    camera_id: e97
+    label: Maukinfauld Road @ Rattray Street
+    longitude: -4.188417
+    latitude: 55.844231
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 208
+  fields:
+    camera_id: e98
+    label: Tollcross Road @ Crail Street
+    longitude: -4.190981
+    latitude: 55.849049
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 209
+  fields:
+    camera_id: e99
+    label: Powfoot St @ Beatock St
+    longitude: -4.193205
+    latitude: 55.850693
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 210
+  fields:
+    camera_id: e100
+    label: Pharonhill Street @ Quarrybrae Street
+    longitude: -4.189747
+    latitude: 55.850094
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 211
+  fields:
+    camera_id: e101
+    label: Burgher Street @ Dechmont Street
+    longitude: -4.19891
+    latitude: 55.84927
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 212
+  fields:
+    camera_id: e102
+    label: Parkhead Cross
+    longitude: -4.197366
+    latitude: 55.851154
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 213
+  fields:
+    camera_id: e103
+    label: Westmuir Street @ Sorby Street
+    longitude: -4.193989
+    latitude: 55.851654
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 214
+  fields:
+    camera_id: e104
+    label: Old Shettleston Rd @ Shettleston Rd
+    longitude: -4.183569
+    latitude: 55.852844
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 215
+  fields:
+    camera_id: e105
+    label: Rigby Street @ Moorfoot Street
+    longitude: -4.189911
+    latitude: 55.857121
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 216
+  fields:
+    camera_id: e106
+    label: Carntyne Road @ Glencorse Street
+    longitude: -4.19004
+    latitude: 55.859856
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 217
+  fields:
+    camera_id: e107
+    label: Darleith Street @ Denbeck Street
+    longitude: -4.17428
+    latitude: 55.852692
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 218
+  fields:
+    camera_id: e108
+    label: Shettleston Rd @ Kenmore Street
+    longitude: -4.172873
+    latitude: 55.851784
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 219
+  fields:
+    camera_id: e109
+    label: South Vesalius Street @  Pettigrew Street
+    longitude: -4.171798
+    latitude: 55.851147
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 220
+  fields:
+    camera_id: e110
+    label: Caroline Street @ Quarryknowe Street
+    longitude: -4.1859
+    latitude: 55.851452
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 221
+  fields:
+    camera_id: e117
+    label: Tollcross Road @ Wellshot Road
+    longitude: -4.175965
+    latitude: 55.844185
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 222
+  fields:
+    camera_id: e118
+    label: Braidfauld Street @ Dunira Street
+    longitude: -4.176912
+    latitude: 55.8428
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 223
+  fields:
+    camera_id: e156
+    label: Nuneaton Street @ Boden Street
+    longitude: -4.214316
+    latitude: 55.845577
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 224
+  fields:
+    camera_id: e21
+    label: Royston Road @ Gadshill Street
+    longitude: -4.229904
+    latitude: 55.869625
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 225
+  fields:
+    camera_id: e22
+    label: Royston Road  @ Provanhill Street
+    longitude: -4.226907
+    latitude: 55.870155
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 226
+  fields:
+    camera_id: e23
+    label: Royston Road @ Brodick Street
+    longitude: -4.222826
+    latitude: 55.870735
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 227
+  fields:
+    camera_id: e24
+    label: Charles Street @ Garnock Street
+    longitude: -4.224604
+    latitude: 55.87183
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 228
+  fields:
+    camera_id: e25
+    label: Roystonhill @ Dunolly Street
+    longitude: -4.22076
+    latitude: 55.870125
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 229
+  fields:
+    camera_id: e26
+    label: Roystonhill @ Thrasis Street
+    longitude: -4.225824
+    latitude: 55.868534
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 230
+  fields:
+    camera_id: e27
+    label: 40 Rosemount Street MSF
+    longitude: -4.2242
+    latitude: 55.867424
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 231
+  fields:
+    camera_id: e28
+    label: Cloverbank Street @ Sandmill Street
+    longitude: -4.218226
+    latitude: 55.869156
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 232
+  fields:
+    camera_id: e29
+    label: James Nesbit Street @ No 101
+    longitude: -4.22971
+    latitude: 55.867058
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 233
+  fields:
+    camera_id: e30
+    label: 7 James Nesbit Street
+    longitude: -4.231055
+    latitude: 55.866688
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 234
+  fields:
+    camera_id: e31
+    label: Stroma Street @ Forge Street
+    longitude: -4.21012
+    latitude: 55.874729
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 235
+  fields:
+    camera_id: e32
+    label: Forge Street @ Forge Place
+    longitude: -4.206653
+    latitude: 55.875969
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 236
+  fields:
+    camera_id: e33
+    label: Royston Road @  Provanmill Road
+    longitude: -4.194375
+    latitude: 55.878548
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 237
+  fields:
+    camera_id: e34
+    label: Opposite 247 Provanmill Road
+    longitude: -4.19139
+    latitude: 55.876308
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 238
+  fields:
+    camera_id: e35
+    label: Hogganfield Street @ Queenslie Street
+    longitude: -4.192589
+    latitude: 55.875797
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 239
+  fields:
+    camera_id: e36
+    label: Broomfield Road @ Roundabout
+    longitude: -4.205886
+    latitude: 55.881458
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 240
+  fields:
+    camera_id: e37
+    label: All Saints Church Broomfield Rd
+    longitude: -4.207705
+    latitude: 55.882347
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 241
+  fields:
+    camera_id: e38
+    label: Birnie Road @ Birnie Court
+    longitude: -4.203802
+    latitude: 55.881336
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 242
+  fields:
+    camera_id: e39
+    label: Wallacewell Road @ Northgate Road
+    longitude: -4.202224
+    latitude: 55.89193
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 243
+  fields:
+    camera_id: e40
+    label: Broomton Road @ Northgate Road
+    longitude: -4.206209
+    latitude: 55.896633
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 244
+  fields:
+    camera_id: e41
+    label: 59 Broomton Road @ Shops
+    longitude: -4.202678
+    latitude: 55.897202
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 245
+  fields:
+    camera_id: e42
+    label: Springburn Way @ Carleston Road
+    longitude: -4.229178
+    latitude: 55.883568
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 246
+  fields:
+    camera_id: e43
+    label: Atlas Road @ Angus Street
+    longitude: -4.231889
+    latitude: 55.881844
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 247
+  fields:
+    camera_id: e44
+    label: Hawthorn Street @ Fernbank St
+    longitude: -4.234595
+    latitude: 55.886215
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 248
+  fields:
+    camera_id: e45
+    label: Hawthorn Street @ Memel St
+    longitude: -4.237345
+    latitude: 55.886703
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 249
+  fields:
+    camera_id: e46
+    label: Hawthorn Street @ Blackthorn St
+    longitude: -4.239053
+    latitude: 55.887211
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 250
+  fields:
+    camera_id: e47
+    label: Galloway Street @ Cairn Street
+    longitude: -4.231202
+    latitude: 55.892731
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 251
+  fields:
+    camera_id: g01
+    label: Barshaw Rd @ Deanfield Quad
+    longitude: -4.369761
+    latitude: 55.853634
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 252
+  fields:
+    camera_id: g02
+    label: Gleddoch Road @ Rosshill Road
+    longitude: -4.370167
+    latitude: 55.851295
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 253
+  fields:
+    camera_id: g03
+    label: Gleddoch Road @ Craigmuir Road
+    longitude: -4.375111
+    latitude: 55.851795
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 254
+  fields:
+    camera_id: g04
+    label: Craigmuir Rd @ Craigmuir Place
+    longitude: -4.374757
+    latitude: 55.852642
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 255
+  fields:
+    camera_id: g05
+    label: Barshaw Rd @ Craigmuir Rd
+    longitude: -4.37472
+    latitude: 55.853626
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 256
+  fields:
+    camera_id: g06
+    label: Sandwood Road @ Penneld Road
+    longitude: -4.362984
+    latitude: 55.847771
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 257
+  fields:
+    camera_id: g07
+    label: Selvieland Rd @ Kelhead Ave
+    longitude: -4.370063
+    latitude: 55.848125
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 258
+  fields:
+    camera_id: g08
+    label: Sandwood Road @ Bowfield Dr
+    longitude: -4.363905
+    latitude: 55.852062
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 259
+  fields:
+    camera_id: g09
+    label: Redpath Dr @ Belses Dr MSF
+    longitude: -4.345196
+    latitude: 55.847816
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 260
+  fields:
+    camera_id: g10
+    label: Potterhill Rd @ Lyoncross Rd
+    longitude: -4.354209
+    latitude: 55.836651
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 261
+  fields:
+    camera_id: g11
+    label: Levernside Road @ Shops
+    longitude: -4.348281
+    latitude: 55.829533
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 262
+  fields:
+    camera_id: g12
+    label: Brockburn Rd. between 95 & 10
+    longitude: -4.351378
+    latitude: 55.830433
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 263
+  fields:
+    camera_id: g13
+    label: Brockburn Cres @ Netherplace Road
+    longitude: -4.348759
+    latitude: 55.826141
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 264
+  fields:
+    camera_id: g14
+    label: Leithland Road @ Kempsthorn Crescent
+    longitude: -4.35263
+    latitude: 55.830177
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 265
+  fields:
+    camera_id: g15
+    label: Barrhead Rd @ Peat Rd
+    longitude: -4.345373
+    latitude: 55.824043
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 266
+  fields:
+    camera_id: g16
+    label: Cowglen Rd @ Househillmuir Cres.
+    longitude: -4.345922
+    latitude: 55.822075
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 267
+  fields:
+    camera_id: g17
+    label: Gower Terrace @ Bellahouston Academy
+    longitude: -4.299122
+    latitude: 55.848042
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 268
+  fields:
+    camera_id: g21
+    label: Nitshill Road @ Shops
+    longitude: -4.359782
+    latitude: 55.812851
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 269
+  fields:
+    camera_id: g22
+    label: Nitshill Road @ Peat Road
+    longitude: -4.36107
+    latitude: 55.814564
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 270
+  fields:
+    camera_id: g23
+    label: Boydstone Rd @ Crebar St
+    longitude: -4.322616
+    latitude: 55.810688
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 271
+  fields:
+    camera_id: g24
+    label: Boydston Rd @ Carnwadric Rd
+    longitude: -4.325318
+    latitude: 55.812332
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 272
+  fields:
+    camera_id: g25
+    label: Braidcraft Rd @ Corkerhill Rd
+    longitude: -4.339637
+    latitude: 55.831383
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 273
+  fields:
+    camera_id: g26
+    label: Barrhead Rd @ Crookston Rd
+    longitude: -4.363381
+    latitude: 55.821751
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 274
+  fields:
+    camera_id: g27
+    label: Crookston Rd @ Raeswood Rd
+    longitude: -4.363455
+    latitude: 55.825211
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 275
+  fields:
+    camera_id: g28
+    label: Kyleakin Road @ Kilvaxter Drive
+    longitude: -4.330565
+    latitude: 55.806911
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 276
+  fields:
+    camera_id: g29
+    label: Kilmuir Crescent @ Hopeman Road
+    longitude: -4.328471
+    latitude: 55.808468
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 277
+  fields:
+    camera_id: g30
+    label: Elder St @ Govan Rd
+    longitude: -4.319139
+    latitude: 55.863865
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 278
+  fields:
+    camera_id: g31
+    label: Govan Rd @ Shaw St
+    longitude: -4.315985
+    latitude: 55.863876
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 279
+  fields:
+    camera_id: g32
+    label: Golspie St @ Shaw Street
+    longitude: -4.316087
+    latitude: 55.862331
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 280
+  fields:
+    camera_id: g33
+    label: Burleigh Street @ Harmony Row
+    longitude: -4.31385
+    latitude: 55.863262
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 281
+  fields:
+    camera_id: g34
+    label: Wanlock Street @ Wardrop Street
+    longitude: -4.314571
+    latitude: 55.86467
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 282
+  fields:
+    camera_id: g36
+    label: Howat St @ Taransay St
+    longitude: -4.316944
+    latitude: 55.865082
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 283
+  fields:
+    camera_id: g37
+    label: Govan Cross @ Govan Road
+    longitude: -4.311033
+    latitude: 55.862881
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 284
+  fields:
+    camera_id: g38
+    label: Craigton Rd
+    longitude: -4.325172
+    latitude: 55.85202
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 285
+  fields:
+    camera_id: g39
+    label: Napier Drive @ River
+    longitude: -4.306934
+    latitude: 55.863232
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 286
+  fields:
+    camera_id: g41
+    label: Napier Place Opp No 30
+    longitude: -4.307593
+    latitude: 55.862324
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 287
+  fields:
+    camera_id: g42
+    label: Clydebrae Street @ Napier Street
+    longitude: -4.305622
+    latitude: 55.861572
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 288
+  fields:
+    camera_id: g43
+    label: Crossloan Rd @ Elderpark Street
+    longitude: -4.322242
+    latitude: 55.859753
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 289
+  fields:
+    camera_id: g44
+    label: Elderpark St @ Langlands Rd
+    longitude: -4.321409
+    latitude: 55.861736
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 290
+  fields:
+    camera_id: g45
+    label: Crossloan Rd @ Uist Street
+    longitude: -4.323147
+    latitude: 55.86021
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 291
+  fields:
+    camera_id: g46
+    label: Crossloan Rd @ Arklet Street
+    longitude: -4.324818
+    latitude: 55.860802
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 292
+  fields:
+    camera_id: g47
+    label: Elderpark Street @ Nimmo Drive
+    longitude: -4.322785
+    latitude: 55.858597
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 293
+  fields:
+    camera_id: g48
+    label: Paisley Road @ Paisley Toll
+    longitude: -4.279085
+    latitude: 55.853775
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 294
+  fields:
+    camera_id: g49
+    label: Paisley Road West @ Cornwall Street
+    longitude: -4.286992
+    latitude: 55.852398
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 295
+  fields:
+    camera_id: g50
+    label: Paisley Road West @ Walmer Crescent
+    longitude: -4.29399
+    latitude: 55.85194
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 296
+  fields:
+    camera_id: g51
+    label: Langshot Street @ Clifford Street
+    longitude: -4.291259
+    latitude: 55.851215
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 297
+  fields:
+    camera_id: g52
+    label: Clifford St @ Porter St
+    longitude: -4.298712
+    latitude: 55.850426
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 298
+  fields:
+    camera_id: g53
+    label: Aitkenhead Road Park n Ride
+    longitude: -4.246909
+    latitude: 55.826977
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 299
+  fields:
+    camera_id: g54
+    label: Hampden Park and Ride
+    longitude: -4.249455
+    latitude: 55.826759
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 300
+  fields:
+    camera_id: g56
+    label: 59 Iona Court MSF (Roof Top)
+    longitude: -4.309053
+    latitude: 55.856262
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 301
+  fields:
+    camera_id: g57
+    label: Copeland Rd @ Summertown Rd
+    longitude: -4.3028
+    latitude: 55.856907
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 302
+  fields:
+    camera_id: g58
+    label: Barlogan Avenue @ Maryland Gardens
+    longitude: -4.330512
+    latitude: 55.847553
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 303
+  fields:
+    camera_id: g59
+    label: Queensland Gardens MSF
+    longitude: -4.342102
+    latitude: 55.852451
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 304
+  fields:
+    camera_id: g60
+    label: Brand St @ Midlock Street
+    longitude: -4.299088
+    latitude: 55.853561
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 305
+  fields:
+    camera_id: g61
+    label: Hartlaw Crescent North
+    longitude: -4.358827
+    latitude: 55.853073
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 306
+  fields:
+    camera_id: g62
+    label: Hartlaw Crescent South
+    longitude: -4.358949
+    latitude: 55.852413
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 307
+  fields:
+    camera_id: g63
+    label: Thurston Road @ Gladsmuir Road
+    longitude: -4.356886
+    latitude: 55.851101
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 308
+  fields:
+    camera_id: g64
+    label: Paisley Road West @ Mosspark Boul'd
+    longitude: -4.334474
+    latitude: 55.846256
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 309
+  fields:
+    camera_id: g65
+    label: Paisley Road West @ Berryknows Rd
+    longitude: -4.343819
+    latitude: 55.845428
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 310
+  fields:
+    camera_id: g66
+    label: Paisley Road West @ Tweedsmuir Rd
+    longitude: -4.354931
+    latitude: 55.845921
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 311
+  fields:
+    camera_id: g67
+    label: Paisley Road West @ Hillington Rd Sth
+    longitude: -4.35983
+    latitude: 55.845493
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 312
+  fields:
+    camera_id: g68
+    label: Paisley Road West @ Crookston Road
+    longitude: -4.364538
+    latitude: 55.845444
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 313
+  fields:
+    camera_id: g69
+    label: Southside Crescent @ Handel Place
+    longitude: -4.252987
+    latitude: 55.84634
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 314
+  fields:
+    camera_id: g71
+    label: Southside Crescent @ Malta Crescent
+    longitude: -4.254354
+    latitude: 55.846951
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 315
+  fields:
+    camera_id: g72
+    label: Cumberland St @ Thistle Terrace
+    longitude: -4.253688
+    latitude: 55.848186
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 316
+  fields:
+    camera_id: g73
+    label: Crown St @ Old Rutherglan Rd
+    longitude: -4.250155
+    latitude: 55.849518
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 317
+  fields:
+    camera_id: g74
+    label: Crossbank Terrace MSF
+    longitude: -4.240564
+    latitude: 55.831909
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 318
+  fields:
+    camera_id: g76
+    label: Prospecthill Circus @ Crossbank Avenue.
+    longitude: -4.23639
+    latitude: 55.831684
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 319
+  fields:
+    camera_id: g77
+    label: Prospecthill Circus @ Prospecthill Avenue
+    longitude: -4.237921
+    latitude: 55.829708
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 320
+  fields:
+    camera_id: g78
+    label: Glenmore Avenue Opp No 22
+    longitude: -4.234397
+    latitude: 55.82679
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 321
+  fields:
+    camera_id: g79
+    label: Ardnahoe Ave @ Corlaich Dr
+    longitude: -4.230034
+    latitude: 55.826221
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 322
+  fields:
+    camera_id: g80
+    label: Well Green @ Ashtree Road
+    longitude: -4.296758
+    latitude: 55.826191
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 323
+  fields:
+    camera_id: g81
+    label: Shawbridge Arcade @ Pleasence Street
+    longitude: -4.295202
+    latitude: 55.825832
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 324
+  fields:
+    camera_id: g82
+    label: Pleasence St  @ McArthur Street
+    longitude: -4.293767
+    latitude: 55.825447
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 325
+  fields:
+    camera_id: g83
+    label: Shawlands X
+    longitude: -4.281278
+    latitude: 55.830368
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 326
+  fields:
+    camera_id: g84
+    label: Pollokshaws Rd @ Minard Rd
+    longitude: -4.278699
+    latitude: 55.831547
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 327
+  fields:
+    camera_id: g85
+    label: 215 Shawbridge Street MSF
+    longitude: -4.300005
+    latitude: 55.821964
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 328
+  fields:
+    camera_id: g86
+    label: 93 Shawholm Crescent
+    longitude: -4.301743
+    latitude: 55.821171
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 329
+  fields:
+    camera_id: g87
+    label: St Andrews Rd @ Shields Rd
+    longitude: -4.274897
+    latitude: 55.84597
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 330
+  fields:
+    camera_id: g88
+    label: Maxwell Rd @ Shields Rd
+    longitude: -4.275683
+    latitude: 55.844486
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 331
+  fields:
+    camera_id: g89
+    label: Maxwell Ave Rear of No 18
+    longitude: -4.278312
+    latitude: 55.845284
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 332
+  fields:
+    camera_id: g90
+    label: Kenmure St @ McCulloch St
+    longitude: -4.271554
+    latitude: 55.844742
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 333
+  fields:
+    camera_id: g91
+    label: Albert Drive @ Kenmure St
+    longitude: -4.272672
+    latitude: 55.842072
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 334
+  fields:
+    camera_id: g92
+    label: Keir St @ Leslie St
+    longitude: -4.274422
+    latitude: 55.840996
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 335
+  fields:
+    camera_id: g93
+    label: Kenmure St @ Nithsdale Rd
+    longitude: -4.274445
+    latitude: 55.838646
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 336
+  fields:
+    camera_id: g94
+    label: Drakemire Dr @ Raithburn Ave
+    longitude: -4.244781
+    latitude: 55.809826
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 337
+  fields:
+    camera_id: g95
+    label: Carmunnock Road @ Arnprior Road
+    longitude: -4.243716
+    latitude: 55.809254
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 338
+  fields:
+    camera_id: g97
+    label: Lane @ Nitshill Railway Station
+    longitude: -4.362244
+    latitude: 55.811848
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 339
+  fields:
+    camera_id: g98
+    label: Ballantay Road @ Scarrel Road
+    longitude: -4.215521
+    latitude: 55.808079
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 340
+  fields:
+    camera_id: g99
+    label: Ballantay Rd @ Hoddan Terr
+    longitude: -4.219121
+    latitude: 55.808147
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 341
+  fields:
+    camera_id: g100
+    label: Tormusk Road @ Hoddam Avenue
+    longitude: -4.212823
+    latitude: 55.806835
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 342
+  fields:
+    camera_id: g104
+    label: Stravanan Road @ Dunagoil Road
+    longitude: -4.237728
+    latitude: 55.799629
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 343
+  fields:
+    camera_id: g105
+    label: Machrie Drive @ Machrie Road
+    longitude: -4.224053
+    latitude: 55.809044
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 344
+  fields:
+    camera_id: g106
+    label: Woodhead Rd @ Resource Ctre
+    longitude: -4.364124
+    latitude: 55.811394
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 345
+  fields:
+    camera_id: g107
+    label: Kennieshead Rd @ Railway Stat
+    longitude: -4.343275
+    latitude: 55.811848
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 346
+  fields:
+    camera_id: g108
+    label: Woodhead Rd @ Wiltonburn Rd
+    longitude: -4.357537
+    latitude: 55.810917
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 347
+  fields:
+    camera_id: g109
+    label: Woodhead Rd  @ Council Depot
+    longitude: -4.359447
+    latitude: 55.811291
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 348
+  fields:
+    camera_id: g110
+    label: Weensmoor Rd @ Whithope Terr
+    longitude: -4.363327
+    latitude: 55.810902
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 349
+  fields:
+    camera_id: g102
+    label: Dougray Avenue MSF
+    longitude: -4.233438
+    latitude: 55.804405
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 350
+  fields:
+    camera_id: g103
+    label: Stravanan Rd Nr Stravanan Court
+    longitude: -4.234335
+    latitude: 55.801659
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 351
+  fields:
+    camera_id: g111
+    label: Woodhead Rd @ Lane to Underpass
+    longitude: -4.362361
+    latitude: 55.811325
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 352
+  fields:
+    camera_id: g112
+    label: Helen St @ Robert St
+    longitude: -4.312906
+    latitude: 55.860909
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 353
+  fields:
+    camera_id: g113
+    label: Helen St Opp Howdens Yard
+    longitude: -4.313812
+    latitude: 55.859196
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 354
+  fields:
+    camera_id: g114
+    label: Crossloan Rd @ Harmony Row
+    longitude: -4.315586
+    latitude: 55.858364
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 355
+  fields:
+    camera_id: g115
+    label: Helen St @ Loanbank Quad Nth
+    longitude: -4.314589
+    latitude: 55.857876
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 356
+  fields:
+    camera_id: g116
+    label: Helen St @ Loanbank Quad Sth
+    longitude: -4.315862
+    latitude: 55.856407
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 357
+  fields:
+    camera_id: g117
+    label: Helen St @ Edmonston Dr
+    longitude: -4.31777
+    latitude: 55.853966
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 358
+  fields:
+    camera_id: g118
+    label: Ardencraig Quad @ Ardencraig St
+    longitude: -4.217909
+    latitude: 55.804043
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 359
+  fields:
+    camera_id: g119
+    label: Ardencraig Quadrant @ No 16
+    longitude: -4.220118
+    latitude: 55.803837
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 360
+  fields:
+    camera_id: g120
+    label: Ballantay Rd @ Tormusk Rd
+    longitude: -4.212972
+    latitude: 55.808392
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 361
+  fields:
+    camera_id: g121
+    label: Tormusk Rd @ Croftfoot St
+    longitude: -4.218206
+    latitude: 55.811329
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 362
+  fields:
+    camera_id: g122
+    label: Ballantay Rd @ Ballantay Terrace
+    longitude: -4.214357
+    latitude: 55.808136
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 363
+  fields:
+    camera_id: g123
+    label: Ballantay Rd @ Footpath
+    longitude: -4.219438
+    latitude: 55.80703
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 364
+  fields:
+    camera_id: g101
+    label: Hoddam Ave @ No 59
+    longitude: -4.220031
+    latitude: 55.805393
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 365
+  fields:
+    camera_id: c82
+    label: Kelvingrove Park @ Skate Park
+    longitude: -4.285109
+    latitude: 55.868362
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 366
+  fields:
+    camera_id: c80
+    label: Kelvingrove Park @ Park Terrace
+    longitude: -4.280524
+    latitude: 55.867603
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 367
+  fields:
+    camera_id: c81
+    label: Kelvingrove Park @ Kelvin Way
+    longitude: -4.287663
+    latitude: 55.86776
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 368
+  fields:
+    camera_id: c79
+    label: Kelvingrove Park @ Fountain
+    longitude: -4.2833
+    latitude: 55.86797
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 369
+  fields:
+    camera_id: c83
+    label: Springburn Park @ Rockery
+    longitude: -4.22871
+    latitude: 55.88932
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 370
+  fields:
+    camera_id: c84
+    label: Alexandra Park @ Path to Gate
+    longitude: -4.209549
+    latitude: 55.864044
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 371
+  fields:
+    camera_id: c85
+    label: Alexandra Park  @ Boating Pond
+    longitude: -4.203952
+    latitude: 55.863556
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 372
+  fields:
+    camera_id: c86
+    label: Tollcross Park @ Rose Garden
+    longitude: -4.181225
+    latitude: 55.846302
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 373
+  fields:
+    camera_id: c87
+    label: Tollcross Park East of Flagpole
+    longitude: -4.182763
+    latitude: 55.847523
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 374
+  fields:
+    camera_id: c88
+    label: Tollcross Park North of Flagpole
+    longitude: -4.184294
+    latitude: 55.848633
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 375
+  fields:
+    camera_id: c90
+    label: Tollcross Park @ Enterkin Street Entrance
+    longitude: -4.178632
+    latitude: 55.849388
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 376
+  fields:
+    camera_id: c89
+    label: Tollcross Park @ Small Baseball Quadrangle
+    longitude: -4.181402
+    latitude: 55.849728
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 377
+  fields:
+    camera_id: c94
+    label: Bellahouston Park @ Gate to Paisley Rd West
+    longitude: -4.31451
+    latitude: 55.848797
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 378
+  fields:
+    camera_id: c93
+    label: Bellahouston Park @ Play Park
+    longitude: -4.312155
+    latitude: 55.848553
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 379
+  fields:
+    camera_id: c92
+    label: Bellahouston Park @ Play Park
+    longitude: -4.312295
+    latitude: 55.847752
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 380
+  fields:
+    camera_id: c95
+    label: Springburn Park @ Pond
+    longitude: -4.229455
+    latitude: 55.889194
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 381
+  fields:
+    camera_id: c96
+    label: Elder Park @ Statue
+    longitude: -4.325014
+    latitude: 55.86182
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 382
+  fields:
+    camera_id: c97
+    label: Kings Park @ Pavillion
+    longitude: -4.244125
+    latitude: 55.814034
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 383
+  fields:
+    camera_id: c98
+    label: Maxwell Park @ Burgh Hall
+    longitude: -4.288188
+    latitude: 55.839195
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 384
+  fields:
+    camera_id: c99
+    label: Govanhill Park @ Play Area
+    longitude: -4.259253
+    latitude: 55.83894
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 385
+  fields:
+    camera_id: c100
+    label: Rosshall Park @ Rear of Hospital
+    longitude: -4.363848
+    latitude: 55.839016
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 386
+  fields:
+    camera_id: c101
+    label: Haughburn Play Park @ Swing park
+    longitude: -4.349779
+    latitude: 55.824081
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 387
+  fields:
+    camera_id: c102
+    label: King George V Park @ Basketball Court
+    longitude: -4.320386
+    latitude: 55.811279
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 388
+  fields:
+    camera_id: c103
+    label: King George V Park @ Play Area
+    longitude: -4.318378
+    latitude: 55.811394
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 389
+  fields:
+    camera_id: c104
+    label: Glasgow Green @ Doulton Fountain
+    longitude: -4.236548
+    latitude: 55.852043
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 390
+  fields:
+    camera_id: c105
+    label: Glasgow Green @ Doulton Fountain
+    longitude: -4.235635
+    latitude: 55.851295
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 391
+  fields:
+    camera_id: c108
+    label: Bearsden Road @ Temple Road
+    longitude: -4.321395
+    latitude: 55.895847
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 392
+  fields:
+    camera_id: c117
+    label: Lochburn Pass
+    longitude: -4.286672
+    latitude: 55.893311
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 393
+  fields:
+    camera_id: c129
+    label: Glasgow Green @ Charlotte Street
+    longitude: -4.244787
+    latitude: 55.852482
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 394
+  fields:
+    camera_id: c130
+    label: Glasgow Green
+    longitude: -4.244649
+    latitude: 55.853363
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 395
+  fields:
+    camera_id: c131
+    label: Glasgow Green
+    longitude: -4.240896
+    latitude: 55.853096
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 396
+  fields:
+    camera_id: c132
+    label: Glasgow Green
+    longitude: -4.238757
+    latitude: 55.850906
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 397
+  fields:
+    camera_id: c133
+    label: Glasgow Green
+    longitude: -4.238167
+    latitude: 55.849472
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 398
+  fields:
+    camera_id: c134
+    label: Glasgow Green
+    longitude: -4.236518
+    latitude: 55.848976
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 399
+  fields:
+    camera_id: c135
+    label: Glasgow Green @ Templeton Street
+    longitude: -4.233289
+    latitude: 55.8493
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 400
+  fields:
+    camera_id: c136
+    label: Glasgow Green
+    longitude: -4.237076
+    latitude: 55.851685
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 401
+  fields:
+    camera_id: c137
+    label: Glasgow Green
+    longitude: -4.236454
+    latitude: 55.851177
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 402
+  fields:
+    camera_id: c138
+    label: Victoria Park Fossil Grove Main Door
+    longitude: -4.33788
+    latitude: 55.876759
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 403
+  fields:
+    camera_id: c139
+    label: Victoria Park Fossil Grove Rear
+    longitude: -4.338513
+    latitude: 55.876648
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 404
+  fields:
+    camera_id: c140
+    label: Victoria Park   @ Childrens Maize
+    longitude: -4.333822
+    latitude: 55.875797
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 405
+  fields:
+    camera_id: c141
+    label: Victoria Park  @ Boating Pond
+    longitude: -4.330488
+    latitude: 55.874474
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 406
+  fields:
+    camera_id: c91
+    label: Bellahouston Park @ Bowling Green
+    longitude: -4.322497
+    latitude: 55.846798
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 407
+  fields:
+    camera_id: e119
+    label: Cumbernauld Road Shops Front
+    longitude: -4.193064
+    latitude: 55.867146
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 408
+  fields:
+    camera_id: e120
+    label: Cumbernauld Road Shops Rear
+    longitude: -4.19303
+    latitude: 55.867523
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 409
+  fields:
+    camera_id: e128
+    label: Ruchazie Water Tower (East)
+    longitude: -4.153305
+    latitude: 55.873383
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 410
+  fields:
+    camera_id: e129
+    label: Ruchazie Water Tower (West)
+    longitude: -4.15376
+    latitude: 55.873352
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 411
+  fields:
+    camera_id: e141
+    label: Gartloch Road (Shops)
+    longitude: -4.164513
+    latitude: 55.872707
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 412
+  fields:
+    camera_id: e154
+    label: Main Street Ballieston
+    longitude: -4.113173
+    latitude: 55.850075
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 413
+  fields:
+    camera_id: e155
+    label: Main Street Ballieston
+    longitude: -4.110062
+    latitude: 55.850353
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 414
+  fields:
+    camera_id: a89
+    label: Broomielaw @ Oswald St
+    longitude: -4.2596188
+    latitude: 55.8566733
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 415
+  fields:
+    camera_id: c68cam
+    label: Bath St @ Elmbank St
+    longitude: -4.2682072
+    latitude: 55.8652138
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 416
+  fields:
+    camera_id: c69cam
+    label: Stobcross St @ North St
+    longitude: -4.2706615
+    latitude: 55.8594122
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 417
+  fields:
+    camera_id: c70cam
+    label: Renfield St @ W George St
+    longitude: -4.2564726
+    latitude: 55.8622908
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 418
+  fields:
+    camera_id: c71cam
+    label: Argyle Street @ Jamaica Street
+    longitude: -4.2567086
+    latitude: 55.8582687
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 419
+  fields:
+    camera_id: c72cam
+    label: High St @ George St
+    longitude: -4.2398938
+    latitude: 55.86039
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 420
+  fields:
+    camera_id: c73cam
+    label: Clyde St @ Victoria Bridge
+    longitude: -4.250609
+    latitude: 55.8545355
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 421
+  fields:
+    camera_id: c74cam
+    label: Gorbals St @ Cumberland St
+    longitude: -4.2548724
+    latitude: 55.8481378
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 422
+  fields:
+    camera_id: c75cam
+    label: West St @ Cook St
+    longitude: -4.2654955
+    latitude: 55.8515243
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 423
+  fields:
+    camera_id: g124
+    label: Victoria Rd @ Allison St
+    longitude: -4.2646837
+    latitude: 55.8366296
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 424
+  fields:
+    camera_id: t625
+    label: Finnieston Bridge @ Lancefield Quay
+    longitude: -4.28157
+    latitude: 55.8577523
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 425
+  fields:
+    camera_id: t628
+    label: Gallowgate @ High St(cam2)
+    longitude: -4.243575
+    latitude: 55.85681
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 426
+  fields:
+    camera_id: t63
+    label: George Square @ South Hanover St.
+    longitude: -4.2502634
+    latitude: 55.8607864
+    groups:
+      - 1
+- model: cctv_records.cameras
+  pk: 427
+  fields:
+    camera_id: t71
+    label: "Argyle St @ Jamaica St. "
+    longitude: -4.2568268
+    latitude: 55.8583563
+    groups:
+      - 1

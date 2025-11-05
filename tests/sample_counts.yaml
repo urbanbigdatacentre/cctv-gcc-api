@@ -1,0 +1,2400 @@
+- model: cctv_records.camerarecords
+  pk: 1
+  fields:
+    timestamp: 2022-03-09 19:05:30.341000+00:00
+    camera: 78
+    cars: 3
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok:
+- model: cctv_records.camerarecords
+  pk: 2
+  fields:
+    timestamp: 2022-03-09 19:05:44.211000+00:00
+    camera: 68
+    cars: 4
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: null
+- model: cctv_records.camerarecords
+  pk: 3
+  fields:
+    timestamp: 2022-03-09 19:06:07.391000+00:00
+    camera: 84
+    cars: 2
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 4
+  fields:
+    timestamp: 2022-03-09 19:07:02.662000+00:00
+    camera: 44
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 5
+  fields:
+    timestamp: 2022-03-09 19:07:16.118000+00:00
+    camera: 45
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 6
+  fields:
+    timestamp: 2022-03-09 19:07:29.544000+00:00
+    camera: 46
+    cars: 6
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 7
+  fields:
+    timestamp: 2022-03-09 19:07:42.984000+00:00
+    camera: 47
+    cars: 0
+    persons: 4
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 8
+  fields:
+    timestamp: 2022-03-09 19:07:56.412000+00:00
+    camera: 48
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 9
+  fields:
+    timestamp: 2022-03-09 19:08:37.136000+00:00
+    camera: 51
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 10
+  fields:
+    timestamp: 2022-03-09 19:08:53.785000+00:00
+    camera: 88
+    cars: 4
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 11
+  fields:
+    timestamp: 2022-03-09 19:09:07.648000+00:00
+    camera: 73
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 12
+  fields:
+    timestamp: 2022-03-09 19:09:23.757000+00:00
+    camera: 57
+    cars: 7
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 1
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 13
+  fields:
+    timestamp: 2022-03-09 20:05:18.045000+00:00
+    camera: 57
+    cars: 6
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 14
+  fields:
+    timestamp: 2022-03-09 20:05:32.026000+00:00
+    camera: 78
+    cars: 6
+    persons: 0
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 15
+  fields:
+    timestamp: 2022-03-09 20:05:45.487000+00:00
+    camera: 68
+    cars: 4
+    persons: 6
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 16
+  fields:
+    timestamp: 2022-03-09 20:06:09.488000+00:00
+    camera: 84
+    cars: 3
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 17
+  fields:
+    timestamp: 2022-03-09 20:06:35.837000+00:00
+    camera: 83
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 18
+  fields:
+    timestamp: 2022-03-09 20:07:28.716000+00:00
+    camera: 45
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 19
+  fields:
+    timestamp: 2022-03-09 20:07:42.386000+00:00
+    camera: 46
+    cars: 0
+    persons: 4
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 20
+  fields:
+    timestamp: 2022-03-09 20:07:55.817000+00:00
+    camera: 47
+    cars: 0
+    persons: 2
+    bicycles: 3
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 21
+  fields:
+    timestamp: 2022-03-09 20:08:09.228000+00:00
+    camera: 48
+    cars: 0
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 22
+  fields:
+    timestamp: 2022-03-09 20:08:49.951000+00:00
+    camera: 51
+    cars: 2
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 23
+  fields:
+    timestamp: 2022-03-09 20:09:03.621000+00:00
+    camera: 88
+    cars: 7
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 24
+  fields:
+    timestamp: 2022-03-09 20:09:17.599000+00:00
+    camera: 73
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 25
+  fields:
+    timestamp: 2022-03-09 20:09:33.434000+00:00
+    camera: 57
+    cars: 1
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 26
+  fields:
+    timestamp: 2022-03-09 21:30:01.619000+00:00
+    camera: 58
+    cars: 0
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 27
+  fields:
+    timestamp: 2022-03-09 21:30:13.981000+00:00
+    camera: 54
+    cars: 4
+    persons: 3
+    bicycles: 2
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 28
+  fields:
+    timestamp: 2022-03-09 21:30:27.796000+00:00
+    camera: 55
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 29
+  fields:
+    timestamp: 2022-03-09 21:30:41.524000+00:00
+    camera: 82
+    cars: 7
+    persons: 5
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 30
+  fields:
+    timestamp: 2022-03-09 21:30:55.099000+00:00
+    camera: 61
+    cars: 2
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 31
+  fields:
+    timestamp: 2022-03-09 21:31:08.943000+00:00
+    camera: 80
+    cars: 4
+    persons: 6
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 2
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 32
+  fields:
+    timestamp: 2022-03-09 21:31:23.237000+00:00
+    camera: 60
+    cars: 1
+    persons: 3
+    bicycles: 5
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 33
+  fields:
+    timestamp: 2022-03-09 21:31:50.213000+00:00
+    camera: 87
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 34
+  fields:
+    timestamp: 2022-03-09 21:32:17.615000+00:00
+    camera: 70
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 35
+  fields:
+    timestamp: 2022-03-09 21:32:30.968000+00:00
+    camera: 71
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 36
+  fields:
+    timestamp: 2022-03-09 21:33:11.972000+00:00
+    camera: 65
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 37
+  fields:
+    timestamp: 2022-03-09 21:33:39.080000+00:00
+    camera: 67
+    cars: 0
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 38
+  fields:
+    timestamp: 2022-03-09 21:33:52.595000+00:00
+    camera: 62
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 39
+  fields:
+    timestamp: 2022-03-09 21:34:05.876000+00:00
+    camera: 77
+    cars: 12
+    persons: 0
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 40
+  fields:
+    timestamp: 2022-03-09 21:34:19.899000+00:00
+    camera: 56
+    cars: 15
+    persons: 2
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 41
+  fields:
+    timestamp: 2022-03-09 21:34:33.523000+00:00
+    camera: 81
+    cars: 7
+    persons: 3
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 42
+  fields:
+    timestamp: 2022-03-09 21:34:46.932000+00:00
+    camera: 79
+    cars: 4
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 43
+  fields:
+    timestamp: 2022-03-09 21:35:01.496000+00:00
+    camera: 76
+    cars: 6
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 44
+  fields:
+    timestamp: 2022-03-09 21:35:15.027000+00:00
+    camera: 57
+    cars: 2
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 45
+  fields:
+    timestamp: 2022-03-09 21:35:29.094000+00:00
+    camera: 78
+    cars: 6
+    persons: 2
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 46
+  fields:
+    timestamp: 2022-03-09 21:35:47.916000+00:00
+    camera: 84
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 47
+  fields:
+    timestamp: 2022-03-09 21:36:43.110000+00:00
+    camera: 44
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 48
+  fields:
+    timestamp: 2022-03-09 21:37:00.009000+00:00
+    camera: 45
+    cars: 0
+    persons: 4
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 49
+  fields:
+    timestamp: 2022-03-09 21:37:27.361000+00:00
+    camera: 47
+    cars: 0
+    persons: 0
+    bicycles: 1
+    trucks: 0
+    motorcycles: 1
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 50
+  fields:
+    timestamp: 2022-03-09 21:37:40.747000+00:00
+    camera: 48
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 51
+  fields:
+    timestamp: 2022-03-09 21:38:35.111000+00:00
+    camera: 88
+    cars: 3
+    persons: 0
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 52
+  fields:
+    timestamp: 2022-03-09 21:38:49.010000+00:00
+    camera: 73
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 53
+  fields:
+    timestamp: 2022-03-09 21:39:02.027000+00:00
+    camera: 57
+    cars: 6
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 54
+  fields:
+    timestamp: 2022-03-09 22:00:01.667000+00:00
+    camera: 58
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 55
+  fields:
+    timestamp: 2022-03-09 22:00:13.604000+00:00
+    camera: 54
+    cars: 0
+    persons: 0
+    bicycles: 0
+    trucks: 2
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 56
+  fields:
+    timestamp: 2022-03-09 22:00:27.458000+00:00
+    camera: 55
+    cars: 3
+    persons: 3
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 57
+  fields:
+    timestamp: 2022-03-09 22:00:41.168000+00:00
+    camera: 82
+    cars: 7
+    persons: 8
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 58
+  fields:
+    timestamp: 2022-03-09 22:00:54.820000+00:00
+    camera: 61
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 59
+  fields:
+    timestamp: 2022-03-09 22:01:08.599000+00:00
+    camera: 80
+    cars: 1
+    persons: 8
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 60
+  fields:
+    timestamp: 2022-03-09 22:01:22.209000+00:00
+    camera: 60
+    cars: 0
+    persons: 2
+    bicycles: 2
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 61
+  fields:
+    timestamp: 2022-03-09 22:01:49.222000+00:00
+    camera: 87
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 62
+  fields:
+    timestamp: 2022-03-09 22:02:16.588000+00:00
+    camera: 70
+    cars: 2
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 63
+  fields:
+    timestamp: 2022-03-09 22:02:43.564000+00:00
+    camera: 72
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 64
+  fields:
+    timestamp: 2022-03-09 22:03:11.094000+00:00
+    camera: 65
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 65
+  fields:
+    timestamp: 2022-03-09 22:03:24.409000+00:00
+    camera: 66
+    cars: 0
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 66
+  fields:
+    timestamp: 2022-03-09 22:04:04.932000+00:00
+    camera: 77
+    cars: 8
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 67
+  fields:
+    timestamp: 2022-03-09 22:04:22.084000+00:00
+    camera: 56
+    cars: 8
+    persons: 7
+    bicycles: 0
+    trucks: 3
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 68
+  fields:
+    timestamp: 2022-03-09 22:04:35.452000+00:00
+    camera: 81
+    cars: 5
+    persons: 4
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 69
+  fields:
+    timestamp: 2022-03-09 22:04:48.949000+00:00
+    camera: 79
+    cars: 3
+    persons: 4
+    bicycles: 0
+    trucks: 2
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 70
+  fields:
+    timestamp: 2022-03-09 22:05:03.762000+00:00
+    camera: 76
+    cars: 6
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 71
+  fields:
+    timestamp: 2022-03-09 22:05:17.777000+00:00
+    camera: 57
+    cars: 8
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 72
+  fields:
+    timestamp: 2022-03-09 22:05:31.272000+00:00
+    camera: 78
+    cars: 2
+    persons: 0
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 73
+  fields:
+    timestamp: 2022-03-09 22:05:44.867000+00:00
+    camera: 68
+    cars: 0
+    persons: 0
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 74
+  fields:
+    timestamp: 2022-03-09 22:07:34.679000+00:00
+    camera: 46
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 75
+  fields:
+    timestamp: 2022-03-09 22:07:48.106000+00:00
+    camera: 47
+    cars: 0
+    persons: 0
+    bicycles: 2
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 76
+  fields:
+    timestamp: 2022-03-09 22:08:42.276000+00:00
+    camera: 51
+    cars: 2
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 77
+  fields:
+    timestamp: 2022-03-09 22:08:55.860000+00:00
+    camera: 88
+    cars: 3
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 78
+  fields:
+    timestamp: 2022-03-09 22:09:21.755000+00:00
+    camera: 57
+    cars: 5
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 79
+  fields:
+    timestamp: 2022-03-09 23:30:02.335000+00:00
+    camera: 58
+    cars: 0
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 80
+  fields:
+    timestamp: 2022-03-09 23:30:17.268000+00:00
+    camera: 54
+    cars: 2
+    persons: 1
+    bicycles: 1
+    trucks: 2
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 81
+  fields:
+    timestamp: 2022-03-09 23:30:33.706000+00:00
+    camera: 55
+    cars: 2
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 82
+  fields:
+    timestamp: 2022-03-09 23:30:47.264000+00:00
+    camera: 82
+    cars: 9
+    persons: 5
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 83
+  fields:
+    timestamp: 2022-03-09 23:31:00.926000+00:00
+    camera: 61
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 84
+  fields:
+    timestamp: 2022-03-09 23:31:14.722000+00:00
+    camera: 80
+    cars: 0
+    persons: 4
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 85
+  fields:
+    timestamp: 2022-03-09 23:31:28.233000+00:00
+    camera: 60
+    cars: 0
+    persons: 0
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 86
+  fields:
+    timestamp: 2022-03-09 23:31:56.014000+00:00
+    camera: 87
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 87
+  fields:
+    timestamp: 2022-03-09 23:32:23.621000+00:00
+    camera: 70
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 88
+  fields:
+    timestamp: 2022-03-09 23:32:36.715000+00:00
+    camera: 71
+    cars: 1
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 89
+  fields:
+    timestamp: 2022-03-09 23:33:17.148000+00:00
+    camera: 65
+    cars: 0
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 90
+  fields:
+    timestamp: 2022-03-09 23:33:57.840000+00:00
+    camera: 62
+    cars: 0
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 91
+  fields:
+    timestamp: 2022-03-09 23:34:11.667000+00:00
+    camera: 77
+    cars: 2
+    persons: 2
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 92
+  fields:
+    timestamp: 2022-03-09 23:34:25.716000+00:00
+    camera: 56
+    cars: 9
+    persons: 0
+    bicycles: 0
+    trucks: 2
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 93
+  fields:
+    timestamp: 2022-03-09 23:34:39.235000+00:00
+    camera: 81
+    cars: 8
+    persons: 0
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 94
+  fields:
+    timestamp: 2022-03-09 23:34:52.691000+00:00
+    camera: 79
+    cars: 3
+    persons: 4
+    bicycles: 0
+    trucks: 3
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 95
+  fields:
+    timestamp: 2022-03-09 23:35:06.580000+00:00
+    camera: 76
+    cars: 5
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 96
+  fields:
+    timestamp: 2022-03-09 23:35:34.042000+00:00
+    camera: 78
+    cars: 3
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 97
+  fields:
+    timestamp: 2022-03-09 23:36:20.407000+00:00
+    camera: 84
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 98
+  fields:
+    timestamp: 2022-03-09 23:37:55.474000+00:00
+    camera: 47
+    cars: 1
+    persons: 0
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 99
+  fields:
+    timestamp: 2022-03-09 23:38:32.832000+00:00
+    camera: 50
+    cars: 1
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 100
+  fields:
+    timestamp: 2022-03-09 23:39:27.076000+00:00
+    camera: 57
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 101
+  fields:
+    timestamp: 2019-11-30 04:30:01.428000+00:00
+    camera: 52
+    cars: 2
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 102
+  fields:
+    timestamp: 2019-11-30 04:30:01.431000+00:00
+    camera: 54
+    cars: 5
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 103
+  fields:
+    timestamp: 2019-11-30 04:30:01.437000+00:00
+    camera: 53
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 104
+  fields:
+    timestamp: 2019-11-30 04:30:01.441000+00:00
+    camera: 55
+    cars: 2
+    persons: 2
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 105
+  fields:
+    timestamp: 2019-11-11 10:00:01.449000+00:00
+    camera: 54
+    cars: 1
+    persons: 5
+    bicycles: 1
+    trucks: 2
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 106
+  fields:
+    timestamp: 2019-11-11 10:00:01.450000+00:00
+    camera: 52
+    cars: 3
+    persons: 10
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 107
+  fields:
+    timestamp: 2019-11-11 10:00:01.457000+00:00
+    camera: 53
+    cars: 2
+    persons: 9
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 108
+  fields:
+    timestamp: 2019-12-02 16:45:01.725000+00:00
+    camera: 52
+    cars: 1
+    persons: 8
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 109
+  fields:
+    timestamp: 2019-12-02 16:45:01.726000+00:00
+    camera: 53
+    cars: 0
+    persons: 10
+    bicycles: 2
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 110
+  fields:
+    timestamp: 2019-12-02 16:45:01.726000+00:00
+    camera: 54
+    cars: 4
+    persons: 7
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 111
+  fields:
+    timestamp: 2019-12-02 16:45:01.728000+00:00
+    camera: 55
+    cars: 5
+    persons: 3
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 112
+  fields:
+    timestamp: 2019-11-07 08:30:01.715000+00:00
+    camera: 52
+    cars: 5
+    persons: 13
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 113
+  fields:
+    timestamp: 2019-11-07 08:30:01.715000+00:00
+    camera: 53
+    cars: 2
+    persons: 12
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 114
+  fields:
+    timestamp: 2019-11-07 08:30:01.715000+00:00
+    camera: 54
+    cars: 4
+    persons: 4
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 115
+  fields:
+    timestamp: 2019-11-11 16:15:01.596000+00:00
+    camera: 52
+    cars: 3
+    persons: 15
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 116
+  fields:
+    timestamp: 2019-11-11 16:15:01.606000+00:00
+    camera: 54
+    cars: 4
+    persons: 10
+    bicycles: 9
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 117
+  fields:
+    timestamp: 2019-11-11 16:15:01.614000+00:00
+    camera: 53
+    cars: 1
+    persons: 12
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 118
+  fields:
+    timestamp: 2019-11-07 03:30:02.042000+00:00
+    camera: 52
+    cars: 2
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 119
+  fields:
+    timestamp: 2019-11-07 03:30:02.042000+00:00
+    camera: 53
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 120
+  fields:
+    timestamp: 2019-11-07 03:30:02.063000+00:00
+    camera: 54
+    cars: 3
+    persons: 3
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 121
+  fields:
+    timestamp: 2019-11-11 13:45:01.745000+00:00
+    camera: 52
+    cars: 1
+    persons: 10
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 122
+  fields:
+    timestamp: 2019-11-11 13:45:01.753000+00:00
+    camera: 53
+    cars: 1
+    persons: 6
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 123
+  fields:
+    timestamp: 2019-11-11 13:45:01.753000+00:00
+    camera: 54
+    cars: 4
+    persons: 8
+    bicycles: 7
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 124
+  fields:
+    timestamp: 2019-11-29 20:15:01.437000+00:00
+    camera: 52
+    cars: 3
+    persons: 17
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 125
+  fields:
+    timestamp: 2019-11-29 20:15:01.444000+00:00
+    camera: 53
+    cars: 1
+    persons: 13
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 126
+  fields:
+    timestamp: 2019-11-29 20:15:01.444000+00:00
+    camera: 54
+    cars: 5
+    persons: 7
+    bicycles: 3
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 127
+  fields:
+    timestamp: 2019-11-29 20:15:01.445000+00:00
+    camera: 55
+    cars: 3
+    persons: 3
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 128
+  fields:
+    timestamp: 2019-11-18 06:15:01.492000+00:00
+    camera: 54
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 129
+  fields:
+    timestamp: 2019-11-18 06:15:01.492000+00:00
+    camera: 55
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 130
+  fields:
+    timestamp: 2019-11-18 06:15:01.499000+00:00
+    camera: 52
+    cars: 2
+    persons: 3
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 131
+  fields:
+    timestamp: 2019-11-18 06:15:01.500000+00:00
+    camera: 53
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 132
+  fields:
+    timestamp: 2019-11-08 18:30:01.739000+00:00
+    camera: 53
+    cars: 2
+    persons: 9
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 133
+  fields:
+    timestamp: 2019-11-08 18:30:01.739000+00:00
+    camera: 54
+    cars: 5
+    persons: 14
+    bicycles: 3
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 134
+  fields:
+    timestamp: 2019-11-08 18:30:01.740000+00:00
+    camera: 52
+    cars: 4
+    persons: 14
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 135
+  fields:
+    timestamp: 2019-11-29 08:00:02.375000+00:00
+    camera: 52
+    cars: 5
+    persons: 13
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 136
+  fields:
+    timestamp: 2019-11-29 08:00:02.383000+00:00
+    camera: 53
+    cars: 3
+    persons: 6
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 137
+  fields:
+    timestamp: 2019-11-29 08:00:02.383000+00:00
+    camera: 54
+    cars: 4
+    persons: 4
+    bicycles: 0
+    trucks: 2
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 138
+  fields:
+    timestamp: 2019-11-29 08:00:02.383000+00:00
+    camera: 55
+    cars: 1
+    persons: 5
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 139
+  fields:
+    timestamp: 2019-11-14 02:15:01.566000+00:00
+    camera: 52
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 140
+  fields:
+    timestamp: 2019-11-14 02:15:01.581000+00:00
+    camera: 54
+    cars: 2
+    persons: 2
+    bicycles: 4
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 141
+  fields:
+    timestamp: 2019-11-06 19:15:01.638000+00:00
+    camera: 52
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 142
+  fields:
+    timestamp: 2019-11-06 19:15:01.638000+00:00
+    camera: 54
+    cars: 4
+    persons: 7
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 143
+  fields:
+    timestamp: 2019-11-06 19:15:01.651000+00:00
+    camera: 53
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 144
+  fields:
+    timestamp: 2019-11-16 15:15:02.431000+00:00
+    camera: 52
+    cars: 5
+    persons: 12
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 145
+  fields:
+    timestamp: 2019-11-16 15:15:02.439000+00:00
+    camera: 53
+    cars: 4
+    persons: 12
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 146
+  fields:
+    timestamp: 2019-11-16 15:15:02.439000+00:00
+    camera: 54
+    cars: 3
+    persons: 5
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 147
+  fields:
+    timestamp: 2019-11-16 15:15:02.439000+00:00
+    camera: 55
+    cars: 3
+    persons: 3
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 148
+  fields:
+    timestamp: 2019-11-15 17:45:01.906000+00:00
+    camera: 52
+    cars: 3
+    persons: 14
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 2
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 149
+  fields:
+    timestamp: 2019-11-15 17:45:01.906000+00:00
+    camera: 53
+    cars: 2
+    persons: 11
+    bicycles: 0
+    trucks: 0
+    motorcycles: 1
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 150
+  fields:
+    timestamp: 2019-11-15 17:45:01.906000+00:00
+    camera: 54
+    cars: 4
+    persons: 9
+    bicycles: 5
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 151
+  fields:
+    timestamp: 2019-11-15 17:45:01.906000+00:00
+    camera: 55
+    cars: 3
+    persons: 3
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 152
+  fields:
+    timestamp: 2019-11-26 06:15:01.368000+00:00
+    camera: 53
+    cars: 0
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 153
+  fields:
+    timestamp: 2019-11-26 06:15:01.368000+00:00
+    camera: 54
+    cars: 1
+    persons: 0
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 154
+  fields:
+    timestamp: 2019-11-26 06:15:01.392000+00:00
+    camera: 52
+    cars: 1
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 155
+  fields:
+    timestamp: 2019-11-26 06:15:01.394000+00:00
+    camera: 55
+    cars: 2
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 156
+  fields:
+    timestamp: 2019-11-13 10:15:02.299000+00:00
+    camera: 53
+    cars: 2
+    persons: 7
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 157
+  fields:
+    timestamp: 2019-11-13 10:15:02.299000+00:00
+    camera: 54
+    cars: 2
+    persons: 7
+    bicycles: 3
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 158
+  fields:
+    timestamp: 2019-11-13 10:15:02.300000+00:00
+    camera: 52
+    cars: 2
+    persons: 5
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 2
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 159
+  fields:
+    timestamp: 2019-11-13 04:00:01.694000+00:00
+    camera: 53
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 160
+  fields:
+    timestamp: 2019-11-13 04:00:01.716000+00:00
+    camera: 54
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 2
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 161
+  fields:
+    timestamp: 2019-11-11 20:00:01.886000+00:00
+    camera: 52
+    cars: 4
+    persons: 5
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 162
+  fields:
+    timestamp: 2019-11-11 20:00:01.886000+00:00
+    camera: 53
+    cars: 3
+    persons: 2
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 163
+  fields:
+    timestamp: 2019-11-11 20:00:01.886000+00:00
+    camera: 54
+    cars: 1
+    persons: 4
+    bicycles: 1
+    trucks: 1
+    motorcycles: 0
+    buses: 2
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 164
+  fields:
+    timestamp: 2019-11-18 17:45:02.812000+00:00
+    camera: 52
+    cars: 3
+    persons: 11
+    bicycles: 0
+    trucks: 0
+    motorcycles: 1
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 165
+  fields:
+    timestamp: 2019-11-18 17:45:02.812000+00:00
+    camera: 53
+    cars: 1
+    persons: 8
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 166
+  fields:
+    timestamp: 2019-11-18 17:45:02.812000+00:00
+    camera: 54
+    cars: 4
+    persons: 7
+    bicycles: 3
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 167
+  fields:
+    timestamp: 2019-11-18 17:45:02.812000+00:00
+    camera: 55
+    cars: 3
+    persons: 7
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 168
+  fields:
+    timestamp: 2019-11-26 13:15:01.818000+00:00
+    camera: 52
+    cars: 2
+    persons: 10
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 2
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 169
+  fields:
+    timestamp: 2019-11-26 13:15:01.818000+00:00
+    camera: 54
+    cars: 0
+    persons: 3
+    bicycles: 7
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 170
+  fields:
+    timestamp: 2019-11-26 13:15:01.828000+00:00
+    camera: 53
+    cars: 2
+    persons: 11
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 171
+  fields:
+    timestamp: 2019-11-26 13:15:01.830000+00:00
+    camera: 55
+    cars: 1
+    persons: 6
+    bicycles: 0
+    trucks: 2
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 172
+  fields:
+    timestamp: 2019-11-29 08:45:02.069000+00:00
+    camera: 52
+    cars: 0
+    persons: 16
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 173
+  fields:
+    timestamp: 2019-11-29 08:45:02.069000+00:00
+    camera: 53
+    cars: 0
+    persons: 13
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 174
+  fields:
+    timestamp: 2019-11-29 08:45:02.069000+00:00
+    camera: 54
+    cars: 3
+    persons: 4
+    bicycles: 0
+    trucks: 2
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 175
+  fields:
+    timestamp: 2019-11-29 08:45:02.069000+00:00
+    camera: 55
+    cars: 5
+    persons: 5
+    bicycles: 0
+    trucks: 2
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 176
+  fields:
+    timestamp: 2019-11-12 16:15:01.454000+00:00
+    camera: 52
+    cars: 2
+    persons: 16
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 2
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 177
+  fields:
+    timestamp: 2019-11-12 16:15:01.470000+00:00
+    camera: 53
+    cars: 0
+    persons: 10
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 2
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 178
+  fields:
+    timestamp: 2019-11-12 16:15:01.470000+00:00
+    camera: 54
+    cars: 3
+    persons: 10
+    bicycles: 9
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 179
+  fields:
+    timestamp: 2019-11-29 10:45:01.967000+00:00
+    camera: 52
+    cars: 1
+    persons: 11
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 180
+  fields:
+    timestamp: 2019-11-29 10:45:01.967000+00:00
+    camera: 53
+    cars: 2
+    persons: 11
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 181
+  fields:
+    timestamp: 2019-11-29 10:45:01.967000+00:00
+    camera: 55
+    cars: 4
+    persons: 2
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 1
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 182
+  fields:
+    timestamp: 2019-11-15 05:15:01.201000+00:00
+    camera: 52
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 183
+  fields:
+    timestamp: 2019-11-15 05:15:01.201000+00:00
+    camera: 54
+    cars: 1
+    persons: 0
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 184
+  fields:
+    timestamp: 2019-11-15 05:15:01.209000+00:00
+    camera: 53
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 185
+  fields:
+    timestamp: 2019-11-23 11:00:01.949000+00:00
+    camera: 52
+    cars: 3
+    persons: 9
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 186
+  fields:
+    timestamp: 2019-11-23 11:00:01.949000+00:00
+    camera: 54
+    cars: 0
+    persons: 3
+    bicycles: 2
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 187
+  fields:
+    timestamp: 2019-11-23 11:00:01.973000+00:00
+    camera: 53
+    cars: 3
+    persons: 6
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 188
+  fields:
+    timestamp: 2019-11-23 11:00:01.975000+00:00
+    camera: 55
+    cars: 1
+    persons: 2
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 189
+  fields:
+    timestamp: 2019-11-16 14:15:02.171000+00:00
+    camera: 52
+    cars: 7
+    persons: 10
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 2
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 190
+  fields:
+    timestamp: 2019-11-16 14:15:02.171000+00:00
+    camera: 54
+    cars: 3
+    persons: 9
+    bicycles: 2
+    trucks: 0
+    motorcycles: 1
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 191
+  fields:
+    timestamp: 2019-11-16 14:15:02.172000+00:00
+    camera: 53
+    cars: 6
+    persons: 12
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 192
+  fields:
+    timestamp: 2019-11-16 14:15:02.173000+00:00
+    camera: 55
+    cars: 2
+    persons: 3
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 193
+  fields:
+    timestamp: 2019-12-01 09:00:01.468000+00:00
+    camera: 53
+    cars: 0
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 194
+  fields:
+    timestamp: 2019-12-01 09:00:01.468000+00:00
+    camera: 55
+    cars: 1
+    persons: 0
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 195
+  fields:
+    timestamp: 2019-12-01 09:00:01.500000+00:00
+    camera: 52
+    cars: 1
+    persons: 1
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 196
+  fields:
+    timestamp: 2019-12-01 09:00:01.543000+00:00
+    camera: 54
+    cars: 2
+    persons: 0
+    bicycles: 1
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 197
+  fields:
+    timestamp: 2019-11-07 20:00:01.609000+00:00
+    camera: 53
+    cars: 7
+    persons: 11
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 198
+  fields:
+    timestamp: 2019-11-07 20:00:01.613000+00:00
+    camera: 52
+    cars: 6
+    persons: 7
+    bicycles: 0
+    trucks: 0
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 199
+  fields:
+    timestamp: 2019-11-07 20:00:01.615000+00:00
+    camera: 54
+    cars: 7
+    persons: 5
+    bicycles: 3
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false
+- model: cctv_records.camerarecords
+  pk: 200
+  fields:
+    timestamp: 2019-11-20 01:45:02.027000+00:00
+    camera: 54
+    cars: 5
+    persons: 3
+    bicycles: 0
+    trucks: 1
+    motorcycles: 0
+    buses: 0
+    camera_ok: false

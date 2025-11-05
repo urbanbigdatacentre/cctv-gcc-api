@@ -1,0 +1,4697 @@
+{
+  "type": "FeatureCollection",
+  "name": "camera-locations",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.369443, 55.89938, 0]
+      },
+      "properties": {
+        "camera-name": "A1",
+        "camera-label": "Kelso Street @ Canal Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.374404, 55.886303, 0]
+      },
+      "properties": {
+        "camera-name": "A2",
+        "camera-label": "Dumbarton Road @ Lady-Anne Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.360267, 55.885662, 0]
+      },
+      "properties": {
+        "camera-name": "A3",
+        "camera-label": "Anniesland Road @ Kingsway Shops"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.351676, 55.879272, 0]
+      },
+      "properties": {
+        "camera-name": "A5",
+        "camera-label": "Dumbarton Road @ Balmoral Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.332124, 55.872948, 0]
+      },
+      "properties": {
+        "camera-name": "A6",
+        "camera-label": "Dumbarton Road @ Smith Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.358788, 55.890743, 0]
+      },
+      "properties": {
+        "camera-name": "A7",
+        "camera-label": "Alderman Road Shops Front"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.358088, 55.890388, 0]
+      },
+      "properties": {
+        "camera-name": "A8",
+        "camera-label": "Alderman Road Shops Rear"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.316488, 55.870602, 0]
+      },
+      "properties": {
+        "camera-name": "A9",
+        "camera-label": "Dumbarton Rd @ Meadow Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.314795, 55.86861, 0]
+      },
+      "properties": {
+        "camera-name": "A10",
+        "camera-label": "Castlebank St Opp Castlebank Crescent"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.317097, 55.868031, 0]
+      },
+      "properties": {
+        "camera-name": "A11",
+        "camera-label": "Meadowside Quay @ Meadowside Quay Sq"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.350078, 55.900539, 0]
+      },
+      "properties": {
+        "camera-name": "A12",
+        "camera-label": "Great Western Road @ Blairdardie Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.294624, 55.874577, 0]
+      },
+      "properties": {
+        "camera-name": "A13",
+        "camera-label": "Byres Rd @ Dowanside Street (North)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.294624, 55.874577, 0]
+      },
+      "properties": {
+        "camera-name": "A13P2",
+        "camera-label": "Byres Rd @ Dowanside Street (South)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.245293, 55.859432, 0]
+      },
+      "properties": {
+        "camera-name": "A21",
+        "camera-label": "Ingram Street @ Candlerigs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.241149, 55.859039, 0]
+      },
+      "properties": {
+        "camera-name": "A22",
+        "camera-label": "Ingram Street @ High Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.244346, 55.858021, 0]
+      },
+      "properties": {
+        "camera-name": "A23",
+        "camera-label": "Bell Street @ Albion Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.246326, 55.857185, 0]
+      },
+      "properties": {
+        "camera-name": "A24",
+        "camera-label": "Trongate @ Candlerigs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.244318, 55.856014, 0]
+      },
+      "properties": {
+        "camera-name": "A25",
+        "camera-label": "Saltmarket @ Parnie Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.268509, 55.856659, 0]
+      },
+      "properties": {
+        "camera-name": "A26",
+        "camera-label": "Broomielaw @ Washington St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.267323, 55.856487, 0]
+      },
+      "properties": {
+        "camera-name": "A27",
+        "camera-label": "Clyde walkway @ McAlpine St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.26433, 55.856842, 0]
+      },
+      "properties": {
+        "camera-name": "A28",
+        "camera-label": "Broomielaw @ James Watt St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.264515, 55.856628, 0]
+      },
+      "properties": {
+        "camera-name": "A29",
+        "camera-label": "Clyde Walkway @ James watt st"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.261141, 55.856316, 0]
+      },
+      "properties": {
+        "camera-name": "A30",
+        "camera-label": "clyde Walkway Rear of gala Casino"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.256511, 55.855846, 0]
+      },
+      "properties": {
+        "camera-name": "A31",
+        "camera-label": "Clydewalkway @ Dixon Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.258092, 55.856163, 0]
+      },
+      "properties": {
+        "camera-name": "A32",
+        "camera-label": "Clydewalkway Jamaica St & Oswald St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.250828, 55.854343, 0]
+      },
+      "properties": {
+        "camera-name": "A33",
+        "camera-label": "Clydewalkway @ Stockwell St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.247078, 55.85323, 0]
+      },
+      "properties": {
+        "camera-name": "A34",
+        "camera-label": "Clyde Street @ Albert Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.24344, 55.856518, 0]
+      },
+      "properties": {
+        "camera-name": "A36",
+        "camera-label": "Glasgow Cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.249499, 55.855511, 0]
+      },
+      "properties": {
+        "camera-name": "A37",
+        "camera-label": "Stockwell Street @ Howard Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.249443, 55.857471, 0]
+      },
+      "properties": {
+        "camera-name": "A38",
+        "camera-label": "Argyle Street @ Glassford St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.247935, 55.858562, 0]
+      },
+      "properties": {
+        "camera-name": "A39",
+        "camera-label": "Wilson St @ Hutcheson St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.248587, 55.859863, 0]
+      },
+      "properties": {
+        "camera-name": "A41",
+        "camera-label": "Ingram St@ Glassford Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.252536, 55.857811, 0]
+      },
+      "properties": {
+        "camera-name": "A42",
+        "camera-label": "Argyle St @ Queen Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.256069, 55.85611, 0]
+      },
+      "properties": {
+        "camera-name": "A43",
+        "camera-label": "Clyde Street @ Dixon Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.255642, 55.856785, 0]
+      },
+      "properties": {
+        "camera-name": "A44",
+        "camera-label": "Howard Street @ Dixon Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.255004, 55.858261, 0]
+      },
+      "properties": {
+        "camera-name": "A45",
+        "camera-label": "Argyle St @ Buchanan Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.257035, 55.858273, 0]
+      },
+      "properties": {
+        "camera-name": "A46",
+        "camera-label": "Argyle Street @ Jamaica Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.259151, 55.858456, 0]
+      },
+      "properties": {
+        "camera-name": "A47",
+        "camera-label": "Argyle Street @ Oswald Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.263837, 55.859894, 0]
+      },
+      "properties": {
+        "camera-name": "A48",
+        "camera-label": "Cadogan St @ Blythswood St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.260263, 55.861256, 0]
+      },
+      "properties": {
+        "camera-name": "A50",
+        "camera-label": "Bothwell Street @ Wellington St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.258577, 55.860691, 0]
+      },
+      "properties": {
+        "camera-name": "A51",
+        "camera-label": "Hope St @ Gordon Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.256851, 55.860622, 0]
+      },
+      "properties": {
+        "camera-name": "A52",
+        "camera-label": "Renfield Street @ Gordon Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.255389, 55.8605, 0]
+      },
+      "properties": {
+        "camera-name": "A53",
+        "camera-label": "West Nile St @ Gordon St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.251859, 55.859856, 0]
+      },
+      "properties": {
+        "camera-name": "A54",
+        "camera-label": "Queen St @ Royal Exchange Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.252921, 55.860432, 0]
+      },
+      "properties": {
+        "camera-name": "A55",
+        "camera-label": "Royal Exchange Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.253719, 55.861187, 0]
+      },
+      "properties": {
+        "camera-name": "A56",
+        "camera-label": "Buchanan St @ St Vincent Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.249783, 55.861633, 0]
+      },
+      "properties": {
+        "camera-name": "A57",
+        "camera-label": "George St @ North Hanover St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.253129, 55.863506, 0]
+      },
+      "properties": {
+        "camera-name": "A58 + A59",
+        "camera-label": "Buchanan St @ Bath St and Buchanan St @ Bath St (Static)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.257585, 55.864052, 0]
+      },
+      "properties": {
+        "camera-name": "A60",
+        "camera-label": "Hope St @ Bath St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.255734, 55.863674, 0]
+      },
+      "properties": {
+        "camera-name": "A61",
+        "camera-label": "Renfield Street @ Bath Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.25811, 55.862473, 0]
+      },
+      "properties": {
+        "camera-name": "A62",
+        "camera-label": "West George St @ Hope St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.254028, 55.864265, 0]
+      },
+      "properties": {
+        "camera-name": "A63",
+        "camera-label": "Sauchiehall St @ West Nile St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.257313, 55.864677, 0]
+      },
+      "properties": {
+        "camera-name": "A64",
+        "camera-label": "Sauchiehall St @ Hope St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.26037, 55.864937, 0]
+      },
+      "properties": {
+        "camera-name": "A65",
+        "camera-label": "Sauchiehall St @ Cambridge St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.264581, 55.865459, 0]
+      },
+      "properties": {
+        "camera-name": "A66",
+        "camera-label": "Sauchiehall St @ Pitt St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.268246, 55.865856, 0]
+      },
+      "properties": {
+        "camera-name": "A67",
+        "camera-label": "Sauchiehall St @ Elmbank St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.262136, 55.8638, 0]
+      },
+      "properties": {
+        "camera-name": "A68",
+        "camera-label": "West Regent St @ Blythswood Sq"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.261516, 55.862057, 0]
+      },
+      "properties": {
+        "camera-name": "A69",
+        "camera-label": "St Vincent St @ West Campbell St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.252746, 55.864895, 0]
+      },
+      "properties": {
+        "camera-name": "A71",
+        "camera-label": "Killermount St @ Bus Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.246952, 55.862804, 0]
+      },
+      "properties": {
+        "camera-name": "A72",
+        "camera-label": "Cathedral St @ John St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.240817, 55.862892, 0]
+      },
+      "properties": {
+        "camera-name": "A73",
+        "camera-label": "Cathedral St @ Taylor Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.243945, 55.86581, 0]
+      },
+      "properties": {
+        "camera-name": "A74",
+        "camera-label": "Kennedy Path Rear"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.243355, 55.86599, 0]
+      },
+      "properties": {
+        "camera-name": "A76",
+        "camera-label": "Kennedy Path Front"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.241087, 55.866093, 0]
+      },
+      "properties": {
+        "camera-name": "A77",
+        "camera-label": "Outside No 10 Glebe Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.246532, 55.865284, 0]
+      },
+      "properties": {
+        "camera-name": "A78",
+        "camera-label": "Communal Grass Area on St Mungo Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.238263, 55.862171, 0]
+      },
+      "properties": {
+        "camera-name": "A79",
+        "camera-label": "Macleod St @ Collins Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.237356, 55.864166, 0]
+      },
+      "properties": {
+        "camera-name": "A80",
+        "camera-label": "Castle Street @ Stirling Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.27691, 55.857311, 0]
+      },
+      "properties": {
+        "camera-name": "A81",
+        "camera-label": "Lancefield Quay @ Lancefield St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.26493, 55.859135, 0]
+      },
+      "properties": {
+        "camera-name": "A82",
+        "camera-label": "Argyle St @ Brown St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.270801, 55.860477, 0]
+      },
+      "properties": {
+        "camera-name": "A83",
+        "camera-label": "Argyle Street @ North Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.272134, 55.859371, 0]
+      },
+      "properties": {
+        "camera-name": "A84",
+        "camera-label": "Warroch St @ Cheapside St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.274508, 55.8601, 0]
+      },
+      "properties": {
+        "camera-name": "A85",
+        "camera-label": "Hydepark Street ( north end)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.27194, 55.856644, 0]
+      },
+      "properties": {
+        "camera-name": "A86",
+        "camera-label": "Broomielaw @ Warroch St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.263705, 55.855408, 0]
+      },
+      "properties": {
+        "camera-name": "A87",
+        "camera-label": "Tradeston@ Squiggly Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.258685, 55.860794, 0]
+      },
+      "properties": {
+        "camera-name": "A91",
+        "camera-label": "Hope Street @ Bothwell Street Nite Zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.25884, 55.860046, 0]
+      },
+      "properties": {
+        "camera-name": "A92",
+        "camera-label": "Hope St Opp Waterloo Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.256781, 55.85965, 0]
+      },
+      "properties": {
+        "camera-name": "A93",
+        "camera-label": "Union St @ Renfield St.<br><br>Relocate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.269154, 55.86615, 0]
+      },
+      "properties": {
+        "camera-name": "A94",
+        "camera-label": "Sauchiehall St @ Garage Nite Club"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.354479, 55.912102, 0]
+      },
+      "properties": {
+        "camera-name": "C1",
+        "camera-label": "Rozelle Ave @ Jedworth Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.353606, 55.91312, 0]
+      },
+      "properties": {
+        "camera-name": "C2",
+        "camera-label": "Jedworth Ave @ Jedworth Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.366572, 55.910721, 0]
+      },
+      "properties": {
+        "camera-name": "C3",
+        "camera-label": "Linkwood MSF No 39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.364759, 55.917889, 0]
+      },
+      "properties": {
+        "camera-name": "C4",
+        "camera-label": "Peel Glen Road @ Ladyloan Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.371824, 55.911129, 0]
+      },
+      "properties": {
+        "camera-name": "C5",
+        "camera-label": "Kinfauns Drive @ Hecla Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.371445, 55.910175, 0]
+      },
+      "properties": {
+        "camera-name": "C6",
+        "camera-label": "Kinfauns Drive @ Dunkenny Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.37339, 55.909866, 0]
+      },
+      "properties": {
+        "camera-name": "C7",
+        "camera-label": "Drumkenny Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.374007, 55.910755, 0]
+      },
+      "properties": {
+        "camera-name": "C8",
+        "camera-label": "Hecla Place @ Hecla Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.383502, 55.916565, 0]
+      },
+      "properties": {
+        "camera-name": "C9",
+        "camera-label": "Water Tower at Kells Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.379283, 55.916, 0]
+      },
+      "properties": {
+        "camera-name": "C10",
+        "camera-label": "Achamore Road @ Lochgoin Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.384523, 55.909412, 0]
+      },
+      "properties": {
+        "camera-name": "C11",
+        "camera-label": "Abbotshall Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.375648, 55.908665, 0]
+      },
+      "properties": {
+        "camera-name": "C12",
+        "camera-label": "Drumry Road East @Dunkenny Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.386536, 55.908485, 0]
+      },
+      "properties": {
+        "camera-name": "C13",
+        "camera-label": "Drumry Road Roundabout"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.368825, 55.911312, 0]
+      },
+      "properties": {
+        "camera-name": "C14",
+        "camera-label": "Linkwood MSF No15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.384425, 55.907547, 0]
+      },
+      "properties": {
+        "camera-name": "C15",
+        "camera-label": "Heathcot Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.359622, 55.90873, 0]
+      },
+      "properties": {
+        "camera-name": "C16",
+        "camera-label": "Glenkirk Drive @ Bellsyde Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.360715, 55.911125, 0]
+      },
+      "properties": {
+        "camera-name": "C17",
+        "camera-label": "Linkwood Drive @ Southdean Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.248077, 55.893284, 0]
+      },
+      "properties": {
+        "camera-name": "C18",
+        "camera-label": "Westray Circus @ Westray Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.356929, 55.916489, 0]
+      },
+      "properties": {
+        "camera-name": "C19",
+        "camera-label": "Summerhill Drive @ Bankglen Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.295035, 55.897274, 0]
+      },
+      "properties": {
+        "camera-name": "C21",
+        "camera-label": "Kilmun Street Opp 163 Kilmun Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.265112, 55.888824, 0]
+      },
+      "properties": {
+        "camera-name": "C22",
+        "camera-label": "Bilsland Dr @ Parkbrae Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.257429, 55.886574, 0]
+      },
+      "properties": {
+        "camera-name": "C23",
+        "camera-label": "Balmore Rd @ Bilsland Drive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.256677, 55.885281, 0]
+      },
+      "properties": {
+        "camera-name": "C24",
+        "camera-label": "Balmore Rd @ Stronend St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.254197, 55.883823, 0]
+      },
+      "properties": {
+        "camera-name": "C26",
+        "camera-label": "Saracen St @ Balmore Rd / Bardowie St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.254189, 55.882233, 0]
+      },
+      "properties": {
+        "camera-name": "C27",
+        "camera-label": "Saracen St @ Allander St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.257089, 55.883656, 0]
+      },
+      "properties": {
+        "camera-name": "C28",
+        "camera-label": "Bardowie St @ Carbeth St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.249468, 55.883804, 0]
+      },
+      "properties": {
+        "camera-name": "C29",
+        "camera-label": "Bardowie St @ Ashfield St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.242388, 55.87788, 0]
+      },
+      "properties": {
+        "camera-name": "C30",
+        "camera-label": "Keppochill Rd @ Carlisle St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.295976, 55.892628, 0]
+      },
+      "properties": {
+        "camera-name": "C31",
+        "camera-label": "Lock 22 @ Maryhill Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.272252, 55.884331, 0]
+      },
+      "properties": {
+        "camera-name": "C32",
+        "camera-label": "Ruchill Park Near Leny Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.246704, 55.898808, 0]
+      },
+      "properties": {
+        "camera-name": "C33",
+        "camera-label": "Egilsay Street @ Ronay Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.251618, 55.900814, 0]
+      },
+      "properties": {
+        "camera-name": "C34",
+        "camera-label": "Scaraway Street @ SkerrAy Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.244106, 55.900742, 0]
+      },
+      "properties": {
+        "camera-name": "C35",
+        "camera-label": "Scaraway Street @ Vallay Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.288464, 55.889584, 0]
+      },
+      "properties": {
+        "camera-name": "C36",
+        "camera-label": "Maryhill Rd @ Kelvindale Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.284792, 55.886757, 0]
+      },
+      "properties": {
+        "camera-name": "C37",
+        "camera-label": "Maryhill Rd @ Shakespeare St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.272127, 55.880135, 0]
+      },
+      "properties": {
+        "camera-name": "C38",
+        "camera-label": "Maryhill Rd @ Garscube Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.270961, 55.875053, 0]
+      },
+      "properties": {
+        "camera-name": "C39",
+        "camera-label": "Maryhill Rd @ Northwoodside Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.294467, 55.890186, 0]
+      },
+      "properties": {
+        "camera-name": "C40",
+        "camera-label": "Gairbraid Ave @ Guthrie Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.273712, 55.88802, 0]
+      },
+      "properties": {
+        "camera-name": "C41",
+        "camera-label": "Mayfield St @ Ruchill St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.273552, 55.88744, 0]
+      },
+      "properties": {
+        "camera-name": "C42",
+        "camera-label": "Bilsland Drive @ Mayfield St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.274882, 55.889694, 0]
+      },
+      "properties": {
+        "camera-name": "C43",
+        "camera-label": "Brassey St @ Curzon St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2712931, 55.8675055, 0]
+      },
+      "properties": {
+        "camera-name": "C61CAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.270928, 55.8630859, 0]
+      },
+      "properties": {
+        "camera-name": "C62CAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.250296, 55.8608003, 0]
+      },
+      "properties": {
+        "camera-name": "C63CAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2642516, 55.8623898, 0]
+      },
+      "properties": {
+        "camera-name": "C64CAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2573792, 55.8640371, 0]
+      },
+      "properties": {
+        "camera-name": "C65CAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2586282, 55.8610157, 0]
+      },
+      "properties": {
+        "camera-name": "C66CAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.259575, 55.856453, 0]
+      },
+      "properties": {
+        "camera-name": "C67CAM",
+        "camera-label": "Broomielaw @ Oswald St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.365987, 55.916008, 0]
+      },
+      "properties": {
+        "camera-name": "C106",
+        "camera-label": "Kinfauns Drive @ Peel Glen Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.363566, 55.906403, 0]
+      },
+      "properties": {
+        "camera-name": "C107",
+        "camera-label": "Garscadden Road @ Old Drumchapel Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.25019, 55.895317, 0]
+      },
+      "properties": {
+        "camera-name": "C112",
+        "camera-label": "Ronaldsay Street Opp No 13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.251117, 55.896969, 0]
+      },
+      "properties": {
+        "camera-name": "C113",
+        "camera-label": "Liddlesdale Road Opp No 185"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.243116, 55.884563, 0]
+      },
+      "properties": {
+        "camera-name": "C114",
+        "camera-label": "Torr St @ Carlisle St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.240675, 55.878971, 0]
+      },
+      "properties": {
+        "camera-name": "C115",
+        "camera-label": "Endrick St @ Keppochill Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.281793, 55.899117, 0]
+      },
+      "properties": {
+        "camera-name": "C116",
+        "camera-label": "St Kentigerns Cemetery @ Tresta Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.124237, 55.867912, 0]
+      },
+      "properties": {
+        "camera-name": "E48",
+        "camera-label": "Fire Station Westerhouse Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.13845, 55.868237, 0]
+      },
+      "properties": {
+        "camera-name": "E112",
+        "camera-label": "Easter Queenslie Road @ Footpath"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.134633, 55.867386, 0]
+      },
+      "properties": {
+        "camera-name": "E111",
+        "camera-label": "Rear of Refuse Dump"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.143959, 55.866756, 0]
+      },
+      "properties": {
+        "camera-name": "E114",
+        "camera-label": "Penston Road @ Blairtummock Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.14194, 55.864258, 0]
+      },
+      "properties": {
+        "camera-name": "E115",
+        "camera-label": "Dunivaig Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.138093, 55.863678, 0]
+      },
+      "properties": {
+        "camera-name": "E130",
+        "camera-label": "Bartiebeith Road @ Easter Queenslie Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.176431, 55.866989, 0]
+      },
+      "properties": {
+        "camera-name": "E121",
+        "camera-label": "Bellrock Street @ Ruchazie Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.168464, 55.865631, 0]
+      },
+      "properties": {
+        "camera-name": "E122",
+        "camera-label": "Bellrock Street @ Startpoint Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.16377, 55.867779, 0]
+      },
+      "properties": {
+        "camera-name": "E123",
+        "camera-label": "Longstone Road @ Longstone Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.16176, 55.862728, 0]
+      },
+      "properties": {
+        "camera-name": "E124",
+        "camera-label": "Crowlin Crescent @ Gantock Crescent"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.162016, 55.865555, 0]
+      },
+      "properties": {
+        "camera-name": "E125",
+        "camera-label": "Bellrock Street @ Skerryvore Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.15578, 55.866737, 0]
+      },
+      "properties": {
+        "camera-name": "E126",
+        "camera-label": "Bellrock Street @ Stepps Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.170746, 55.871796, 0]
+      },
+      "properties": {
+        "camera-name": "E127",
+        "camera-label": "Gartloch Road @ Elibank Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.138238, 55.866627, 0]
+      },
+      "properties": {
+        "camera-name": "E116",
+        "camera-label": "Easter Queenslie Rd @ Blairtummock Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.140867, 55.861515, 0]
+      },
+      "properties": {
+        "camera-name": "E131",
+        "camera-label": "Edinburgh Road @ Inver Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.13623, 55.861313, 0]
+      },
+      "properties": {
+        "camera-name": "E133",
+        "camera-label": "Wellhouse Crescent @ Dunan Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.132997, 55.859306, 0]
+      },
+      "properties": {
+        "camera-name": "E134",
+        "camera-label": "Edinburgh Road Opposite Aultmore Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.127364, 55.858284, 0]
+      },
+      "properties": {
+        "camera-name": "E135",
+        "camera-label": "Edinburgh Rd @Stepford Sports Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.130886, 55.855431, 0]
+      },
+      "properties": {
+        "camera-name": "E136",
+        "camera-label": "Pendeen Road @ Garlieston Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.129583, 55.860943, 0]
+      },
+      "properties": {
+        "camera-name": "E138",
+        "camera-label": "Wellhouse Road @ Wardie Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.130216, 55.864427, 0]
+      },
+      "properties": {
+        "camera-name": "E139",
+        "camera-label": "Wellhouse Road @ Baldovan Crescent"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.115211, 55.868683, 0]
+      },
+      "properties": {
+        "camera-name": "E142",
+        "camera-label": "Westerhouse Road @ Aberdalgie Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.111497, 55.870567, 0]
+      },
+      "properties": {
+        "camera-name": "E143",
+        "camera-label": "Lochend Road Near To Baldragon Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.104469, 55.870445, 0]
+      },
+      "properties": {
+        "camera-name": "E144",
+        "camera-label": "Lochend Road @ Drumlanrig Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.101419, 55.871738, 0]
+      },
+      "properties": {
+        "camera-name": "E145",
+        "camera-label": "Lochend Road @ Dalilea Drive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.097297, 55.868622, 0]
+      },
+      "properties": {
+        "camera-name": "E147",
+        "camera-label": "Lochend Road @ Dalilea Drive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.102283, 55.864677, 0]
+      },
+      "properties": {
+        "camera-name": "E148",
+        "camera-label": "Lochdochart @ Dalswinton Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.107092, 55.864792, 0]
+      },
+      "properties": {
+        "camera-name": "E150",
+        "camera-label": "Easterhouse Road @ Lochdochart Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.103584, 55.865528, 0]
+      },
+      "properties": {
+        "camera-name": "E149",
+        "camera-label": "Dalswinton Street @ Dalswinton Path"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.114333, 55.8675, 0]
+      },
+      "properties": {
+        "camera-name": "E151",
+        "camera-label": "Duntarvie Road @ Duntarvie Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.11354, 55.865719, 0]
+      },
+      "properties": {
+        "camera-name": "E152",
+        "camera-label": "Aberdalgie Road @ Boyndie Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.108028, 55.862217, 0]
+      },
+      "properties": {
+        "camera-name": "E153",
+        "camera-label": "Easterhouse Road @ Rogerfield Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.140765, 55.867424, 0]
+      },
+      "properties": {
+        "camera-name": "E113",
+        "camera-label": "Carmaben Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.123805, 55.853264, 0]
+      },
+      "properties": {
+        "camera-name": "E49",
+        "camera-label": "Garrowhill Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.186963, 55.852329, 0]
+      },
+      "properties": {
+        "camera-name": "E50",
+        "camera-label": "Westmuir Street @ Beardmore Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.183293, 55.842453, 0]
+      },
+      "properties": {
+        "camera-name": "E51",
+        "camera-label": "Rattray Street @ Potters Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.22465, 55.844082, 0]
+      },
+      "properties": {
+        "camera-name": "E56",
+        "camera-label": "Reid Street @ Franklin Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.224572, 55.846745, 0]
+      },
+      "properties": {
+        "camera-name": "E57",
+        "camera-label": "Reid Street @ Muslin Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.225922, 55.849126, 0]
+      },
+      "properties": {
+        "camera-name": "E58",
+        "camera-label": "London Rd @ Bridgeton Cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.226577, 55.848701, 0]
+      },
+      "properties": {
+        "camera-name": "E59",
+        "camera-label": "London Rd @ Bridgeton Cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.227511, 55.8536, 0]
+      },
+      "properties": {
+        "camera-name": "E61",
+        "camera-label": "Abercromby Street @ Millroad Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.23166, 55.853848, 0]
+      },
+      "properties": {
+        "camera-name": "E62",
+        "camera-label": "Green Street @  Moncur St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.23043, 55.852692, 0]
+      },
+      "properties": {
+        "camera-name": "E63",
+        "camera-label": "Stevenson Street @ Tobago Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.23387, 55.85339, 0]
+      },
+      "properties": {
+        "camera-name": "E64",
+        "camera-label": "Stevenson Street @ Claythorn Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.232893, 55.85479, 0]
+      },
+      "properties": {
+        "camera-name": "E65",
+        "camera-label": "Claythorn St @ Millroad St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.211621, 55.841866, 0]
+      },
+      "properties": {
+        "camera-name": "E66",
+        "camera-label": "Springfield Rd @ Sunnybank St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.235223, 55.855267, 0]
+      },
+      "properties": {
+        "camera-name": "E67",
+        "camera-label": "Gallowgate @ Bain Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.224466, 55.858154, 0]
+      },
+      "properties": {
+        "camera-name": "E69",
+        "camera-label": "Duke Street @ Bellgrove Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.219268, 55.858452, 0]
+      },
+      "properties": {
+        "camera-name": "E70",
+        "camera-label": "Duke Street @ Whitehill Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.213726, 55.858425, 0]
+      },
+      "properties": {
+        "camera-name": "E71",
+        "camera-label": "Duke Street @ Millerston Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.222461, 55.856968, 0]
+      },
+      "properties": {
+        "camera-name": "E72",
+        "camera-label": "Sword Street @ Reidvale Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.222902, 55.856232, 0]
+      },
+      "properties": {
+        "camera-name": "E73",
+        "camera-label": "Sword St Opp No 50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.220536, 55.855457, 0]
+      },
+      "properties": {
+        "camera-name": "E74",
+        "camera-label": "Comleypark Street @ Malvern Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.215993, 55.855804, 0]
+      },
+      "properties": {
+        "camera-name": "E75",
+        "camera-label": "Whitevale MSF South"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.216368, 55.855869, 0]
+      },
+      "properties": {
+        "camera-name": "E76",
+        "camera-label": "Whitevale MSF North"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.215786, 55.864773, 0]
+      },
+      "properties": {
+        "camera-name": "E77",
+        "camera-label": "Armadale Path @ Armadale Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.214214, 55.863361, 0]
+      },
+      "properties": {
+        "camera-name": "E78",
+        "camera-label": "Alexandra Parade @ Meadowpark Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.213848, 55.866177, 0]
+      },
+      "properties": {
+        "camera-name": "E79",
+        "camera-label": "Viewpark Avenue @ M8 Westbound On Ramp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.210308, 55.863079, 0]
+      },
+      "properties": {
+        "camera-name": "E80",
+        "camera-label": "Alexandra Parade @  Train Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.207845, 55.861626, 0]
+      },
+      "properties": {
+        "camera-name": "E81",
+        "camera-label": "Walter Street @ Appin Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.202358, 55.861191, 0]
+      },
+      "properties": {
+        "camera-name": "E82",
+        "camera-label": "Walter Street @ Aberfoyle Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.210449, 55.853626, 0]
+      },
+      "properties": {
+        "camera-name": "E83",
+        "camera-label": "Gallowgate @ Retail Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.211642, 55.850651, 0]
+      },
+      "properties": {
+        "camera-name": "E84",
+        "camera-label": "Stamford Street @ Law Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.213822, 55.849594, 0]
+      },
+      "properties": {
+        "camera-name": "E85",
+        "camera-label": "Barrowfield Street @ Frazer Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.222549, 55.846733, 0]
+      },
+      "properties": {
+        "camera-name": "E86",
+        "camera-label": "Queen Mary St @ Dalmarnock Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.221715, 55.848392, 0]
+      },
+      "properties": {
+        "camera-name": "E88",
+        "camera-label": "Heron St @ Baltic Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.221747, 55.849022, 0]
+      },
+      "properties": {
+        "camera-name": "E89",
+        "camera-label": "Bernard Terrace @ London Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.220416, 55.846996, 0]
+      },
+      "properties": {
+        "camera-name": "E90",
+        "camera-label": "Baltic Street Multi Story Flats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.195525, 55.852009, 0]
+      },
+      "properties": {
+        "camera-name": "E91",
+        "camera-label": "Salamanca St @ Parkhead Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.202173, 55.847706, 0]
+      },
+      "properties": {
+        "camera-name": "E92",
+        "camera-label": "Springfield Cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.199455, 55.847591, 0]
+      },
+      "properties": {
+        "camera-name": "E93",
+        "camera-label": "Helenvale MSF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.196286, 55.84568, 0]
+      },
+      "properties": {
+        "camera-name": "E94",
+        "camera-label": "London Rd @ Canmore Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.19257, 55.844952, 0]
+      },
+      "properties": {
+        "camera-name": "E96",
+        "camera-label": "Glenisla Street @ Methven Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.188417, 55.844231, 0]
+      },
+      "properties": {
+        "camera-name": "E97",
+        "camera-label": "Maukinfauld Road @ Rattray Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.190981, 55.849049, 0]
+      },
+      "properties": {
+        "camera-name": "E98",
+        "camera-label": "Tollcross Road @ Crail Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.193205, 55.850693, 0]
+      },
+      "properties": {
+        "camera-name": "E99",
+        "camera-label": "Powfoot St @ Beatock St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.189747, 55.850094, 0]
+      },
+      "properties": {
+        "camera-name": "E100",
+        "camera-label": "Pharonhill Street @ Quarrybrae Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.19891, 55.84927, 0]
+      },
+      "properties": {
+        "camera-name": "E101",
+        "camera-label": "Burgher Street @ Dechmont Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.197366, 55.851154, 0]
+      },
+      "properties": {
+        "camera-name": "E102",
+        "camera-label": "Parkhead Cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.193989, 55.851654, 0]
+      },
+      "properties": {
+        "camera-name": "E103",
+        "camera-label": "Westmuir Street @ Sorby Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.183569, 55.852844, 0]
+      },
+      "properties": {
+        "camera-name": "E104",
+        "camera-label": "Old Shettleston Rd @ Shettleston Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.189911, 55.857121, 0]
+      },
+      "properties": {
+        "camera-name": "E105",
+        "camera-label": "Rigby Street @ Moorfoot Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.19004, 55.859856, 0]
+      },
+      "properties": {
+        "camera-name": "E106",
+        "camera-label": "Carntyne Road @ Glencorse Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.17428, 55.852692, 0]
+      },
+      "properties": {
+        "camera-name": "E107",
+        "camera-label": "Darleith Street @ Denbeck Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.172873, 55.851784, 0]
+      },
+      "properties": {
+        "camera-name": "E108",
+        "camera-label": "Shettleston Rd @ Kenmore Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.171798, 55.851147, 0]
+      },
+      "properties": {
+        "camera-name": "E109",
+        "camera-label": "South Vesalius Street @  Pettigrew Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.1859, 55.851452, 0]
+      },
+      "properties": {
+        "camera-name": "E110",
+        "camera-label": "Caroline Street @ Quarryknowe Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.175965, 55.844185, 0]
+      },
+      "properties": {
+        "camera-name": "E117",
+        "camera-label": "Tollcross Road @ Wellshot Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.176912, 55.8428, 0]
+      },
+      "properties": {
+        "camera-name": "E118",
+        "camera-label": "Braidfauld Street @ Dunira Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.214316, 55.845577, 0]
+      },
+      "properties": {
+        "camera-name": "E156",
+        "camera-label": "Nuneaton Street @ Boden Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.229904, 55.869625, 0]
+      },
+      "properties": {
+        "camera-name": "E21",
+        "camera-label": "Royston Road @ Gadshill Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.226907, 55.870155, 0]
+      },
+      "properties": {
+        "camera-name": "E22",
+        "camera-label": "Royston Road  @ Provanhill Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.222826, 55.870735, 0]
+      },
+      "properties": {
+        "camera-name": "E23",
+        "camera-label": "Royston Road @ Brodick Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.224604, 55.87183, 0]
+      },
+      "properties": {
+        "camera-name": "E24",
+        "camera-label": "Charles Street @ Garnock Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.22076, 55.870125, 0]
+      },
+      "properties": {
+        "camera-name": "E25",
+        "camera-label": "Roystonhill @ Dunolly Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.225824, 55.868534, 0]
+      },
+      "properties": {
+        "camera-name": "E26",
+        "camera-label": "Roystonhill @ Thrasis Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2242, 55.867424, 0]
+      },
+      "properties": {
+        "camera-name": "E27",
+        "camera-label": "40 Rosemount Street MSF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.218226, 55.869156, 0]
+      },
+      "properties": {
+        "camera-name": "E28",
+        "camera-label": "Cloverbank Street @ Sandmill Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.22971, 55.867058, 0]
+      },
+      "properties": {
+        "camera-name": "E29",
+        "camera-label": "James Nesbit Street @ No 101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.231055, 55.866688, 0]
+      },
+      "properties": {
+        "camera-name": "E30",
+        "camera-label": "7 James Nesbit Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.21012, 55.874729, 0]
+      },
+      "properties": {
+        "camera-name": "E31",
+        "camera-label": "Stroma Street @ Forge Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.206653, 55.875969, 0]
+      },
+      "properties": {
+        "camera-name": "E32",
+        "camera-label": "Forge Street @ Forge Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.194375, 55.878548, 0]
+      },
+      "properties": {
+        "camera-name": "E33",
+        "camera-label": "Royston Road @  Provanmill Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.19139, 55.876308, 0]
+      },
+      "properties": {
+        "camera-name": "E34",
+        "camera-label": "Opposite 247 Provanmill Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.192589, 55.875797, 0]
+      },
+      "properties": {
+        "camera-name": "E35",
+        "camera-label": "Hogganfield Street @ Queenslie Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.205886, 55.881458, 0]
+      },
+      "properties": {
+        "camera-name": "E36",
+        "camera-label": "Broomfield Road @ Roundabout"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.207705, 55.882347, 0]
+      },
+      "properties": {
+        "camera-name": "E37",
+        "camera-label": "All Saints Church Broomfield Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.203802, 55.881336, 0]
+      },
+      "properties": {
+        "camera-name": "E38",
+        "camera-label": "Birnie Road @ Birnie Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.202224, 55.89193, 0]
+      },
+      "properties": {
+        "camera-name": "E39",
+        "camera-label": "Wallacewell Road @ Northgate Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.206209, 55.896633, 0]
+      },
+      "properties": {
+        "camera-name": "E40",
+        "camera-label": "Broomton Road @ Northgate Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.202678, 55.897202, 0]
+      },
+      "properties": {
+        "camera-name": "E41",
+        "camera-label": "59 Broomton Road @ Shops"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.229178, 55.883568, 0]
+      },
+      "properties": {
+        "camera-name": "E42",
+        "camera-label": "Springburn Way @ Carleston Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.231889, 55.881844, 0]
+      },
+      "properties": {
+        "camera-name": "E43",
+        "camera-label": "Atlas Road @ Angus Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.234595, 55.886215, 0]
+      },
+      "properties": {
+        "camera-name": "E44",
+        "camera-label": "Hawthorn Street @ Fernbank St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.237345, 55.886703, 0]
+      },
+      "properties": {
+        "camera-name": "E45",
+        "camera-label": "Hawthorn Street @ Memel St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.239053, 55.887211, 0]
+      },
+      "properties": {
+        "camera-name": "E46",
+        "camera-label": "Hawthorn Street @ Blackthorn St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.231202, 55.892731, 0]
+      },
+      "properties": {
+        "camera-name": "E47",
+        "camera-label": "Galloway Street @ Cairn Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.369761, 55.853634, 0]
+      },
+      "properties": {
+        "camera-name": "G01",
+        "camera-label": "Barshaw Rd @ Deanfield Quad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.370167, 55.851295, 0]
+      },
+      "properties": {
+        "camera-name": "G02",
+        "camera-label": "Gleddoch Road @ Rosshill Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.375111, 55.851795, 0]
+      },
+      "properties": {
+        "camera-name": "G03",
+        "camera-label": "Gleddoch Road @ Craigmuir Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.374757, 55.852642, 0]
+      },
+      "properties": {
+        "camera-name": "G04",
+        "camera-label": "Craigmuir Rd @ Craigmuir Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.37472, 55.853626, 0]
+      },
+      "properties": {
+        "camera-name": "G05",
+        "camera-label": "Barshaw Rd @ Craigmuir Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.362984, 55.847771, 0]
+      },
+      "properties": {
+        "camera-name": "G06",
+        "camera-label": "Sandwood Road @ Penneld Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.370063, 55.848125, 0]
+      },
+      "properties": {
+        "camera-name": "G07",
+        "camera-label": "Selvieland Rd @ Kelhead Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.363905, 55.852062, 0]
+      },
+      "properties": {
+        "camera-name": "G08",
+        "camera-label": "Sandwood Road @ Bowfield Dr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.345196, 55.847816, 0]
+      },
+      "properties": {
+        "camera-name": "G09",
+        "camera-label": "Redpath Dr @ Belses Dr MSF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.354209, 55.836651, 0]
+      },
+      "properties": {
+        "camera-name": "G10",
+        "camera-label": "Potterhill Rd @ Lyoncross Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.348281, 55.829533, 0]
+      },
+      "properties": {
+        "camera-name": "G11",
+        "camera-label": "Levernside Road @ Shops"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.351378, 55.830433, 0]
+      },
+      "properties": {
+        "camera-name": "G12",
+        "camera-label": "Brockburn Rd. between 95 & 10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.348759, 55.826141, 0]
+      },
+      "properties": {
+        "camera-name": "G13",
+        "camera-label": "Brockburn Cres @ Netherplace Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.35263, 55.830177, 0]
+      },
+      "properties": {
+        "camera-name": "G14",
+        "camera-label": "Leithland Road @ Kempsthorn Crescent"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.345373, 55.824043, 0]
+      },
+      "properties": {
+        "camera-name": "G15",
+        "camera-label": "Barrhead Rd @ Peat Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.345922, 55.822075, 0]
+      },
+      "properties": {
+        "camera-name": "G16",
+        "camera-label": "Cowglen Rd @ Househillmuir Cres."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.299122, 55.848042, 0]
+      },
+      "properties": {
+        "camera-name": "G17",
+        "camera-label": "Gower Terrace @ Bellahouston Academy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.359782, 55.812851, 0]
+      },
+      "properties": {
+        "camera-name": "G21",
+        "camera-label": "Nitshill Road @ Shops"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.36107, 55.814564, 0]
+      },
+      "properties": {
+        "camera-name": "G22",
+        "camera-label": "Nitshill Road @ Peat Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.322616, 55.810688, 0]
+      },
+      "properties": {
+        "camera-name": "G23",
+        "camera-label": "Boydstone Rd @ Crebar St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.325318, 55.812332, 0]
+      },
+      "properties": {
+        "camera-name": "G24",
+        "camera-label": "Boydston Rd @ Carnwadric Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.339637, 55.831383, 0]
+      },
+      "properties": {
+        "camera-name": "G25",
+        "camera-label": "Braidcraft Rd @ Corkerhill Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.363381, 55.821751, 0]
+      },
+      "properties": {
+        "camera-name": "G26",
+        "camera-label": "Barrhead Rd @ Crookston Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.363455, 55.825211, 0]
+      },
+      "properties": {
+        "camera-name": "G27",
+        "camera-label": "Crookston Rd @ Raeswood Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.330565, 55.806911, 0]
+      },
+      "properties": {
+        "camera-name": "G28",
+        "camera-label": "Kyleakin Road @ Kilvaxter Drive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.328471, 55.808468, 0]
+      },
+      "properties": {
+        "camera-name": "G29",
+        "camera-label": "Kilmuir Crescent @ Hopeman Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.319139, 55.863865, 0]
+      },
+      "properties": {
+        "camera-name": "G30",
+        "camera-label": "Elder St @ Govan Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.315985, 55.863876, 0]
+      },
+      "properties": {
+        "camera-name": "G31",
+        "camera-label": "Govan Rd @ Shaw St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.316087, 55.862331, 0]
+      },
+      "properties": {
+        "camera-name": "G32",
+        "camera-label": "Golspie St @ Shaw Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.31385, 55.863262, 0]
+      },
+      "properties": {
+        "camera-name": "G33",
+        "camera-label": "Burleigh Street @ Harmony Row"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.314571, 55.86467, 0]
+      },
+      "properties": {
+        "camera-name": "G34",
+        "camera-label": "Wanlock Street @ Wardrop Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.316944, 55.865082, 0]
+      },
+      "properties": {
+        "camera-name": "G36",
+        "camera-label": "Howat St @ Taransay St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.311033, 55.862881, 0]
+      },
+      "properties": {
+        "camera-name": "G37",
+        "camera-label": "Govan Cross @ Govan Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.325172, 55.85202, 0]
+      },
+      "properties": {
+        "camera-name": "G38",
+        "camera-label": "Craigton Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.306934, 55.863232, 0]
+      },
+      "properties": {
+        "camera-name": "G39",
+        "camera-label": "Napier Drive @ River"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.307593, 55.862324, 0]
+      },
+      "properties": {
+        "camera-name": "G41",
+        "camera-label": "Napier Place Opp No 30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.305622, 55.861572, 0]
+      },
+      "properties": {
+        "camera-name": "G42",
+        "camera-label": "Clydebrae Street @ Napier Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.322242, 55.859753, 0]
+      },
+      "properties": {
+        "camera-name": "G43",
+        "camera-label": "Crossloan Rd @ Elderpark Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.321409, 55.861736, 0]
+      },
+      "properties": {
+        "camera-name": "G44",
+        "camera-label": "Elderpark St @ Langlands Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.323147, 55.86021, 0]
+      },
+      "properties": {
+        "camera-name": "G45",
+        "camera-label": "Crossloan Rd @ Uist Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.324818, 55.860802, 0]
+      },
+      "properties": {
+        "camera-name": "G46",
+        "camera-label": "Crossloan Rd @ Arklet Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.322785, 55.858597, 0]
+      },
+      "properties": {
+        "camera-name": "G47",
+        "camera-label": "Elderpark Street @ Nimmo Drive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.279085, 55.853775, 0]
+      },
+      "properties": {
+        "camera-name": "G48",
+        "camera-label": "Paisley Road @ Paisley Toll"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.286992, 55.852398, 0]
+      },
+      "properties": {
+        "camera-name": "G49",
+        "camera-label": "Paisley Road West @ Cornwall Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.29399, 55.85194, 0]
+      },
+      "properties": {
+        "camera-name": "G50",
+        "camera-label": "Paisley Road West @ Walmer Crescent"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.291259, 55.851215, 0]
+      },
+      "properties": {
+        "camera-name": "G51",
+        "camera-label": "Langshot Street @ Clifford Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.298712, 55.850426, 0]
+      },
+      "properties": {
+        "camera-name": "G52",
+        "camera-label": "Clifford St @ Porter St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.246909, 55.826977, 0]
+      },
+      "properties": {
+        "camera-name": "G53",
+        "camera-label": "Aitkenhead Road Park n Ride"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.249455, 55.826759, 0]
+      },
+      "properties": {
+        "camera-name": "G54",
+        "camera-label": "Hampden Park and Ride"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.309053, 55.856262, 0]
+      },
+      "properties": {
+        "camera-name": "G56",
+        "camera-label": "59 Iona Court MSF (Roof Top)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.3028, 55.856907, 0]
+      },
+      "properties": {
+        "camera-name": "G57",
+        "camera-label": "Copeland Rd @ Summertown Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.330512, 55.847553, 0]
+      },
+      "properties": {
+        "camera-name": "G58",
+        "camera-label": "Barlogan Avenue @ Maryland Gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.342102, 55.852451, 0]
+      },
+      "properties": {
+        "camera-name": "G59",
+        "camera-label": "Queensland Gardens MSF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.299088, 55.853561, 0]
+      },
+      "properties": {
+        "camera-name": "G60",
+        "camera-label": "Brand St @ Midlock Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.358827, 55.853073, 0]
+      },
+      "properties": {
+        "camera-name": "G61",
+        "camera-label": "Hartlaw Crescent North"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.358949, 55.852413, 0]
+      },
+      "properties": {
+        "camera-name": "G62",
+        "camera-label": "Hartlaw Crescent South"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.356886, 55.851101, 0]
+      },
+      "properties": {
+        "camera-name": "G63",
+        "camera-label": "Thurston Road @ Gladsmuir Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.334474, 55.846256, 0]
+      },
+      "properties": {
+        "camera-name": "G64",
+        "camera-label": "Paisley Road West @ Mosspark Boul'd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.343819, 55.845428, 0]
+      },
+      "properties": {
+        "camera-name": "G65",
+        "camera-label": "Paisley Road West @ Berryknows Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.354931, 55.845921, 0]
+      },
+      "properties": {
+        "camera-name": "G66",
+        "camera-label": "Paisley Road West @ Tweedsmuir Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.35983, 55.845493, 0]
+      },
+      "properties": {
+        "camera-name": "G67",
+        "camera-label": "Paisley Road West @ Hillington Rd Sth"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.364538, 55.845444, 0]
+      },
+      "properties": {
+        "camera-name": "G68",
+        "camera-label": "Paisley Road West @ Crookston Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.252987, 55.84634, 0]
+      },
+      "properties": {
+        "camera-name": "G69",
+        "camera-label": "Southside Crescent @ Handel Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.254354, 55.846951, 0]
+      },
+      "properties": {
+        "camera-name": "G71",
+        "camera-label": "Southside Crescent @ Malta Crescent"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.253688, 55.848186, 0]
+      },
+      "properties": {
+        "camera-name": "G72",
+        "camera-label": "Cumberland St @ Thistle Terrace"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.250155, 55.849518, 0]
+      },
+      "properties": {
+        "camera-name": "G73",
+        "camera-label": "Crown St @ Old Rutherglan Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.240564, 55.831909, 0]
+      },
+      "properties": {
+        "camera-name": "G74",
+        "camera-label": "Crossbank Terrace MSF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.23639, 55.831684, 0]
+      },
+      "properties": {
+        "camera-name": "G76",
+        "camera-label": "Prospecthill Circus @ Crossbank Avenue."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.237921, 55.829708, 0]
+      },
+      "properties": {
+        "camera-name": "G77",
+        "camera-label": "Prospecthill Circus @ Prospecthill Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.234397, 55.82679, 0]
+      },
+      "properties": {
+        "camera-name": "G78",
+        "camera-label": "Glenmore Avenue Opp No 22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.230034, 55.826221, 0]
+      },
+      "properties": {
+        "camera-name": "G79",
+        "camera-label": "Ardnahoe Ave @ Corlaich Dr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.296758, 55.826191, 0]
+      },
+      "properties": {
+        "camera-name": "G80",
+        "camera-label": "Well Green @ Ashtree Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.295202, 55.825832, 0]
+      },
+      "properties": {
+        "camera-name": "G81",
+        "camera-label": "Shawbridge Arcade @ Pleasence Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.293767, 55.825447, 0]
+      },
+      "properties": {
+        "camera-name": "G82",
+        "camera-label": "Pleasence St  @ McArthur Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.281278, 55.830368, 0]
+      },
+      "properties": {
+        "camera-name": "G83",
+        "camera-label": "Shawlands X"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.278699, 55.831547, 0]
+      },
+      "properties": {
+        "camera-name": "G84",
+        "camera-label": "Pollokshaws Rd @ Minard Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.300005, 55.821964, 0]
+      },
+      "properties": {
+        "camera-name": "G85",
+        "camera-label": "215 Shawbridge Street MSF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.301743, 55.821171, 0]
+      },
+      "properties": {
+        "camera-name": "G86",
+        "camera-label": "93 Shawholm Crescent"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.274897, 55.84597, 0]
+      },
+      "properties": {
+        "camera-name": "G87",
+        "camera-label": "St Andrews Rd @ Shields Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.275683, 55.844486, 0]
+      },
+      "properties": {
+        "camera-name": "G88",
+        "camera-label": "Maxwell Rd @ Shields Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.278312, 55.845284, 0]
+      },
+      "properties": {
+        "camera-name": "G89",
+        "camera-label": "Maxwell Ave Rear of No 18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.271554, 55.844742, 0]
+      },
+      "properties": {
+        "camera-name": "G90",
+        "camera-label": "Kenmure St @ McCulloch St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.272672, 55.842072, 0]
+      },
+      "properties": {
+        "camera-name": "G91",
+        "camera-label": "Albert Drive @ Kenmure St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.274422, 55.840996, 0]
+      },
+      "properties": {
+        "camera-name": "G92",
+        "camera-label": "Keir St @ Leslie St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.274445, 55.838646, 0]
+      },
+      "properties": {
+        "camera-name": "G93",
+        "camera-label": "Kenmure St @ Nithsdale Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.244781, 55.809826, 0]
+      },
+      "properties": {
+        "camera-name": "G94",
+        "camera-label": "Drakemire Dr @ Raithburn Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.243716, 55.809254, 0]
+      },
+      "properties": {
+        "camera-name": "G95",
+        "camera-label": "Carmunnock Road @ Arnprior Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.362244, 55.811848, 0]
+      },
+      "properties": {
+        "camera-name": "G97",
+        "camera-label": "Lane @ Nitshill Railway Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.215521, 55.808079, 0]
+      },
+      "properties": {
+        "camera-name": "G98",
+        "camera-label": "Ballantay Road @ Scarrel Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.219121, 55.808147, 0]
+      },
+      "properties": {
+        "camera-name": "G99",
+        "camera-label": "Ballantay Rd @ Hoddan Terr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.212823, 55.806835, 0]
+      },
+      "properties": {
+        "camera-name": "G100",
+        "camera-label": "Tormusk Road @ Hoddam Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.237728, 55.799629, 0]
+      },
+      "properties": {
+        "camera-name": "G104",
+        "camera-label": "Stravanan Road @ Dunagoil Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.224053, 55.809044, 0]
+      },
+      "properties": {
+        "camera-name": "G105",
+        "camera-label": "Machrie Drive @ Machrie Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.364124, 55.811394, 0]
+      },
+      "properties": {
+        "camera-name": "G106",
+        "camera-label": "Woodhead Rd @ Resource Ctre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.343275, 55.811848, 0]
+      },
+      "properties": {
+        "camera-name": "G107",
+        "camera-label": "Kennieshead Rd @ Railway Stat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.357537, 55.810917, 0]
+      },
+      "properties": {
+        "camera-name": "G108",
+        "camera-label": "Woodhead Rd @ Wiltonburn Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.359447, 55.811291, 0]
+      },
+      "properties": {
+        "camera-name": "G109",
+        "camera-label": "Woodhead Rd  @ Council Depot"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.363327, 55.810902, 0]
+      },
+      "properties": {
+        "camera-name": "G110",
+        "camera-label": "Weensmoor Rd @ Whithope Terr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.233438, 55.804405, 0]
+      },
+      "properties": {
+        "camera-name": "G102",
+        "camera-label": "Dougray Avenue MSF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.234335, 55.801659, 0]
+      },
+      "properties": {
+        "camera-name": "G103",
+        "camera-label": "Stravanan Rd Nr Stravanan Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.362361, 55.811325, 0]
+      },
+      "properties": {
+        "camera-name": "G111",
+        "camera-label": "Woodhead Rd @ Lane to Underpass"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.312906, 55.860909, 0]
+      },
+      "properties": {
+        "camera-name": "G112",
+        "camera-label": "Helen St @ Robert St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.313812, 55.859196, 0]
+      },
+      "properties": {
+        "camera-name": "G113",
+        "camera-label": "Helen St Opp Howdens Yard"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.315586, 55.858364, 0]
+      },
+      "properties": {
+        "camera-name": "G114",
+        "camera-label": "Crossloan Rd @ Harmony Row"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.314589, 55.857876, 0]
+      },
+      "properties": {
+        "camera-name": "G115",
+        "camera-label": "Helen St @ Loanbank Quad Nth"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.315862, 55.856407, 0]
+      },
+      "properties": {
+        "camera-name": "G116",
+        "camera-label": "Helen St @ Loanbank Quad Sth"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.31777, 55.853966, 0]
+      },
+      "properties": {
+        "camera-name": "G117",
+        "camera-label": "Helen St @ Edmonston Dr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.217909, 55.804043, 0]
+      },
+      "properties": {
+        "camera-name": "G118",
+        "camera-label": "Ardencraig Quad @ Ardencraig St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.220118, 55.803837, 0]
+      },
+      "properties": {
+        "camera-name": "G119",
+        "camera-label": "Ardencraig Quadrant @ No 16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.212972, 55.808392, 0]
+      },
+      "properties": {
+        "camera-name": "G120",
+        "camera-label": "Ballantay Rd @ Tormusk Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.218206, 55.811329, 0]
+      },
+      "properties": {
+        "camera-name": "G121",
+        "camera-label": "Tormusk Rd @ Croftfoot St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.214357, 55.808136, 0]
+      },
+      "properties": {
+        "camera-name": "G122",
+        "camera-label": "Ballantay Rd @ Ballantay Terrace"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.219438, 55.80703, 0]
+      },
+      "properties": {
+        "camera-name": "G123",
+        "camera-label": "Ballantay Rd @ Footpath"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.220031, 55.805393, 0]
+      },
+      "properties": {
+        "camera-name": "G101",
+        "camera-label": "Hoddam Ave @ No 59"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.285109, 55.868362, 0]
+      },
+      "properties": {
+        "camera-name": "C82",
+        "camera-label": "Kelvingrove Park @ Skate Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.280524, 55.867603, 0]
+      },
+      "properties": {
+        "camera-name": "C80",
+        "camera-label": "Kelvingrove Park @ Park Terrace"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.287663, 55.86776, 0]
+      },
+      "properties": {
+        "camera-name": "C81",
+        "camera-label": "Kelvingrove Park @ Kelvin Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2833, 55.86797, 0]
+      },
+      "properties": {
+        "camera-name": "C79",
+        "camera-label": "Kelvingrove Park @ Fountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.22871, 55.88932, 0]
+      },
+      "properties": {
+        "camera-name": "C83",
+        "camera-label": "Springburn Park @ Rockery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.209549, 55.864044, 0]
+      },
+      "properties": {
+        "camera-name": "C84",
+        "camera-label": "Alexandra Park @ Path to Gate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.203952, 55.863556, 0]
+      },
+      "properties": {
+        "camera-name": "C85",
+        "camera-label": "Alexandra Park  @ Boating Pond"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.181225, 55.846302, 0]
+      },
+      "properties": {
+        "camera-name": "C86",
+        "camera-label": "Tollcross Park @ Rose Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.182763, 55.847523, 0]
+      },
+      "properties": {
+        "camera-name": "C87",
+        "camera-label": "Tollcross Park East of Flagpole"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.184294, 55.848633, 0]
+      },
+      "properties": {
+        "camera-name": "C88",
+        "camera-label": "Tollcross Park North of Flagpole"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.178632, 55.849388, 0]
+      },
+      "properties": {
+        "camera-name": "C90",
+        "camera-label": "Tollcross Park @ Enterkin Street Entrance"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.181402, 55.849728, 0]
+      },
+      "properties": {
+        "camera-name": "C89",
+        "camera-label": "Tollcross Park @ Small Baseball Quadrangle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.31451, 55.848797, 0]
+      },
+      "properties": {
+        "camera-name": "C94",
+        "camera-label": "Bellahouston Park @ Gate to Paisley Rd West"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.312155, 55.848553, 0]
+      },
+      "properties": {
+        "camera-name": "C93",
+        "camera-label": "Bellahouston Park @ Play Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.312295, 55.847752, 0]
+      },
+      "properties": {
+        "camera-name": "C92",
+        "camera-label": "Bellahouston Park @ Play Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.229455, 55.889194, 0]
+      },
+      "properties": {
+        "camera-name": "C95",
+        "camera-label": "Springburn Park @ Pond"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.325014, 55.86182, 0]
+      },
+      "properties": {
+        "camera-name": "C96",
+        "camera-label": "Elder Park @ Statue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.244125, 55.814034, 0]
+      },
+      "properties": {
+        "camera-name": "C97",
+        "camera-label": "Kings Park @ Pavillion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.288188, 55.839195, 0]
+      },
+      "properties": {
+        "camera-name": "C98",
+        "camera-label": "Maxwell Park @ Burgh Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.259253, 55.83894, 0]
+      },
+      "properties": {
+        "camera-name": "C99",
+        "camera-label": "Govanhill Park @ Play Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.363848, 55.839016, 0]
+      },
+      "properties": {
+        "camera-name": "C100",
+        "camera-label": "Rosshall Park @ Rear of Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.349779, 55.824081, 0]
+      },
+      "properties": {
+        "camera-name": "C101",
+        "camera-label": "Haughburn Play Park @ Swing park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.320386, 55.811279, 0]
+      },
+      "properties": {
+        "camera-name": "C102",
+        "camera-label": "King George V Park @ Basketball Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.318378, 55.811394, 0]
+      },
+      "properties": {
+        "camera-name": "C103",
+        "camera-label": "King George V Park @ Play Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.236548, 55.852043, 0]
+      },
+      "properties": {
+        "camera-name": "C104",
+        "camera-label": "Glasgow Green @ Doulton Fountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.235635, 55.851295, 0]
+      },
+      "properties": {
+        "camera-name": "C105",
+        "camera-label": "Glasgow Green @ Doulton Fountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.321395, 55.895847, 0]
+      },
+      "properties": {
+        "camera-name": "C108",
+        "camera-label": "Bearsden Road @ Temple Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.286672, 55.893311, 0]
+      },
+      "properties": {
+        "camera-name": "C117",
+        "camera-label": "Lochburn Pass"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.244787, 55.852482, 0]
+      },
+      "properties": {
+        "camera-name": "C129",
+        "camera-label": "Glasgow Green @ Charlotte Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.244649, 55.853363, 0]
+      },
+      "properties": {
+        "camera-name": "C130",
+        "camera-label": "Glasgow Green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.240896, 55.853096, 0]
+      },
+      "properties": {
+        "camera-name": "C131",
+        "camera-label": "Glasgow Green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.238757, 55.850906, 0]
+      },
+      "properties": {
+        "camera-name": "C132",
+        "camera-label": "Glasgow Green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.238167, 55.849472, 0]
+      },
+      "properties": {
+        "camera-name": "C133",
+        "camera-label": "Glasgow Green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.236518, 55.848976, 0]
+      },
+      "properties": {
+        "camera-name": "C134",
+        "camera-label": "Glasgow Green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.233289, 55.8493, 0]
+      },
+      "properties": {
+        "camera-name": "C135",
+        "camera-label": "Glasgow Green @ Templeton Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.237076, 55.851685, 0]
+      },
+      "properties": {
+        "camera-name": "C136",
+        "camera-label": "Glasgow Green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.236454, 55.851177, 0]
+      },
+      "properties": {
+        "camera-name": "C137",
+        "camera-label": "Glasgow Green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.33788, 55.876759, 0]
+      },
+      "properties": {
+        "camera-name": "C138",
+        "camera-label": "Victoria Park Fossil Grove Main Door"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.338513, 55.876648, 0]
+      },
+      "properties": {
+        "camera-name": "C139",
+        "camera-label": "Victoria Park Fossil Grove Rear"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.333822, 55.875797, 0]
+      },
+      "properties": {
+        "camera-name": "C140",
+        "camera-label": "Victoria Park   @ Childrens Maize"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.330488, 55.874474, 0]
+      },
+      "properties": {
+        "camera-name": "C141",
+        "camera-label": "Victoria Park  @ Boating Pond"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.322497, 55.846798, 0]
+      },
+      "properties": {
+        "camera-name": "C91",
+        "camera-label": "Bellahouston Park @ Bowling Green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.193064, 55.867146, 0]
+      },
+      "properties": {
+        "camera-name": "E119",
+        "camera-label": "Cumbernauld Road Shops Front"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.19303, 55.867523, 0]
+      },
+      "properties": {
+        "camera-name": "E120",
+        "camera-label": "Cumbernauld Road Shops Rear"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.153305, 55.873383, 0]
+      },
+      "properties": {
+        "camera-name": "E128",
+        "camera-label": "Ruchazie Water Tower (East)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.15376, 55.873352, 0]
+      },
+      "properties": {
+        "camera-name": "E129",
+        "camera-label": "Ruchazie Water Tower (West)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.164513, 55.872707, 0]
+      },
+      "properties": {
+        "camera-name": "E141",
+        "camera-label": "Gartloch Road (Shops)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.113173, 55.850075, 0]
+      },
+      "properties": {
+        "camera-name": "E154",
+        "camera-label": "Main Street Ballieston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.110062, 55.850353, 0]
+      },
+      "properties": {
+        "camera-name": "E155",
+        "camera-label": "Main Street Ballieston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2596188, 55.8566733, 0]
+      },
+      "properties": {
+        "camera-name": "A89",
+        "camera-label": "Broomielaw @ Oswald St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2682072, 55.8652138, 0]
+      },
+      "properties": {
+        "camera-name": "C68CAM",
+        "camera-label": "Bath St @ Elmbank St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2706615, 55.8594122, 0]
+      },
+      "properties": {
+        "camera-name": "C69CAM",
+        "camera-label": "Stobcross St @ North St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2564726, 55.8622908, 0]
+      },
+      "properties": {
+        "camera-name": "C70CAM",
+        "camera-label": "Renfield St @ W George St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2567086, 55.8582687, 0]
+      },
+      "properties": {
+        "camera-name": "C71CAM",
+        "camera-label": "Argyle Street @ Jamaica Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2398938, 55.86039, 0]
+      },
+      "properties": {
+        "camera-name": "C72CAM",
+        "camera-label": "High St @ George St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.250609, 55.8545355, 0]
+      },
+      "properties": {
+        "camera-name": "C73CAM",
+        "camera-label": "Clyde St @ Victoria Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2548724, 55.8481378, 0]
+      },
+      "properties": {
+        "camera-name": "C74CAM",
+        "camera-label": "Gorbals St @ Cumberland St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2654955, 55.8515243, 0]
+      },
+      "properties": {
+        "camera-name": "C75CAM",
+        "camera-label": "West St @ Cook St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2646837, 55.8366296, 0]
+      },
+      "properties": {
+        "camera-name": "G124",
+        "camera-label": "Victoria Rd @ Allison St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.28157, 55.8577523, 0]
+      },
+      "properties": {
+        "camera-name": "T625",
+        "camera-label": "Finnieston Bridge @ Lancefield Quay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.243575, 55.85681, 0]
+      },
+      "properties": {
+        "camera-name": "T628",
+        "camera-label": "Gallowgate @ High St(cam2)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2502634, 55.8607864, 0]
+      },
+      "properties": {
+        "camera-name": "T63",
+        "camera-label": "George Square @ South Hanover St."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.2568268, 55.8583563, 0]
+      },
+      "properties": {
+        "camera-name": "T71",
+        "camera-label": "Argyle St @ Jamaica St. "
+      }
+    }
+  ]
+}

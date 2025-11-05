@@ -1,0 +1,7 @@
+# backend ignore files
+!.env.test
+*_cache
+.venv
+.vscode
+__pycache__
+*.sqlite3
