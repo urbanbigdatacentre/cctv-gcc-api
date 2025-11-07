@@ -3,12 +3,11 @@ from pathlib import Path
 
 # Project Paths
 DJANGO_PROJ_DIR = Path(__file__).parent.parent
+APP_DIR = DJANGO_PROJ_DIR.parent
 STATIC_DIR = Path(os.getenv("STATIC_DIR", DJANGO_PROJ_DIR.parent / "staticfiles"))
 SECRET_KEY = '@cv5wb5BH<Lh0>Xbe4ZA&5~zJ0:cITE%bMHD3f}"yIFNjG!r}?'
-
 UPLOAD_REPORT_PIN = os.getenv("UPLOAD_REPORT_PIN", "123")
-
-# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = os.getenv("DJANGO_DEBUG", "False").lower() == "true"
 ALLOWED_HOSTS = ["*"]
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 # noinspection SpellCheckingInspection
@@ -82,7 +81,7 @@ WSGI_APPLICATION = "cctv_core.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": os.getenv("SQLITE_DB_PATH", DJANGO_PROJ_DIR / "db.sqlite3"),
+        "NAME": os.getenv("SQLITE_DB_PATH", APP_DIR / "db.sqlite3"),
     }
 }
 
