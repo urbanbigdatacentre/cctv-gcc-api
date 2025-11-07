@@ -39,7 +39,8 @@ tasks:
   startserver:
     desc: Start production server
     dir: ./cctv_api
-    pre:
-      - task: collectstatic
+    deps:
+      - collectstatic
+      - migrate
     cmds:
       - uv run uvicorn cctv_core.asgi:application --host 0.0.0.0 --port 8000
