@@ -68,8 +68,8 @@ class TF1ReportRecord(BaseModel, CommonMethodsMixin):
 class TF2ReportRecord(BaseModel, CommonMethodsMixin):
     image_proc: datetime
     image_capt: datetime
-    camera_ref: constr(to_lower=True)  # type: ignore
-    model_name: constr(to_lower=True)  # type: ignore
+    camera_ref: constr(to_lower=True, strip_whitespace=True)  # type: ignore
+    model_name: constr(to_lower=True, strip_whitespace=True)  # type: ignore
     car: int
     person: int
     bicycle: int
@@ -141,8 +141,8 @@ class TF2ReportRecord(BaseModel, CommonMethodsMixin):
 class YOLOReportRecord(BaseModel, CommonMethodsMixin):
     image_proc: datetime
     image_capt: datetime
-    camera_ref: constr(to_lower=True)  # type: ignore
-    model_name: constr(to_lower=True)  # type: ignore
+    camera_ref: constr(to_lower=True, strip_whitespace=True)  # type: ignore
+    model_name: constr(to_lower=True, strip_whitespace=True)  # type: ignore
     car: int
     pedestrian: int
     cyclist: int
