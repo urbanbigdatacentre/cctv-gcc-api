@@ -3,6 +3,10 @@ version: '3'
 vars:
   MANAGE_PY: python ./cctv_api/manage.py
 tasks:
+  clean:
+    desc: Clean up temporary files
+    cmds:
+      - rm -rf .venv
 
   startdevserver:
     desc: Start Django test server
@@ -40,6 +44,7 @@ tasks:
     desc: Start production server
     dir: ./cctv_api
     deps:
+      - clean
       - collectstatic
       - migrate
     cmds:
