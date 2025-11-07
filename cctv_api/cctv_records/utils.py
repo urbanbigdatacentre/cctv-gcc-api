@@ -121,7 +121,7 @@ def process_uploaded_report(
     for row in csv_reader:
         try:
             row = {k: None if v == "None" else v for k, v in row.items()}
-            parsed_row = csv_line_parser_model(**row) # type: ignore
+            parsed_row = csv_line_parser_model(**row)  # type: ignore
             parsed_rows.append(parsed_row)
         except ValidationError as e:
             errors, model = e.args
@@ -152,7 +152,7 @@ def process_uploaded_report(
 
 
 def handle_uploaded_report_file(
-    f: Any,  
+    f: Any,
     overwrite: bool = False,
 ):
     logger.info(f"handle_uploaded_report_file: {f}")
