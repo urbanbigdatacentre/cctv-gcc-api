@@ -1,0 +1,19 @@
+services:
+  cctv-gcc-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cctv-gcc-api
+    restart: unless-stopped  # always on unless stopped manually
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+
+    logging:
+      # https://docs.docker.com/engine/logging/drivers/json-file/
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+        compress: "true"
