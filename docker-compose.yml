@@ -9,11 +9,27 @@ services:
       - "8000:8000"
     volumes:
       - .:/app
+    healthcheck:
+      test: ["CMD-SHELL", "task healthcheck"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
-    logging:
-      # https://docs.docker.com/engine/logging/drivers/json-file/
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
-        compress: "true"
+  sync-data:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sync-data
+    depends_on:
+      cctv-gcc-api:
+        condition: service_healthy
+    restart: "no"
+    entrypoint: ["bash", "-c"]
+    volumes:
+      - .:/app
+    # Keep syncing data every 5 minutes
+    command:
+        [
+          "while true; do task syncdata; sleep 300; done"
+        ]
