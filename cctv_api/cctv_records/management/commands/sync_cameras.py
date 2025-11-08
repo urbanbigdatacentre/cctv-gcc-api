@@ -5,6 +5,11 @@ from django.core.exceptions import ValidationError as DjangoValidationError
 from django.core.management.base import BaseCommand
 
 from cctv_records.models import Cameras
+import time
+import platform
+
+
+MAX_WAIT_SECONDS = 5 * 60  # 5 minutes
 
 
 class Command(BaseCommand):
@@ -130,8 +135,38 @@ class Command(BaseCommand):
 
     def _export_to_excel(self, excel_path: Path):
         """Export current camera records to Excel file"""
-        cameras = Cameras.objects.all()
 
+        def _is_locked(path: Path) -> bool:
+            if not path.exists():
+                return False
+            try:
+                f = open(path, "r+b")
+            except PermissionError:
+                return True
+            try:
+                if platform.system() == "Windows":
+                    import msvcrt 
+                    # Try non-blocking lock on 1 byte
+                    msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
+                    msvcrt.locking(f.fileno(), msvcrt.LK_UNLCK, 1)
+                f.close()
+                return False
+            except OSError:
+                f.close()
+                return True
+
+        
+        elapsed = 0
+        while _is_locked(excel_path):
+            if elapsed == 0:
+                self.stdout.write(self.style.WARNING(f"{excel_path} appears locked (maybe open in Excel). Waiting up to {MAX_WAIT_SECONDS}s..."))
+            time.sleep(5)
+            elapsed += 5
+            if elapsed >= MAX_WAIT_SECONDS:
+                self.stdout.write(self.style.ERROR(f"{excel_path} is still locked after {MAX_WAIT_SECONDS}s. Aborting export."))
+                return
+
+        cameras = Cameras.objects.all()
         # Prepare data for export
         data = []
         headers = ["camera_id", "label", "longitude", "latitude"]
