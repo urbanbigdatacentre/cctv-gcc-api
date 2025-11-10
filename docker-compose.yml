@@ -6,7 +6,7 @@ services:
     container_name: cctv-gcc-api
     restart: unless-stopped  # always on unless stopped manually
     ports:
-      - "8000:8000"
+      - "8080:8000"
     volumes:
       - .:/app
     healthcheck:
