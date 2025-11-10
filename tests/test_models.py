@@ -1,10 +1,9 @@
 import pytest
+import pendulum
 
 
 def dt_from_isostring(string):
-    from datetime import datetime, timezone
-
-    return datetime.fromisoformat(string).replace(tzinfo=timezone.utc)
+    return pendulum.parse(string)
 
 
 @pytest.mark.django_db
@@ -19,7 +18,7 @@ def test_record_filter_ranges(camera_model, records_filter_model):
     expected = [
         [dt_from_isostring("2023-01-01T00:00:00Z"), dt_from_isostring("2023-01-06T00:00:00Z")],
         [dt_from_isostring("2023-01-08T00:00:00Z"), dt_from_isostring("2023-01-10T00:00:00Z")],
-        [dt_from_isostring("2023-01-15T00:00:00Z"), dt_from_isostring("2023-01-18T00:00:00Z")],
+        [dt_from_isostring("2023-01-14T23:00:00Z"), dt_from_isostring("2023-01-18T00:00:00Z")],
     ]
     a_camera = camera_model.create_camera(camera_id="q-11", longitude=0, latitude=0)
     for i in intervals:
