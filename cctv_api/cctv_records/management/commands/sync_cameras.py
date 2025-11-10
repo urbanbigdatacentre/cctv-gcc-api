@@ -145,7 +145,8 @@ class Command(BaseCommand):
                 return True
             try:
                 if platform.system() == "Windows":
-                    import msvcrt 
+                    import msvcrt
+
                     # Try non-blocking lock on 1 byte
                     msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
                     msvcrt.locking(f.fileno(), msvcrt.LK_UNLCK, 1)
@@ -155,15 +156,20 @@ class Command(BaseCommand):
                 f.close()
                 return True
 
-        
         elapsed = 0
         while _is_locked(excel_path):
             if elapsed == 0:
-                self.stdout.write(self.style.WARNING(f"{excel_path} appears locked (maybe open in Excel). Waiting up to {MAX_WAIT_SECONDS}s..."))
+                self.stdout.write(
+                    self.style.WARNING(
+                        f"{excel_path} appears locked (maybe open in Excel). Waiting up to {MAX_WAIT_SECONDS}s..."
+                    )
+                )
             time.sleep(5)
             elapsed += 5
             if elapsed >= MAX_WAIT_SECONDS:
-                self.stdout.write(self.style.ERROR(f"{excel_path} is still locked after {MAX_WAIT_SECONDS}s. Aborting export."))
+                self.stdout.write(
+                    self.style.ERROR(f"{excel_path} is still locked after {MAX_WAIT_SECONDS}s. Aborting export.")
+                )
                 return
 
         cameras = Cameras.objects.all()
