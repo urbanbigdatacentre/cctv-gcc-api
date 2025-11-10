@@ -80,3 +80,6 @@ def test_sync_cameras_command(tmp_path, _provision_camera_data, camera_model):
     assert cam.latitude == 55.8660
     assert cam.is_complete is True
     assert camera_model.objects.count() == 3
+    
+    assert output_file.stat().st_mode == 0o100666  # ensure file has 666 permissions
+    

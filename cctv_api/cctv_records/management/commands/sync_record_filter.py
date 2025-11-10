@@ -249,4 +249,5 @@ class Command(BaseCommand):
 
         # Save to Excel file
         sheet.save_as(str(self.excel_path))
+        self.excel_path.chmod(0o666)
         self.stdout.write(self.style.SUCCESS(f"Exported {len(data)} camera records to {self.excel_path}"))

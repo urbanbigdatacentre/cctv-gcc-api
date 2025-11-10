@@ -195,5 +195,7 @@ class Command(BaseCommand):
 
         # Save to Excel file
         sheet.save_as(str(excel_path))
+        # chmod to be writable by all users
+        excel_path.chmod(0o666)
 
         self.stdout.write(self.style.SUCCESS(f"Exported {len(data)} camera records to {excel_path}"))

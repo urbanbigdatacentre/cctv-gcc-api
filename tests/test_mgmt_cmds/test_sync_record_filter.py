@@ -79,3 +79,5 @@ def test_sync_record_filters_command(tmp_path, _provision_camera_data, records_f
     assert records_filter_model.objects.count() == 3
     exclusion_intervals = records_filter_model.get_exclusion_intervals(camera="cam_001", model_name="tf2")
     assert exclusion_intervals[0]["exclusion_intervals"] == expected[:1] + expected[2:]
+
+    assert output_file.stat().st_mode == 0o100666  # ensure file has 666 permissions
