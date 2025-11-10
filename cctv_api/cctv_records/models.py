@@ -43,7 +43,7 @@ class RecordsFilter(models.Model):
         return super().save(*args, **kwargs)
 
     @classmethod
-    def get_exclusion_intervals(cls, model_name: str | None = None) -> list[Any]:
+    def get_exclusion_intervals(cls, model_name: str | None = None, camera: "Cameras | str | None" = None) -> list[Any]:
         "Returns a list of datetime intervals where the records should be hidden"
 
         from cctv_records.helpers import merge_intervals
@@ -52,6 +52,10 @@ class RecordsFilter(models.Model):
         if model_name:
             assert model_name in ModelChoices.values
             exclusion_intervals = exclusion_intervals.filter(model=model_name)
+        if camera:
+            if isinstance(camera, str):
+                camera = Cameras.objects.get(camera_id=camera)
+            exclusion_intervals = exclusion_intervals.filter(camera=camera)
 
         # SQLite-compatible grouping and aggregation
         exclusion_intervals_all = []
