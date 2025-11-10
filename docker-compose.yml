@@ -7,6 +7,8 @@ services:
     restart: unless-stopped  # always on unless stopped manually
     ports:
       - "8080:8000"
+    environment:
+      UV_PROJECT_ENVIRONMENT: ../.venv
     volumes:
       - .:/app
     healthcheck:
@@ -25,6 +27,8 @@ services:
       cctv-gcc-api:
         condition: service_healthy
     restart: "no"
+    environment:
+      UV_PROJECT_ENVIRONMENT: ../.venv
     entrypoint: ["bash", "-c"]
     volumes:
       - .:/app
