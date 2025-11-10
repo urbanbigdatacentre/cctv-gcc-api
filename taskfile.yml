@@ -56,10 +56,12 @@ tasks:
       - migrate
     cmds:
       - uv run uvicorn cctv_core.asgi:application --host 0.0.0.0 --port 8000
+      
   syncdata:
     desc: Sync data from external excels to database
     cmds:
       - uv run {{.MANAGE_PY}} sync_cameras
+      - uv run {{.MANAGE_PY}} sync_record_filter
 
   healthcheck:
     desc: Check if the server is healthy
