@@ -7,10 +7,9 @@ services:
     restart: unless-stopped  # always on unless stopped manually
     ports:
       - "8080:8000"
-    environment:
-      UV_PROJECT_ENVIRONMENT: ../.venv
     volumes:
       - .:/app
+      - cctv-gcc-api-cache:/.cache
     healthcheck:
       test: ["CMD-SHELL", "task healthcheck"]
       interval: 1m30s
@@ -27,13 +26,15 @@ services:
       cctv-gcc-api:
         condition: service_healthy
     restart: "no"
-    environment:
-      UV_PROJECT_ENVIRONMENT: ../.venv
     entrypoint: ["bash", "-c"]
     volumes:
       - .:/app
+      - cctv-gcc-api-cache:/.cache
     # Keep syncing data every 5 minutes
     command:
         [
           "while true; do task syncdata; sleep 300; done"
         ]
+
+volumes:
+  cctv-gcc-api-cache:
