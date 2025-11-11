@@ -13,8 +13,8 @@ def test_general_routes():
 
 
 def test_tf2_routes():
-    assert reverse("cctv-api:tf2:records-list").startswith("/api/tf2/records")
+    assert reverse("cctv-api:tf2:records-list").startswith("/tf2/records")
 
 
 def test_yolo_routes():
-    assert reverse("cctv-api:yolo:records-list").startswith("/api/yolo/records")
+    assert reverse("cctv-api:yolo:records-list").startswith("/yolo/records")
