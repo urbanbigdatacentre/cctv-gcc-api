@@ -1,30 +1,15 @@
 import logging
 
 from django.conf import settings
-from django.db.models import F
 from django.http import HttpRequest, JsonResponse
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework import status
 
 from .forms import UploadReportForm
-from .models import CameraRecordsFile
 from .utils import handle_uploaded_report_file
 
 logger = logging.getLogger("cctv.views")
-
-
-@csrf_exempt
-def event(request: HttpRequest):
-    if request.method == "POST":
-        if "FILENAME-DOWNLOAD" in request.headers:
-            filename = request.headers.get("filename-download")
-            CameraRecordsFile.objects.filter(filename=filename).update(number_of_downloads=F("number_of_downloads") + 1)
-            return JsonResponse(status=status.HTTP_200_OK, data={"result": "ok"})
-    return JsonResponse(
-        status=status.HTTP_422_UNPROCESSABLE_ENTITY,
-        data={"status_code": 422, "message": "not understood"},
-    )
 
 
 @csrf_exempt
