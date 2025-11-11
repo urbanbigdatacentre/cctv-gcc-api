@@ -1,5 +1,6 @@
 import pytest
 
+
 @pytest.mark.django_db
 def test_camera_serializer(camera_model):
     from cctv_api.serializers.general import CameraSerializer
@@ -8,7 +9,6 @@ def test_camera_serializer(camera_model):
     serializer = CameraSerializer(cmra)
     assert serializer.data
     assert "groups" not in serializer.data
-
 
 
 def test_tf2_serialiser(tf2records_model):

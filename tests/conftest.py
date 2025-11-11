@@ -48,20 +48,21 @@ def api_client():
     client = RequestsClient()
     return client
 
+
 @pytest.fixture
 def provision_db(camera_model, tf2records_model, yolorecords_model):
-    """ Provision the test database with fake data """
+    """Provision the test database with fake data"""
 
     c_enabled = camera_model.objects.create(
-        camera_id = "c_enabled",
-        label = "Enabled Camera",
-        longitude = 10.0,
-        latitude = 20.0,
-        is_complete = True,
+        camera_id="c_enabled",
+        label="Enabled Camera",
+        longitude=10.0,
+        latitude=20.0,
+        is_complete=True,
     )
     c_disabled = camera_model.objects.create(
-        camera_id = "c_disabled",
-        label = "Disabled Camera",
+        camera_id="c_disabled",
+        label="Disabled Camera",
     )
 
     for c in [c_enabled, c_disabled]:
@@ -69,7 +70,6 @@ def provision_db(camera_model, tf2records_model, yolorecords_model):
             tf2records_model.objects.create(
                 camera=c,
                 timestamp=f"2024-01-01T12:00:0{i}Z",
-
             )
             yolorecords_model.objects.create(
                 camera=c,

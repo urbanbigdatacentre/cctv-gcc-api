@@ -134,7 +134,7 @@ class Cameras(models.Model):
         latitude: float,
     ) -> "Cameras":
         camera = Cameras.objects.create(camera_id=camera_id, longitude=longitude, latitude=latitude)
-        
+
         return camera
 
     def save(self, *args, **kwargs):

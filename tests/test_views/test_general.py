@@ -11,6 +11,7 @@ def _auto_prov_db(provision_db):
 
 client = Client()
 
+
 @pytest.mark.django_db
 def test_general_cameras(camera_model):
     url = reverse("cctv-api:general:cameras-list")
@@ -18,6 +19,7 @@ def test_general_cameras(camera_model):
 
     assert response.status_code == 200
     assert response.json().__len__() == 1
+
 
 @pytest.mark.django_db
 def test_general_camera_detail(camera_model):
