@@ -2,8 +2,8 @@ from django.urls import reverse
 
 
 def test_api_docs_routes():
-    assert reverse("cctv-api:api-docs") == "/api/docs"
-    assert reverse("cctv-api:openapi-schema") == "/api/openapi.json"
+    assert reverse("cctv-api:api-docs") == "/docs/"
+    assert reverse("cctv-api:schema") == "/schema.yaml"
 
 
 def test_general_routes():
