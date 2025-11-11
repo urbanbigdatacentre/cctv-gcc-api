@@ -12,6 +12,8 @@ tasks:
 
   startdevserver:
     desc: Start Django test server
+    env:
+      DJANGO_DEBUG: "True"
     cmds:
       - uv run {{.MANAGE_PY}} runserver
 
