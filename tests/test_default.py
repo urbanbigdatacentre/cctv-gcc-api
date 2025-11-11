@@ -32,5 +32,3 @@ def test_merge_datetime_internal(intervals, expected):
 
     result = merge_intervals(intervals)
     assert result == expected
-
-
