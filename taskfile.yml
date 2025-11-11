@@ -10,11 +10,6 @@ tasks:
     cmds:
       - task --list
 
-  clean:
-    desc: Clean up temporary files
-    cmds:
-      - rm -rf .venv
-
   startdevserver:
     desc: Start Django test server
     cmds:
@@ -51,7 +46,6 @@ tasks:
     desc: Start production server
     dir: ./cctv_api
     deps:
-      - clean
       - collectstatic
       - migrate
     cmds:
