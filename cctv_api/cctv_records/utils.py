@@ -166,7 +166,7 @@ def handle_uploaded_report_file(
         logger.info("is_gz")
         file_handler = gzip.open(io.BytesIO(content), "rt")
     else:
-        raise ValueError("File is not a zip, gzip or 7z file")
+        raise ValueError("File is not a zip or gzip file")
 
     return process_uploaded_report(file_handler, overwrite=overwrite)
 
