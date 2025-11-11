@@ -75,28 +75,6 @@ class RecordsFilter(models.Model):
         return exclusion_intervals_all
 
 
-class CameraRecordsFile(models.Model):
-    uploaded = models.DateTimeField(auto_now_add=True)
-    number_of_records = models.TextField()
-    number_of_cameras = models.TextField()
-    filename = models.TextField(unique=True)
-    file = models.FileField()
-    earliest_record_datetime = models.DateTimeField()
-    latest_record_datetime = models.DateTimeField()
-    number_of_downloads = models.IntegerField(default=0)
-
-    @cached_property
-    def days_of_data(self) -> int:
-        try:
-            return (self.latest_record_datetime - self.earliest_record_datetime).days
-        except Exception:
-            return 0
-
-    class Meta:
-        get_latest_by = "uploaded"
-        verbose_name_plural = "Camera Records Files"
-
-
 class Cameras(models.Model):
     """Camera Locations and Info"""
 
@@ -262,7 +240,6 @@ class YOLORecords(RecordCommonFields):
 
 __all__ = [
     "Cameras",
-    "CameraRecordsFile",
     "TF1Records",
     "TF2Records",
     "YOLORecords",

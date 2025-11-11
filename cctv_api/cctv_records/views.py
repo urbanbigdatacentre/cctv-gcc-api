@@ -27,39 +27,6 @@ def event(request: HttpRequest):
     )
 
 
-def released_datasets(request: HttpRequest, pk: int | None = None):
-    try:
-        if pk is None:
-            released_dataset = CameraRecordsFile.objects.latest()
-        else:
-            released_dataset = CameraRecordsFile.objects.get(id=pk)
-    except CameraRecordsFile.DoesNotExist:
-        return JsonResponse(
-            status=status.HTTP_404_NOT_FOUND,
-            data={
-                "title": "File not found",
-                "number_of_records": None,
-                "number_of_cameras": None,
-                "days_of_data": None,
-                "uploaded": None,
-                "number_of_downloads": None,
-                "url": None,
-            },
-        )
-    return JsonResponse(
-        status=status.HTTP_200_OK,
-        data={
-            "title": released_dataset.filename,
-            "number_of_records": released_dataset.number_of_records,
-            "number_of_cameras": released_dataset.number_of_cameras,
-            "days_of_data": released_dataset.days_of_data,
-            "uploaded": released_dataset.uploaded,
-            "number_of_downloads": released_dataset.number_of_downloads,
-            "url": released_dataset.file.url,
-        },
-    )
-
-
 @csrf_exempt
 def upload_report(request: HttpRequest):
     if request.method == "POST":

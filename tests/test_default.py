@@ -34,17 +34,3 @@ def test_merge_datetime_internal(intervals, expected):
     assert result == expected
 
 
-@pytest.mark.django_db
-def test_public_files_response_has_keys_404(client):
-    url = reverse("cctv-records:file")
-    assert is_valid_path(url)
-    response = client.get(url)
-    assert response.status_code == 404
-
-    json_response = response.json()
-    assert "title" in json_response
-    assert "number_of_records" in json_response
-    assert "days_of_data" in json_response
-    assert "uploaded" in json_response
-    assert "number_of_downloads" in json_response
-    assert "url" in json_response
