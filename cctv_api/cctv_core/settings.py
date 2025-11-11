@@ -4,7 +4,7 @@ from pathlib import Path
 # Project Paths
 DJANGO_PROJ_DIR = Path(__file__).parent.parent
 APP_DIR = DJANGO_PROJ_DIR.parent
-STATIC_DIR = Path(os.getenv("STATIC_DIR", DJANGO_PROJ_DIR.parent / "staticfiles"))
+STATIC_DIR = Path(os.getenv("STATIC_DIR", APP_DIR / "staticfiles"))
 SECRET_KEY = '@cv5wb5BH<Lh0>Xbe4ZA&5~zJ0:cITE%bMHD3f}"yIFNjG!r}?'
 UPLOAD_REPORT_PIN = os.getenv("UPLOAD_REPORT_PIN", "123")
 DEBUG = os.getenv("DJANGO_DEBUG", "False").lower() == "true"
@@ -126,7 +126,6 @@ STORAGES = {
 }
 
 STATIC_ROOT = STATIC_DIR / "static"
-WHITENOISE_ROOT = STATIC_DIR / "root"
 
 # Added CORS Settings
 CORS_ALLOW_ALL_ORIGINS = True
