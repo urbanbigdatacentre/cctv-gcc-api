@@ -29,13 +29,12 @@ class TF2RecordsViewSet(generics.ListAPIView):
         "options",
     ]
     serializer_class = TF2RecordSerialzer
-    # filter_backends = (DjangoFilterBackend,)
     filterset_class = TF2RecordsFilter
 
     def get_queryset(self) -> QuerySet:
         prohibited_dateranges = RecordsFilter.get_exclusion_intervals(model_name="tf2")
 
-        queryset = TF2Records.objects.all()
+        queryset = TF2Records.objects.filter(camera__is_complete=True)
 
         for interval_entry in prohibited_dateranges:
             camera_id = interval_entry["camera_id"]

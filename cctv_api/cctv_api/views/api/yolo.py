@@ -19,7 +19,7 @@ class YOLORecordsViewSet(generics.ListAPIView):
     def get_queryset(self) -> QuerySet:
         prohibited_dateranges = RecordsFilter.get_exclusion_intervals(model_name="yolo")
 
-        queryset = YOLORecords.objects.all()
+        queryset = YOLORecords.objects.filter(camera__is_complete=True)
 
         for interval_entry in prohibited_dateranges:
             camera_id = interval_entry["camera_id"]
