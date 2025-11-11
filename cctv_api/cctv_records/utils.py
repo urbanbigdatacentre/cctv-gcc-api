@@ -248,6 +248,7 @@ def aggregate_records_qs(
 
 def get_cameras_that_have_records(
     group: CameraGroups | None = None,
+    are_complete: bool = True,
 ):
     """Get a qs with the cameras that have records. Optionally filter by group."""
 
@@ -257,5 +258,8 @@ def get_cameras_that_have_records(
     qs = Cameras.objects.filter(Q(id__in=sub1) | Q(id__in=sub2))
     if group:
         qs = qs.filter(groups=group)
+
+    if are_complete:
+        qs = qs.filter(is_complete=True)
 
     return qs
