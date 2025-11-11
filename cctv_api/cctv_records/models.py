@@ -97,37 +97,6 @@ class CameraRecordsFile(models.Model):
         verbose_name_plural = "Camera Records Files"
 
 
-class CameraGroups(models.Model):
-    """Grouping Table to sort out Cameras into Logical Groups"""
-
-    slug = models.SlugField(null=False, unique=True)  # Auto populates from save override.
-    name = models.TextField(unique=True, null=False, help_text="Name of the Group")
-    description = models.TextField(null=False, default="no-description")
-
-    @staticmethod
-    def get_default_group() -> "CameraGroups":
-        c_group, created = CameraGroups.objects.get_or_create(
-            slug="default",
-            defaults={
-                "name": "default",
-                "description": "Default Camera group which contains unassigned cameras",
-            },
-        )
-        return c_group
-
-    def save(self, *args, **kwargs):  # new
-        if not self.slug:
-            self.slug = slugify(self.name)
-        return super().save(*args, **kwargs)
-
-    class Meta:
-        db_table = "camera_groups"
-        verbose_name_plural = "Camera Groups"
-
-    def __str__(self):
-        return f"CCTVGroup({self.pk})/{self.name}"
-
-
 class Cameras(models.Model):
     """Camera Locations and Info"""
 
@@ -139,11 +108,6 @@ class Cameras(models.Model):
     label = models.TextField(help_text="Description/Label of Camera", null=False)
     longitude = models.FloatField(help_text="Camera Location longitude (EPSG:4326)", null=True)
     latitude = models.FloatField(help_text="Camera Location latitude (EPSG:4326)", null=True)
-
-    groups = models.ManyToManyField(
-        "CameraGroups",
-        related_name="cameras",
-    )
     is_complete = models.BooleanField(help_text="Is the camera data complete?", default=False, editable=True)
 
     class Meta:
@@ -168,19 +132,10 @@ class Cameras(models.Model):
         camera_id: str,
         longitude: float,
         latitude: float,
-        groups: None | list["CameraGroups"] = None,
     ) -> "Cameras":
         camera = Cameras.objects.create(camera_id=camera_id, longitude=longitude, latitude=latitude)
-        camera.add_to_camera_groups(groups=groups)
-
+        
         return camera
-
-    def add_to_camera_groups(self, groups: None | list["CameraGroups"]):
-        if groups is None:
-            return
-        self.groups.add(*groups)
-
-        return
 
     def save(self, *args, **kwargs):
         self.camera_id = self.camera_id.lower().replace(" ", "")
@@ -308,7 +263,6 @@ class YOLORecords(RecordCommonFields):
 __all__ = [
     "Cameras",
     "CameraRecordsFile",
-    "CameraGroups",
     "TF1Records",
     "TF2Records",
     "YOLORecords",

@@ -8,10 +8,8 @@ def test_api_docs_routes():
 
 def test_general_routes():
     assert reverse("cctv-api:general:api-version").startswith("/api/general/version")
-    assert reverse("cctv-api:general:groups-list").startswith("/api/general/groups")
     assert reverse("cctv-api:general:cameras-list").startswith("/api/general/cameras")
     assert reverse("cctv-api:general:cameras-detail", kwargs={"pk": 1}).startswith("/api/general/cameras")
-    assert reverse("cctv-api:general:groups-detail", kwargs={"pk": 1}).startswith("/api/general/group")
 
 
 def test_tf2_routes():

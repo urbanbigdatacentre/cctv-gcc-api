@@ -11,13 +11,6 @@ app_name = "cctv-api"
 
 general_urls = (
     [
-        path("groups", lambda r: redirect(to="cctv-api:general:groups-list")),
-        path("groups/", general_views.CameraGroupsViewSet.as_view(), name="groups-list"),
-        path(
-            "groups/<int:pk>",
-            general_views.CameraGroupsDetail.as_view(),
-            name="groups-detail",
-        ),
         path("cameras", lambda r: redirect(to="cctv-api:general:cameras-list")),
         path("cameras/", general_views.CameraViewSet.as_view(), name="cameras-list"),
         path(

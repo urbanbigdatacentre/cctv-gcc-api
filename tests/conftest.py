@@ -10,14 +10,6 @@ def camera_model():
 
 
 @pytest.fixture()
-def cameragroup_model():
-    """Return the CameraGroups model class."""
-    from django.apps import apps as django_apps
-
-    return django_apps.get_model("cctv_records.CameraGroups")
-
-
-@pytest.fixture()
 def tf2records_model():
     """Return the CameraRecords model class."""
     from django.apps import apps as django_apps

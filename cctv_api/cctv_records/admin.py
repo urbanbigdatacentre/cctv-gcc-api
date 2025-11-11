@@ -1,18 +1,8 @@
 from django.contrib import admin
 
-from .models import CameraGroups, Cameras
+from .models import Cameras
 
 admin.site.empty_value_display = "(None)"
-
-
-class MembersInline(admin.TabularInline):
-    model = Cameras.groups.through
-
-
-class CameraGroupsAdmin(admin.ModelAdmin):
-    inlines = [
-        MembersInline,
-    ]
 
 
 class CameraAdmin(admin.ModelAdmin):
@@ -22,5 +12,4 @@ class CameraAdmin(admin.ModelAdmin):
     ordering = ["is_complete"]
 
 
-admin.site.register(CameraGroups, CameraGroupsAdmin)
 admin.site.register(Cameras, CameraAdmin)

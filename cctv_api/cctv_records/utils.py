@@ -14,7 +14,6 @@ from django.db.models.functions import Trunc
 from pydantic.error_wrappers import ValidationError
 
 from cctv_records.models import (
-    CameraGroups,
     Cameras,
     TF1Records,
     TF2Records,
@@ -247,17 +246,14 @@ def aggregate_records_qs(
 
 
 def get_cameras_that_have_records(
-    group: CameraGroups | None = None,
     are_complete: bool = True,
 ):
-    """Get a qs with the cameras that have records. Optionally filter by group."""
+    """Get a qs with the cameras that have records. Optionally filter by completeness."""
 
     sub1 = YOLORecords.objects.order_by("camera_id").values("camera_id").distinct().values_list("camera_id")
     sub2 = TF2Records.objects.order_by("camera_id").values("camera_id").distinct().values_list("camera_id")
 
     qs = Cameras.objects.filter(Q(id__in=sub1) | Q(id__in=sub2))
-    if group:
-        qs = qs.filter(groups=group)
 
     if are_complete:
         qs = qs.filter(is_complete=True)
