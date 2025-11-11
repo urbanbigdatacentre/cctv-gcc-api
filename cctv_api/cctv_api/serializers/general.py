@@ -39,7 +39,8 @@ class CameraSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Cameras
-        fields = "__all__"
+        # fields = "__all__"
+        exclude = ["camera_id"]
 
 
 class DateValueSerializer(serializers.Serializer):
