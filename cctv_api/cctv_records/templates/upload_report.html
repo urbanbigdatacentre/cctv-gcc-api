@@ -1,0 +1,447 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBDC CCTV Data Upload</title>
+
+    <!-- FilePond CSS -->
+    <link href="https://unpkg.com/filepond@^4/dist/filepond.css" rel="stylesheet" />
+    <link href="https://unpkg.com/filepond-plugin-file-validate-type/dist/filepond-plugin-file-validate-type.css" rel="stylesheet" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a9d9a 0%, #0d7a78 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            max-width: 700px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .branding-header {
+            background: linear-gradient(135deg, #1a9d9a 0%, #0d7a78 100%);
+            padding: 30px 40px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .branding-header .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .branding-header .logo-img {
+            height: 50px;
+            width: auto;
+            filter: brightness(0) invert(1);
+        }
+
+        .branding-header .logo-text {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .branding-header .subtitle {
+            font-size: 12px;
+            opacity: 0.9;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-top: -5px;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #1a9d9a;
+            font-size: 26px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .form-group input[type="password"],
+        .form-group input[type="text"] {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input[type="password"]:focus,
+        .form-group input[type="text"]:focus {
+            outline: none;
+            border-color: #1a9d9a;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: #1a9d9a;
+        }
+
+        .checkbox-group label {
+            margin: 0;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #1a9d9a 0%, #0d7a78 100%);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 20px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(26, 157, 154, 0.4);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .submit-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .alert {
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .alert.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .alert.show {
+            display: block;
+        }
+
+        .help-text {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: start;
+            gap: 10px;
+        }
+
+        .warning-box::before {
+            content: "⚠️";
+            font-size: 20px;
+        }
+
+        .warning-box p {
+            margin: 0;
+            font-size: 13px;
+            color: #856404;
+        }
+
+        /* FilePond custom styling with UBDC colors */
+        .filepond--root {
+            margin-bottom: 0;
+        }
+
+        .filepond--panel-root {
+            background-color: #f0fffe;
+            border: 3px dashed #1a9d9a;
+        }
+
+        .filepond--drop-label {
+            color: #666;
+        }
+
+        .filepond--file-action-button {
+            background-color: #1a9d9a;
+        }
+
+        .filepond--item-panel {
+            background-color: #e6f7f7;
+        }
+
+        .filepond--drip-blob {
+            background-color: #1a9d9a;
+        }
+
+        .footer {
+            background: #f5f5f5;
+            padding: 20px 40px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer a {
+            color: #1a9d9a;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="branding-header">
+            <div class="logo-container">
+                <img 
+                    src="{% static 'ubdc_logo.svg' %}"
+                    alt="UBDC Logo" 
+                    class="logo-img"
+                />
+                <div class="logo-text">UBDC</div>
+            </div>
+            <div class="subtitle">Urban Big Data Centre</div>
+        </div>
+
+        <div class="content">
+            <div class="header">
+                <h1>CCTV Data Upload Portal</h1>
+                <p>Securely upload CCTV camera records to the database</p>
+            </div>
+
+            <div id="alert" class="alert"></div>
+
+            <form id="upload-form" method="post">
+                <div class="form-group">
+                    <label for="pin-code">Security PIN</label>
+                    <input 
+                        type="password" 
+                        name="pin-code" 
+                        id="pin-code" 
+                        placeholder="Enter your security PIN"
+                        required
+                    >
+                    <div class="help-text">Enter the PIN provided by your administrator</div>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox-group">
+                        <input type="checkbox" name="overwrite" id="overwrite" value="true">
+                        <label for="overwrite">Overwrite existing records</label>
+                    </div>
+                    <div class="help-text">Check this box to replace existing data with uploaded records</div>
+                </div>
+
+                <div class="warning-box" id="overwrite-warning" style="display: none;">
+                    <p><strong>Warning:</strong> Overwriting will permanently replace existing records. This action cannot be undone.</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Upload Files</label>
+                    <input type="file" id="filepond" name="files" multiple />
+                    <div class="help-text" style="margin-top: 10px;">
+                        Supported formats: CSV.GZ (Max 50MB per file)
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submit-btn">
+                    Upload Reports
+                </button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p>Developend by <a href="https://www.ubdc.ac.uk/" target="_blank">Urban Big Data Centre</a></p>
+            <p>© 2024 UBDC. For support, contact your system administrator.</p>
+        </div>
+    </div>
+
+    <!-- FilePond JavaScript -->
+    <script src="https://unpkg.com/filepond-plugin-file-validate-type/dist/filepond-plugin-file-validate-type.js"></script>
+    <script src="https://unpkg.com/filepond-plugin-file-validate-size/dist/filepond-plugin-file-validate-size.js"></script>
+    <script src="https://unpkg.com/filepond@^4/dist/filepond.js"></script>
+
+    <script>
+        // Show/hide warning when overwrite is checked
+        document.getElementById('overwrite').addEventListener('change', function(e) {
+            const warning = document.getElementById('overwrite-warning');
+            warning.style.display = e.target.checked ? 'block' : 'none';
+        });
+
+        // Register FilePond plugins
+        FilePond.registerPlugin(
+            FilePondPluginFileValidateType,
+            FilePondPluginFileValidateSize
+        );
+
+        // Initialize FilePond
+        const pond = FilePond.create(document.querySelector('#filepond'), {
+            allowMultiple: true,
+            maxFiles: 20,
+            maxFileSize: '50MB',
+            acceptedFileTypes: ['text/csv', 'application/gzip', 'application/x-gzip'],
+            labelIdle: 'Drag & Drop your files or <span class="filepond--label-action">Browse</span>',
+            labelFileProcessing: 'Uploading',
+            labelFileProcessingComplete: 'Upload complete',
+            labelFileProcessingAborted: 'Upload cancelled',
+            labelFileProcessingError: 'Error during upload',
+            labelTapToCancel: 'tap to cancel',
+            labelTapToRetry: 'tap to retry',
+            labelTapToUndo: 'tap to undo',
+            labelButtonRemoveItem: 'Remove',
+            labelButtonAbortItemLoad: 'Abort',
+            labelButtonRetryItemLoad: 'Retry',
+            labelButtonAbortItemProcessing: 'Cancel',
+            labelButtonUndoItemProcessing: 'Undo',
+            labelButtonRetryItemProcessing: 'Retry',
+            labelButtonProcessItem: 'Upload',
+        });
+
+        // Handle form submission
+        document.getElementById('upload-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const submitBtn = document.getElementById('submit-btn');
+            const alertBox = document.getElementById('alert');
+            const pinCode = document.getElementById('pin-code').value;
+            const overwrite = document.getElementById('overwrite').checked;
+
+            function showAlert(message, type) {
+                alertBox.textContent = message;
+                alertBox.className = `alert ${type} show`;
+                setTimeout(() => {
+                    alertBox.classList.remove('show');
+                }, 5000);
+            }
+
+            if (!pinCode) {
+                showAlert('Please enter your security PIN', 'error');
+                return;
+            }
+
+            const files = pond.getFiles();
+            if (files.length === 0) {
+                showAlert('Please select at least one file to upload', 'error');
+                return;
+            }
+
+            // Disable submit button
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Uploading...';
+
+            try {
+                // Create FormData
+                const formData = new FormData();
+                formData.append('pin-code', pinCode);
+                formData.append('overwrite', overwrite ? 'true' : 'false');
+                
+                // Add files from FilePond
+                files.forEach(fileItem => {
+                    formData.append('files', fileItem.file);
+                });
+
+                // Upload files
+                const response = await fetch('/upload_report', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    showAlert('Files uploaded successfully!', 'success');
+                    pond.removeFiles();
+                } else {
+                    const errorData = await response.json();
+                    showAlert(errorData.message || 'Upload failed. Please try again.', 'error');
+                }
+            } catch (error) {
+                showAlert('Upload failed: ' + error.message, 'error');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Upload Reports';
+            }
+        });
+    </script>
+</body>
+
+</html>

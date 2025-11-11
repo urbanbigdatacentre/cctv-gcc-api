@@ -35,4 +35,4 @@ def upload_report(request: HttpRequest):
         )
 
     form = UploadReportForm()
-    return render(request, "cctv_records/upload_report.html", {"form": form})
+    return render(request, "upload_report.html", {"form": form})
