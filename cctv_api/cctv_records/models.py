@@ -159,7 +159,6 @@ class RecordCommonFields(models.Model):
     )
 
 
-
 class TF2Records(RecordCommonFields):
     cars = models.IntegerField(help_text="Number of cars", default=None, null=True)
     persons = models.IntegerField(help_text="Number of persons.", default=None, null=True)
