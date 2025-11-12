@@ -54,23 +54,29 @@ def process_uploaded_report(
         dialect = csv.Sniffer().sniff(file_handler.read(1024))
         file_handler.seek(0)
         spamreader = csv.DictReader(file_handler, dialect=dialect)
-        dict_from_csv = dict(next(spamreader))
-        # column_names = list(dict_from_csv.keys())
+        try:
+            dict_from_csv = dict(next(spamreader))
+            file_handler.seek(0)
+        except StopIteration:
+            raise ValueError("No data rows found in report file")
 
-        model_name = dict_from_csv["model_name"].lower()
-        if model_name == "yolo":
-            logger.info("is_yolo")
-            file_handler.seek(0)
-            return reportType.YOLO
-        if model_name == "tf2":
-            logger.info("is_tf2")
-            file_handler.seek(0)
-            return reportType.TF2
-        if model_name == "tf1":
-            logger.info("is_tf1")
-            file_handler.seek(0)
-            return reportType.TF1
-        raise ValueError("Model name column is not present in the report file")
+        try:
+            model_name = dict_from_csv["model_name"].lower().strip()
+        except KeyError:
+            raise ValueError("Model name column is not present in the report file")
+
+        match model_name:
+            case "yolo":
+                logger.info("is_yolo")
+                return reportType.YOLO
+            case "tf2":
+                logger.info("is_tf2")
+                return reportType.TF2
+            case "tf1":
+                logger.info("is_tf1")
+                return reportType.TF1
+            case _:
+                raise ValueError(f"Report model_name {model_name} is not supported")
 
     report_type = discover_report_type(file_handler)
     csv_reader = csv.DictReader(file_handler)
