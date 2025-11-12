@@ -1,1 +1,1 @@
-from .remote import TF1ReportRecord, TF2ReportRecord, YOLOReportRecord  # noqa
+from .remote import TF2ReportRecord, YOLOReportRecord  # noqa

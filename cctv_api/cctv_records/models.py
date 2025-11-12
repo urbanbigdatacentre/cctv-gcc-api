@@ -16,7 +16,6 @@ class LowerTextField(models.TextField):
 
 
 class ModelChoices(models.TextChoices):
-    TF1 = ("tf1", "TF1")
     TF2 = ("tf2", "TF2")
     YOLO = ("yolo", "YOLO")
 
@@ -160,32 +159,6 @@ class RecordCommonFields(models.Model):
     )
 
 
-class TF1Records(RecordCommonFields):
-    """Main Table to hold tf1 records. Links with Cameras"""
-
-    cars = models.IntegerField(help_text="Number of cars", default=None, null=True)
-    persons = models.IntegerField(help_text="Number of persons.", default=None, null=True)
-    bicycles = models.IntegerField(help_text="Number of bicycles.", default=None, null=True)
-    trucks = models.IntegerField(help_text="Number of trucks.", default=None, null=True)
-    motorcycles = models.IntegerField(help_text="Number of motorcycles.", default=None, null=True)
-    buses = models.IntegerField(help_text="Number of buses.", default=None, null=True)
-
-    model_name = models.TextField(default="tf1", editable=False)
-
-    def __str__(self):
-        return f"TF1Record: {self.pk}"
-
-    class Meta:
-        db_table = "tf1_records"
-        ordering = ("-timestamp", "camera")
-        constraints = (
-            models.UniqueConstraint(
-                fields=["timestamp", "camera"],
-                name="tf1_unique_timestamp_camera",
-            ),
-        )
-        verbose_name_plural = "TF1Records"
-
 
 class TF2Records(RecordCommonFields):
     cars = models.IntegerField(help_text="Number of cars", default=None, null=True)
@@ -240,7 +213,6 @@ class YOLORecords(RecordCommonFields):
 
 __all__ = [
     "Cameras",
-    "TF1Records",
     "TF2Records",
     "YOLORecords",
 ]
