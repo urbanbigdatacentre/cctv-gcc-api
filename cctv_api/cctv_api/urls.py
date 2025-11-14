@@ -49,9 +49,12 @@ urlpatterns = [
     path("general/", include(general_urls)),
     path("tf2/", include(tf2_urls)),
     path("yolo/", include(yolo_urls)),
-    path("schema.yaml", SpectacularAPIView.as_view(
-        custom_settings={"TITLE": "CCTV UBDC/GCC Detection API", "DESCRIPTION": get_md_description("schema")}
-        )
-        , name="schema"),
+    path(
+        "schema.yaml",
+        SpectacularAPIView.as_view(
+            custom_settings={"TITLE": "CCTV UBDC/GCC Detection API", "DESCRIPTION": get_md_description("schema")}
+        ),
+        name="schema",
+    ),
     path("docs/", SpectacularSwaggerView.as_view(url_name="cctv-api:schema"), name="api-docs"),
 ]
