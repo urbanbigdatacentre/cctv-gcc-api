@@ -80,7 +80,7 @@ class TF2RecordsFilter(CommeonRecordFilter):
         field_name="camera_id",
         to_field_name="id",
         distinct=True,
-        queryset=Cameras.objects.all(),
+        queryset=Cameras.objects.filter(is_complete=True),
     )
     camera_id.field_class = AAAA  # type: ignore
 
@@ -93,7 +93,7 @@ class YOLORecordsFilter(CommeonRecordFilter):
         label="Camera ID",
         field_name="camera_id",
         to_field_name="id",
-        queryset=Cameras.objects.all(),
+        queryset=Cameras.objects.filter(is_complete=True),
     )
     camera_id.field_class = AAAA  # type: ignore
 
