@@ -236,18 +236,107 @@
 
         .filepond--drop-label {
             color: #666;
-        }
-
-        .filepond--file-action-button {
-            background-color: #1a9d9a;
+            font-size: 16px;
         }
 
         .filepond--item-panel {
             background-color: #e6f7f7;
+            border: 2px solid #1a9d9a;
+        }
+
+        /* Enhanced file item styling for better readability */
+        .filepond--item {
+            margin-bottom: 12px;
+        }
+
+        .filepond--file {
+            padding: 12px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .filepond--file-info {
+            padding-left: 8px;
+        }
+
+        .filepond--file-info-main {
+            font-size: 15px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        .filepond--file-info-sub {
+            font-size: 13px;
+            color: #666;
+            opacity: 1;
+        }
+
+        .filepond--file-status {
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .filepond--file-status-main {
+            color: #1a9d9a;
+        }
+
+        .filepond--file-status-sub {
+            color: #666;
+            opacity: 0.8;
         }
 
         .filepond--drip-blob {
             background-color: #1a9d9a;
+        }
+
+        .filepond--credits {
+            display: none;
+        }
+
+        /* File action buttons */
+        .filepond--file-action-button {
+            background-color: #1a9d9a;
+            width: 28px;
+            height: 28px;
+        }
+
+        .filepond--file-action-button:hover {
+            background-color: #0d7a78;
+            box-shadow: 0 2px 6px rgba(26, 157, 154, 0.4);
+        }
+
+        .filepond--action-remove-item {
+            background-color: #dc3545;
+        }
+
+        .filepond--action-remove-item:hover {
+            background-color: #c82333;
+            box-shadow: 0 2px 6px rgba(220, 53, 69, 0.4);
+        }
+
+        /* Progress bar styling */
+        .filepond--file-status-main {
+            font-weight: 600;
+        }
+
+        .filepond--progress-indicator {
+            color: #1a9d9a;
+        }
+
+        /* Loading indicator */
+        .filepond--load-indicator {
+            color: #1a9d9a;
+        }
+
+        .filepond--processing-complete-indicator {
+            color: #28a745;
+        }
+
+        /* File wrapper for better spacing */
+        .filepond--file-wrapper {
+            padding: 4px;
         }
 
         .footer {
@@ -321,7 +410,7 @@
                     <label>Upload Files</label>
                     <input type="file" id="filepond" name="files" multiple />
                     <div class="help-text" style="margin-top: 10px;">
-                        Supported formats: CSV.GZ (Max 50MB per file)
+                        Supported formats: CSV.GZ (Max 50MB per file, Max 10 files)
                     </div>
                 </div>
 
@@ -332,7 +421,7 @@
         </div>
 
         <div class="footer">
-            <p>Developend by <a href="https://www.ubdc.ac.uk/" target="_blank">Urban Big Data Centre</a></p>
+            <p>Developed by <a href="https://www.ubdc.ac.uk/" target="_blank">Urban Big Data Centre</a></p>
             <p>© 2024 UBDC. For support, contact your system administrator.</p>
         </div>
     </div>
@@ -355,12 +444,45 @@
             FilePondPluginFileValidateSize
         );
 
-        // Initialize FilePond
+        // Get form values
+        const getPinCode = () => document.getElementById('pin-code').value;
+        const getOverwrite = () => document.getElementById('overwrite').checked;
+
+        // Initialize FilePond with server configuration
         const pond = FilePond.create(document.querySelector('#filepond'), {
             allowMultiple: true,
-            maxFiles: 20,
-            maxFileSize: '50MB',
-            acceptedFileTypes: ['text/csv', 'application/gzip', 'application/x-gzip'],
+            maxFiles: 150,
+            maxFileSize: '1MB', // usual files are less than 100kb
+            acceptedFileTypes: ['application/gzip', 'application/x-gzip', 'application/x-compressed'],
+            checkValidity: true,
+            instantUpload: false,
+            allowRevert: false, // Disable revert on successfully uploaded files
+            maxParallelUploads: 2, // keep two uploads in parallel
+            
+            //server configuration
+            server: {
+                url: '/upload_report',
+                process: {
+                    method: 'POST',
+                    ondata: (formData) => {
+                        formData.append('pin-code', getPinCode());
+                        formData.append('overwrite', getOverwrite() ? 'true' : 'false');
+                        return formData;
+                    }
+                }
+            },
+            
+            beforeAddFile: (item) => {
+                const newFileName = item.file.name;
+                
+                if (!newFileName.toLowerCase().endsWith('.gz')) {
+                    alert(`Only .gz files are accepted.`);
+                    return false;
+                }
+                
+                return true;
+            },
+            
             labelIdle: 'Drag & Drop your files or <span class="filepond--label-action">Browse</span>',
             labelFileProcessing: 'Uploading',
             labelFileProcessingComplete: 'Upload complete',
@@ -378,14 +500,13 @@
             labelButtonProcessItem: 'Upload',
         });
 
-        // Handle form submission
-        document.getElementById('upload-form').addEventListener('submit', async function(e) {
+        // Handle form submission to trigger FilePond processing
+        document.getElementById('upload-form').addEventListener('submit', function(e) {
             e.preventDefault();
 
-            const submitBtn = document.getElementById('submit-btn');
             const alertBox = document.getElementById('alert');
+            const submitBtn = document.getElementById('submit-btn');
             const pinCode = document.getElementById('pin-code').value;
-            const overwrite = document.getElementById('overwrite').checked;
 
             function showAlert(message, type) {
                 alertBox.textContent = message;
@@ -406,40 +527,41 @@
                 return;
             }
 
-            // Disable submit button
+            // Disable button during upload
             submitBtn.disabled = true;
             submitBtn.textContent = 'Uploading...';
 
-            try {
-                // Create FormData
-                const formData = new FormData();
-                formData.append('pin-code', pinCode);
-                formData.append('overwrite', overwrite ? 'true' : 'false');
-                
-                // Add files from FilePond
-                files.forEach(fileItem => {
-                    formData.append('files', fileItem.file);
-                });
-
-                // Upload files
-                const response = await fetch('/upload_report', {
-                    method: 'POST',
-                    body: formData
-                });
-
-                if (response.ok) {
-                    showAlert('Files uploaded successfully!', 'success');
-                    pond.removeFiles();
-                } else {
-                    const errorData = await response.json();
-                    showAlert(errorData.message || 'Upload failed. Please try again.', 'error');
-                }
-            } catch (error) {
-                showAlert('Upload failed: ' + error.message, 'error');
-            } finally {
+            // Process all files using FilePond's built-in processing
+            pond.processFiles().then(() => {
+                showAlert('All files uploaded successfully!', 'success');
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Upload Reports';
+            }).catch((error) => {
+                showAlert('Upload failed. Please try again.', 'error');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Upload Reports';
+            });
+        });
+
+        // Listen to FilePond events for better feedback
+        pond.on('processfile', (error, file) => {
+            if (error) {
+                console.error('Error uploading file:', error);
+            } else {
+                // Automatically remove successfully uploaded files after a short delay
+                setTimeout(() => {
+                    pond.removeFile(file.id);
+                }, 3000);
             }
+        });
+
+        pond.on('processfiles', () => {
+            const alertBox = document.getElementById('alert');
+            alertBox.textContent = 'All files uploaded successfully!';
+            alertBox.className = 'alert success show';
+            setTimeout(() => {
+                alertBox.classList.remove('show');
+            }, 5000);
         });
     </script>
 </body>

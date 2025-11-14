@@ -5,7 +5,7 @@ from django_filters import rest_framework as filters
 from django_filters.widgets import DateRangeWidget
 from functools import lru_cache
 
-from cctv_records.models import Cameras, TF1Records, TF2Records, YOLORecords
+from cctv_records.models import Cameras, TF2Records, YOLORecords
 
 
 class AAAA(ModelMultipleChoiceField):
@@ -71,24 +71,6 @@ class CommeonRecordFilter(filters.FilterSet):
         return queryset.filter(q)
 
 
-class TF1RecordFilter(CommeonRecordFilter):
-    camera_id = filters.ModelMultipleChoiceFilter(
-        # field_name='camera__id',
-        label="Camera ID",
-        # method="camera_id_filter",
-        field_name="camera_id",
-        to_field_name="camera_id",
-        queryset=TF1Records.objects.values("camera_id"),
-    )
-    camera_id.field_class = AAAA  # type: ignore
-
-    class Meta:
-        models = TF1Records
-
-    # def camera_id_filter(self, queryset: QuerySet, name, *args, **kwargs):
-    #     return queryset
-
-
 class TF2RecordsFilter(CommeonRecordFilter):
     class Meta:
         models = TF2Records
@@ -116,4 +98,4 @@ class YOLORecordsFilter(CommeonRecordFilter):
     camera_id.field_class = AAAA  # type: ignore
 
 
-__all__ = ["TF1RecordFilter", "TF2RecordsFilter", "YOLORecordsFilter"]
+__all__ = ["TF2RecordsFilter", "YOLORecordsFilter"]

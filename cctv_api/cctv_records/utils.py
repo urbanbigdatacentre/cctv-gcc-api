@@ -8,18 +8,15 @@ from pathlib import Path
 from typing import IO, TYPE_CHECKING, Any, Literal
 from zipfile import ZipFile
 
-from django.db import models
-from django.db.models import Avg, Max, Min, Sum, Q
-from django.db.models.functions import Trunc
+from django.db.models import Q
 from pydantic.error_wrappers import ValidationError
 
 from cctv_records.models import (
     Cameras,
-    TF1Records,
     TF2Records,
     YOLORecords,
 )
-from cctv_records.schemas import TF1ReportRecord, TF2ReportRecord, YOLOReportRecord
+from cctv_records.schemas import TF2ReportRecord, YOLOReportRecord
 
 logger = getLogger(__name__)
 
@@ -54,39 +51,30 @@ def process_uploaded_report(
         dialect = csv.Sniffer().sniff(file_handler.read(1024))
         file_handler.seek(0)
         spamreader = csv.DictReader(file_handler, dialect=dialect)
-        dict_from_csv = dict(next(spamreader))
-        # column_names = list(dict_from_csv.keys())
+        try:
+            dict_from_csv = dict(next(spamreader))
+            file_handler.seek(0)
+        except StopIteration:
+            raise ValueError("No data rows found in report file")
 
-        model_name = dict_from_csv["model_name"].lower()
-        if model_name == "yolo":
-            logger.info("is_yolo")
-            file_handler.seek(0)
-            return reportType.YOLO
-        if model_name == "tf2":
-            logger.info("is_tf2")
-            file_handler.seek(0)
-            return reportType.TF2
-        if model_name == "tf1":
-            logger.info("is_tf1")
-            file_handler.seek(0)
-            return reportType.TF1
-        raise ValueError("Model name column is not present in the report file")
+        try:
+            model_name = dict_from_csv["model_name"].lower().strip()
+        except KeyError:
+            raise ValueError("Model name column is not present in the report file")
+
+        match model_name:
+            case "yolo":
+                logger.info("is_yolo")
+                return reportType.YOLO
+            case "tf2":
+                logger.info("is_tf2")
+                return reportType.TF2
+            case _:
+                raise ValueError(f"Report model_name {model_name} is not supported")
 
     report_type = discover_report_type(file_handler)
     csv_reader = csv.DictReader(file_handler)
     match report_type:
-        case reportType.TF1:
-            csv_line_parser_model = TF1ReportRecord
-            db_model = TF1Records
-            update_fields = [
-                "cars",
-                "persons",
-                "bicycles",
-                "trucks",
-                "motorcycles",
-                "buses",
-                "camera_ok",
-            ]
         case reportType.TF2:
             csv_line_parser_model = TF2ReportRecord
             db_model = TF2Records
@@ -173,76 +161,6 @@ def handle_uploaded_report_file(
 
 aggregation_time_unitsType = Literal["week", "day", "year", "quarter", "hour", "month"]
 aggregation_methodType = Literal["sum", "average", "max", "min"]
-
-
-def aggregate_records_qs(
-    queryset: models.QuerySet,
-    aggregation_time_units: aggregation_time_unitsType = "week",
-    aggregation_method: aggregation_methodType = "sum",
-) -> models.QuerySet:
-    """
-    Annotate queryset with the aggregation method and date
-    """
-    if aggregation_method == "sum":
-        agg_method = Sum
-    elif aggregation_method == "average":
-        agg_method = Avg
-    elif aggregation_method == "max":
-        agg_method = Max
-    elif aggregation_method == "min":
-        agg_method = Min
-    else:
-        msg = f"Invalid aggregation method: {aggregation_method}"
-        logger.error(msg)
-        raise ValueError(msg)
-
-    logger.info(f"aggregation_method: {aggregation_method}")
-
-    def aggregate_data(
-        queryset: models.QuerySet,
-        agg_method: type["Aggregate"],
-        aggregation_time_units: aggregation_time_unitsType,
-    ):
-        return (
-            queryset.annotate(
-                dateAgg=Trunc(
-                    "timestamp",
-                    kind=aggregation_time_units,
-                    output_field=models.DateTimeField(),
-                )
-            )
-            .values("dateAgg")
-            .annotate(carsAgg=agg_method("cars"))
-            .values("dateAgg", "carsAgg")
-            .annotate(busesAgg=agg_method("buses"))
-            .values("dateAgg", "carsAgg", "busesAgg")
-            .annotate(trucksAgg=agg_method("trucks"))
-            .values("dateAgg", "carsAgg", "busesAgg", "trucksAgg")
-            .annotate(motorcyclesAgg=agg_method("motorcycles"))
-            .values("dateAgg", "carsAgg", "busesAgg", "trucksAgg", "motorcyclesAgg")
-            .annotate(personsAgg=agg_method("persons"))
-            .values(
-                "dateAgg",
-                "carsAgg",
-                "busesAgg",
-                "trucksAgg",
-                "motorcyclesAgg",
-                "personsAgg",
-            )
-            .annotate(bicyclesAgg=agg_method("bicycles"))
-            .values(
-                "dateAgg",
-                "carsAgg",
-                "busesAgg",
-                "trucksAgg",
-                "motorcyclesAgg",
-                "personsAgg",
-                "bicyclesAgg",
-            )
-            .order_by("dateAgg")
-        )
-
-    return aggregate_data(queryset, agg_method, aggregation_time_units)
 
 
 def get_cameras_that_have_records(
