@@ -7,9 +7,6 @@ from cctv_records.models import RecordsFilter, YOLORecords
 
 
 class YOLORecordsViewSet(generics.ListAPIView):
-    """
-    ##  Yolo Records
-    """
 
     http_method_names = [
         "get",

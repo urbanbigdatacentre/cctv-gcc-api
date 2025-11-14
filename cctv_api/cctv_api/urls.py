@@ -1,11 +1,17 @@
 from django.shortcuts import redirect
 from django.urls import include, path
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
-from django.conf import settings
 
+from cctv_api import get_md_description
 import cctv_api.views.api.tf2 as tf2_api_views
 import cctv_api.views.api.yolo as yolo_api_views
 import cctv_api.views.general as general_views
+
+yolo_records_viewset = yolo_api_views.YOLORecordsViewSet
+yolo_records_viewset.__doc__ = get_md_description("yolo_records")
+tf2_records_viewset = tf2_api_views.TF2RecordsViewSet
+tf2_records_viewset.__doc__ = get_md_description("tf2_records")
+
 
 app_name = "cctv-api"
 
@@ -33,7 +39,7 @@ tf2_urls = (
 yolo_urls = (
     [
         path("records", lambda r: redirect(to="cctv-api:yolo:records-list")),
-        path("records/", yolo_api_views.YOLORecordsViewSet.as_view(), name="records-list"),
+        path("records/", yolo_records_viewset.as_view(), name="records-list"),
     ],
     "yolo",
 )
@@ -43,6 +49,9 @@ urlpatterns = [
     path("general/", include(general_urls)),
     path("tf2/", include(tf2_urls)),
     path("yolo/", include(yolo_urls)),
-    path("schema.yaml", SpectacularAPIView.as_view(custom_settings=settings.SPECTACULAR_DEFAULTS), name="schema"),
+    path("schema.yaml", SpectacularAPIView.as_view(
+        custom_settings={"TITLE": "CCTV UBDC/GCC Detection API", "DESCRIPTION": get_md_description("schema")}
+        )
+        , name="schema"),
     path("docs/", SpectacularSwaggerView.as_view(url_name="cctv-api:schema"), name="api-docs"),
 ]
