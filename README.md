@@ -45,7 +45,7 @@ To evolve the code you will need familiriatiy of python and the Django ecosystem
 ~~~bash
 git clone https://github.com/urbanbigdatacentre/cctv-gcc-api.git
 cd cctv-gcc-api
-```
+~~~
 
 2. **Start the development server**
 
